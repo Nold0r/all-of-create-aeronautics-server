@@ -24,7 +24,7 @@
 /whitelist.json
 
 # NeoForge-generated runtime files. start-server scripts restore them when needed.
-/libraries/
+
 
 # Client-only files are not needed on a dedicated server.
 /client-mods-excluded/
