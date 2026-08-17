@@ -1,0 +1,10 @@
+{
+	id: "2AAC14F914072DBD"
+	loot_size: 1
+	order_index: 26
+	rewards: [
+		{ id: "63DED9EE648BD884", item: { count: 1, id: "create_compressed:copper_sheet_block" } }
+		{ id: "3F3152C684F85B99", item: { count: 1, id: "create_compressed:iron_sheet_block" } }
+		{ id: "48B3616810157F53", item: { count: 1, id: "create_compressed:gold_sheet_block" } }
+	]
+}

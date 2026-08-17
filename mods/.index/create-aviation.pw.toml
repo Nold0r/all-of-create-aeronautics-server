@@ -1,0 +1,18 @@
+filename = 'createaviation-1.0.0-neoforge-1.21.1.jar'
+name = 'Create Aeronautic: Aviation'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'createaviation-1.0.0-neoforge-1.21.1.jar'
+
+[download]
+hash = 'b3fe346288ae5edb07b31b48920d61edc3136d3f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8523105
+project-id = 1628086

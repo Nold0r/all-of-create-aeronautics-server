@@ -1,0 +1,17 @@
+{
+	id: "07188972EC0CF543"
+	loot_size: 1
+	order_index: 27
+	rewards: [
+		{ id: "4DB60A2F823CE753", item: { count: 1, id: "create_sa:creative_filling_tank" } }
+		{ id: "6494E25E34B3FB48", item: { components: { "ftbquests:missing_item": "tacz:ammo_box" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "1B3BDB86026D54A9", item: { components: { "ftbquests:missing_item": "tacz:ammo_box" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "0CCCB5819BBE041B", item: { count: 1, id: "create:creative_blaze_cake" } }
+		{ id: "1B6911985CDD708E", item: { count: 1, id: "create:creative_crate" } }
+		{ id: "6172A6CA6B400F2C", item: { count: 1, id: "create:creative_fluid_tank" } }
+		{ id: "6AF3562A58507901", item: { count: 1, id: "create:creative_motor" } }
+		{ id: "637A393730D5ABBF", item: { count: 1, id: "create:handheld_worldshaper" } }
+		{ id: "3CEAD172C93645AB", item: { count: 1, id: "simulated:creative_physics_staff" } }
+		{ id: "76E3D4FD6210656D", item: { count: 1, id: "sophisticatedbackpacks:infinity_upgrade" } }
+	]
+}

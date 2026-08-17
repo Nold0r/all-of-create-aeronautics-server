@@ -1,0 +1,15 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "type": "neoforge:compound",
+    "ingredients": [
+      {
+        "item": "supplementaries:flax"
+      }
+    ]
+  },
+  "result": {
+    "id": "minecraft:string"
+  },
+  "result_count": 1
+}

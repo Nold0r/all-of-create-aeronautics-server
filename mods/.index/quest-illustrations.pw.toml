@@ -1,0 +1,18 @@
+filename = 'quest_titles-1.0.7 {Neoforge-1.21.1}.jar'
+name = 'Quest Illustrations'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'quest_titles-1.0.7 {Neoforge-1.21.1}.jar'
+
+[download]
+hash = 'e1c17127f32e5a48b3933e0d11213732bfceb1ae'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6671818
+project-id = 1258082

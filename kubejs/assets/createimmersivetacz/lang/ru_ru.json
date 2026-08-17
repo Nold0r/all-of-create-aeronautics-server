@@ -1,0 +1,18 @@
+{
+  "item.createimmersivetacz.gunbarrel": "Оружейный ствол",
+  "item.createimmersivetacz.gun_trigger": "Спусковой механизм",
+  "item.createimmersivetacz.firing_mechanism": "Ударный механизм",
+  "item.createimmersivetacz.primer": "Капсюль",
+  "item.createimmersivetacz.pneumatic_pistol_casing": "Пневматическая пистолетная гильза",
+  "item.createimmersivetacz.rimmed_blunt_ap_casing": "Рантовая тупоконечная бронебойная гильза",
+  "item.createimmersivetacz.slap_casing": "Гильза SLAP",
+  "item.createimmersivetacz.gernade_casing": "Пневматическая гранатная гильза",
+  "item.createimmersivetacz.40mmhe_casing": "40-мм ОФ-гильза",
+  "item.createimmersivetacz.twelve_gauge_shell": "Гильза 12-го калибра",
+  "item.createimmersivetacz.gunpowder_bucket": "Ведро пороховой смеси",
+  "item.createimmersivetacz.nitropowder_bucket": "Ведро нитропороховой смеси",
+  "fluid_type.createimmersivetacz.gunpowder_fluid": "Пороховая смесь",
+  "fluid_type.createimmersivetacz.nitropowder_fluid": "Нитропороховая смесь",
+  "block.createimmersivetacz.test_block": "Тестовый блок",
+  "creativetab.create_immersive_tacz_tab": "Create: Immersive TaCZ"
+}

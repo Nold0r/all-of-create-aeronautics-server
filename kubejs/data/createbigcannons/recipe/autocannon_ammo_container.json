@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " B ",
+    "I I",
+    "IRI"
+  ],
+  "key": {
+    "B": {
+      "item": "kubejs:brass_frame"
+    },
+    "I": {
+      "tag": "c:plates/iron"
+    },
+    "R": {
+      "item": "kubejs:armour_resine"
+    }
+  },
+  "result": {
+    "id": "createbigcannons:autocannon_ammo_container",
+    "count": 1
+  }
+}

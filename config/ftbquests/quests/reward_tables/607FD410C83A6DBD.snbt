@@ -1,0 +1,55 @@
+{
+	id: "607FD410C83A6DBD"
+	loot_size: 1
+	order_index: 24
+	rewards: [
+		{
+			count: 32
+			id: "14700673C7737100"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+		}
+		{
+			count: 64
+			id: "2B86B84A8148B043"
+			item: {
+				count: 1
+				id: "minecraft:copper_ingot"
+			}
+		}
+		{
+			count: 64
+			id: "76048FAEFEB14D4A"
+			item: {
+				count: 1
+				id: "create:zinc_ingot"
+			}
+		}
+		{
+			count: 256
+			id: "63B9B64EB9A4A153"
+			item: {
+				count: 1
+				id: "minecraft:andesite"
+			}
+		}
+		{
+			count: 256
+			id: "6E9790F20AE2296D"
+			item: {
+				count: 1
+				id: "minecraft:sand"
+			}
+		}
+		{
+			count: 512
+			id: "1CF333981A5787B3"
+			item: {
+				count: 1
+				id: "minecraft:clay_ball"
+			}
+		}
+	]
+}

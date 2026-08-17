@@ -1,0 +1,15 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "type": "neoforge:compound",
+    "ingredients": [
+      {
+        "item": "biomeswevegone:golden_spined_cactus"
+      }
+    ]
+  },
+  "result": {
+    "id": "minecraft:green_dye"
+  },
+  "result_count": 2
+}

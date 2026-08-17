@@ -1,0 +1,12 @@
+["Infinite Water Block Settings"]
+	#The stress threshold can be adjusted by modifying the speed threshold and the stress consumed per rotation.
+	#Minimum rotation speed (RPM) required to activate the machine
+	#Default: 200 RPM
+	# Default: 200.0
+	# Range: 0.0 ~ 256.0
+	speedThreshold = 200.0
+	#Stress consumed per RPM
+	#Default: 5000 SU/RPM
+	# Default: 5000.0
+	# Range: 0.0 ~ 1000000.0
+	stressImpact = 5000.0

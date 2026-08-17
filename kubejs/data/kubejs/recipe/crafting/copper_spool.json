@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " C ",
+    "CRC",
+    " C "
+  ],
+  "key": {
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "R": {
+      "item": "kubejs:resine_sheet"
+    }
+  },
+  "result": {
+    "id": "kubejs:copper_spool",
+    "count": 2
+  }
+}

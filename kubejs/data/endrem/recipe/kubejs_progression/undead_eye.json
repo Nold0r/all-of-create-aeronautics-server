@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "WSSW",
+    "UMMU",
+    "UMMU",
+    "WSSW"
+  ],
+  "key": {
+    "W": {
+      "item": "cataclysm:witherite_ingot"
+    },
+    "S": {
+      "item": "kubejs:sync_mechanism"
+    },
+    "U": {
+      "item": "endrem:undead_soul"
+    },
+    "M": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "id": "endrem:undead_eye"
+  }
+}

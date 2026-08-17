@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "C C",
+    "ACA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "aeronautics:wooden_propeller"
+  }
+}

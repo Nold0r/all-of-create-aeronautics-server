@@ -1,0 +1,60 @@
+[spawn_general]
+	#config.spawn.add_onto_tabs.tooltip
+	add_onto_tabs = true
+	#config.spawn.creative_tab.tooltip
+	creative_tab = true
+	#config.spawn.spawn_egg_tab.tooltip
+	spawn_egg_tab = false
+	#config.spawn.unbreakable_locked_chests.tooltip
+	unbreakable_locked_chests = true
+	#config.spawn.fly_particle_mode.tooltip
+	#Allowed Values: BATCH, INDIVIDUAL
+	fly_particle_mode = "INDIVIDUAL"
+
+[sunflower_changes]
+	#config.spawn.sunflower_replacement.tooltip
+	sunflower_replacement = true
+
+[parrot_changes]
+	#config.spawn.parrot_dismounting_changes.tooltip
+	parrot_dismounting_changes = true
+
+[turtle_changes]
+	#config.spawn.barnacle_turtle.tooltip
+	barnacle_turtle = true
+
+[evoker_changes]
+	#config.spawn.evoker_booby_transformation.tooltip
+	evoker_booby_transformation = true
+
+[fish_changes]
+	#config.spawn.fish_tide_pool_spawning_change.tooltip
+	fish_tide_pool_spawning_change = true
+	#config.spawn.fish_follow_stranded.tooltip
+	fish_follow_stranded = true
+	#config.spawn.fish_follow_sea_cows.tooltip
+	fish_follow_sea_cows = true
+
+[skeleton_changes]
+	#config.spawn.skeleton_convert_into_barbed.tooltip
+	skeleton_convert_into_barbed = true
+
+[drowned_changes]
+	#config.spawn.drowned_placement_changes.tooltip
+	drowned_placement_changes = true
+	#config.spawn.seahorse_jockeys_drop_disc.tooltip
+	seahorse_jockeys_drop_disc = true
+
+[creeper_changes]
+	#config.spawn.creeper_drops_barbaric.tooltip
+	creeper_drops_barbaric = true
+
+[aggression_changes_and_additions]
+	#config.spawn.wolves_hunt_dodos.tooltip
+	wolves_hunt_dodos = true
+	#config.spawn.cats_hunt_dodos.tooltip
+	cats_hunt_dodos = true
+	#config.spawn.ocelots_hunt_dodos.tooltip
+	ocelots_hunt_dodos = true
+	#config.spawn.polar_bears_hunt_seals.tooltip
+	polar_bears_hunt_seals = true

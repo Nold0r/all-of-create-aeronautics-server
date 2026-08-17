@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " C ",
+    "RHR",
+    " S "
+  ],
+  "key": {
+    "C": {
+      "item": "create_sa:copper_magnet"
+    },
+    "R": {
+      "item": "kubejs:armour_resine"
+    },
+    "H": {
+      "item": "create_sa:hydraulic_engine"
+    },
+    "S": {
+      "item": "create:shaft"
+    }
+  },
+  "result": {
+    "id": "create_sa:grapplin_whisk",
+    "count": 1
+  }
+}

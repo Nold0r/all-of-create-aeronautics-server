@@ -1,0 +1,29 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:coal_block"
+    },
+    {
+      "item": "minecraft:charcoal"
+    },
+    {
+      "item": "createnuclear:uranium_powder"
+    },
+    {
+      "item": "createnuclear:lead_ingot"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 500,
+      "fluid": "minecraft:lava"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:graphite_sheet",
+      "count": 2
+    }
+  ],
+  "heat_requirement": "heated"
+}

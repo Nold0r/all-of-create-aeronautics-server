@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:gray_wool"
+    },
+    {
+      "item": "kubejs:armour_resine"
+    }
+  ],
+  "results": [
+    {
+      "id": "aeronautics:gray_envelope",
+      "count": 1
+    }
+  ]
+}

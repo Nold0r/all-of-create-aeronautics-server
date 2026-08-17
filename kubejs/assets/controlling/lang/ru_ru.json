@@ -1,0 +1,14 @@
+{
+  "options.showAll": "Показать всё",
+  "options.showConflicts": "Показать конфликты",
+  "options.showNone": "Показать без привязки",
+  "options.availableKeys": "Доступные клавиши",
+  "options.sort": "Сортировка",
+  "options.sortNone": "Нет",
+  "options.sortAZ": "А->Я",
+  "options.sortZA": "Я->А",
+  "options.sortKeyAZ": "Клавиша А->Я",
+  "options.sortKeyZA": "Клавиша Я->А",
+  "options.toggleFree": "Только свободные",
+  "options.confirmReset": "Уверены?"
+}

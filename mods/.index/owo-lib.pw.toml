@@ -1,0 +1,21 @@
+filename = 'owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar'
+name = 'oωo (owo-lib)'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.12.15.5-beta.1+1.21'
+
+[download]
+hash = '4de5c5d52139244b8c5260d641087664d992624b822599a32e03c08eb133be854a2f413667dbca1e55772445b04a70210c17b3bc13e3c88e425e7d928104b9fa'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ccKDOlHs/versions/NMCHU6DZ/owo-lib-neoforge-0.12.15.5-beta.1%2B1.21.jar'
+
+[update.modrinth]
+mod-id = 'ccKDOlHs'
+version = 'NMCHU6DZ'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Aqlf1Shp'
+type = 'EMBEDDED'

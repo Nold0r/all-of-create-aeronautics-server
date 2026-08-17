@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "RCR",
+    "EAE",
+    "B B"
+  ],
+  "key": {
+    "R": {
+      "item": "kubejs:armour_resine"
+    },
+    "C": {
+      "item": "create:andesite_casing"
+    },
+    "E": {
+      "item": "create_sa:heat_engine"
+    },
+    "A": {
+      "item": "kubejs:resine_sheet"
+    },
+    "B": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "result": {
+    "id": "create_sa:andesite_exoskeleton_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,41 @@
+[starting_health]
+	#Number of hearts the player starts with (2 health = 1 heart) (range 2-20, default 6)
+	base_health = 6.0
+
+[total_health]
+	#Maximum number of hearts the player can get from food (2 health = 1 heart) (range 20-800, default 40)
+	total_health = 40.0
+
+[regen_factor]
+	#Time it takes (in ticks) for the player to passively regain 1 health (½ heart) (range 20-200, default 100)
+	base_regen_rate = 100.0
+
+[regen_cooldown]
+	#Delay (in ticks) before regeneration starts after taking damage (range 20-600, default 60) (0 to disable the cooldown)
+	regen_cooldown = 60.0
+
+[food_duration]
+	#Time (in seconds) that food should last per saturation level (range 60-600, default 180)
+	food_duration = 180.0
+
+[unstackable_food_duration]
+	#Increased duration for food items that don't stack up to 64 (boolean, default = true)
+	bonus_duration = true
+
+[food_timeout]
+	#Damages players when one of their food slot runs out (boolean, default = true)
+	timeout_damage = true
+	#Displays a message to the player when one of their food slots becomes empty (boolean, default = false)
+	timeout_message = false
+	#Plays a sound when a player's food slot becomes empty (boolean, default = false)
+	timeout_sound = false
+
+[food_depletion_during_sleep]
+	#Sleeping consumes half the duration of current eaten foods (boolean, default = false)
+	sleep_depletion = false
+
+[mod_compatibility]
+	#Disable passive regeneration (not recommended) (boolean, default = false)
+	disable_regeneration = false
+	#Allow consumables to apply saturation and food-related effects (not recommended) (boolean, default = false)
+	allow_saturation = false

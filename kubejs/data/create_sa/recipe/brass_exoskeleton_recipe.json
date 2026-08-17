@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "RCR",
+    "EAE",
+    "B B"
+  ],
+  "key": {
+    "R": {
+      "item": "kubejs:armour_resine"
+    },
+    "C": {
+      "item": "create:brass_casing"
+    },
+    "E": {
+      "item": "create_sa:steam_engine"
+    },
+    "A": {
+      "item": "kubejs:sealed_mechanism"
+    },
+    "B": {
+      "tag": "c:storage_blocks/brass"
+    }
+  },
+  "result": {
+    "id": "create_sa:brass_exoskeleton_chestplate",
+    "count": 1
+  }
+}

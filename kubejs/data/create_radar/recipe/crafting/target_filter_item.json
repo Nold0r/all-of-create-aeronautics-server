@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "P": { "item": "minecraft:paper" },
+    "M": { "item": "create:precision_mechanism" },
+    "R": { "item": "minecraft:redstone" }
+  },
+  "pattern": [" R ", "PMP", " R "],
+  "result": { "id": "create_radar:target_filter_item" },
+  "show_notification": true
+}

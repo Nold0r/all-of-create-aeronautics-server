@@ -1,0 +1,44 @@
+#.
+#Enable 3D schematic preview.
+previewEnabled = true
+#.
+#Maximum schematic bounding-box volume (width * height * length) that will be previewed. Larger schematics show a 'too large' message instead, to avoid render hitches.
+# Default: 216000
+# Range: > 1
+maxBlockVolume = 216000
+#.
+#[In Pixels]
+#Width of the side preview panel.
+# Default: 156
+# Range: 48 ~ 512
+sidePanelWidth = 156
+#.
+#[In Pixels]
+#Max height of the preview panel.
+# Default: 156
+# Range: 48 ~ 512
+panelHeight = 156
+#.
+#[In Milliseconds]
+#How long a schematic must stay highlighted before its 3D preview is built.
+#This allows schematic previews to be loaded lazily and therefore Schematics you scroll past are never built.
+#(0 = build immediately on selection).
+# Default: 400
+# Range: 0 ~ 5000
+previewLoadDelay = 400
+#.
+#Initial zoom amount for a selected schematic
+# Default: 1.25
+# Range: 0.5 ~ 3.0
+defaultZoom = 1.25
+#.
+#[In Degrees]
+#Initial horizontal rotation of a selected schematic.
+# Default: 45.0
+# Range: -180.0 ~ 180.0
+defaultYaw = 45.0
+#.
+#Initial vertical tilt of a selected schematic.
+# Default: 30.0
+# Range: -90.0 ~ 90.0
+defaultPitch = 30.0

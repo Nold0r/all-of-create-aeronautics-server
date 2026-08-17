@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ABA",
+    "CXC",
+    "ABA"
+  ],
+  "key": {
+    "X": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    },
+    "A": {
+      "item": "create:filter"
+    },
+    "B": {
+      "item": "create_sa:vault_component"
+    },
+    "C": {
+      "item": "kubejs:resine_sheet"
+    }
+  },
+  "result": {
+    "id": "sophisticatedbackpacks:filter_upgrade",
+    "count": 1
+  }
+}

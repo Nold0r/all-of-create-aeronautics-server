@@ -1,0 +1,10 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "tag": "botania:petals/gray"
+  },
+  "result": {
+    "id": "minecraft:gray_dye"
+  },
+  "result_count": 1
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " D ",
+    "SAS",
+    " E "
+  ],
+  "key": {
+    "D": {
+      "item": "create_sa:brass_drill_head"
+    },
+    "S": {
+      "item": "kubejs:steel_mechanism"
+    },
+    "A": {
+      "item": "kubejs:armour_resine"
+    },
+    "E": {
+      "item": "create_sa:heat_engine"
+    }
+  },
+  "result": {
+    "id": "create_sa:portable_drill",
+    "count": 1
+  }
+}

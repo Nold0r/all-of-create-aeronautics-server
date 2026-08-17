@@ -1,0 +1,51 @@
+{
+	id: "2A00000000000008"
+	loot_size: 1
+	order_index: 20
+	rewards: [
+		{
+			count: 16
+			id: "7008FB90FDEB2058"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 12
+			id: "1F1BBD487C04FE9E"
+			item: {
+				count: 1
+				id: "create:fluid_pipe"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "3DBF2D545DC43B08"
+			item: {
+				count: 1
+				id: "create:fluid_tank"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 4
+			id: "092935A4498FF32F"
+			item: {
+				count: 1
+				id: "createnuclear:graphite_rod"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 4
+			id: "75846E37B4435A35"
+			item: {
+				count: 1
+				id: "minecraft:lever"
+			}
+			weight: 3.0f
+		}
+	]
+}

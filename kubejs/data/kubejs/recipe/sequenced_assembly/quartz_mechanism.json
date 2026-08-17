@@ -1,0 +1,87 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "kubejs:brass_frame"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "id": "kubejs:quartz_mechanism",
+      "chance": 0.84
+    },
+    {
+      "id": "kubejs:brass_frame",
+      "chance": 0.08
+    },
+    {
+      "id": "create:electron_tube",
+      "chance": 0.08
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:quartz_mechanism"
+        },
+        {
+          "item": "create:polished_rose_quartz"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:quartz_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:quartz_mechanism"
+        },
+        {
+          "item": "create:electron_tube"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:quartz_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:quartz_mechanism"
+        },
+        {
+          "item": "kubejs:gear"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:quartz_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:quartz_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:quartz_mechanism"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "kubejs:quartz_mechanism"
+  }
+}

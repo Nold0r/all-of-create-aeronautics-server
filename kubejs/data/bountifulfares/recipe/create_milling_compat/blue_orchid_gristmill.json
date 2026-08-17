@@ -1,0 +1,10 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "item": "minecraft:blue_orchid"
+  },
+  "result": {
+    "id": "minecraft:light_blue_dye"
+  },
+  "result_count": 2
+}

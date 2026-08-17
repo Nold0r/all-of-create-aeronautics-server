@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "createnuclear:graphite_rod"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:graphite_sheet",
+      "count": 2
+    }
+  ]
+}

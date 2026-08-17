@@ -1,0 +1,18 @@
+filename = 'nexuslib-neoforge-1.21.1-1.1.5.jar'
+name = 'NexusLib'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.5'
+
+[download]
+hash = '4d0fe1029367e1210083c5e70b9cfd761586a803a94be4d163b28898f5ba2937f2b55e796de431427460a0c9e9da5fe91c76c40bebeb048cb0d6199ea58fb3dd'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/bgDhVmqz/versions/6oD2aKnX/nexuslib-neoforge-1.21.1-1.1.5.jar'
+
+[update.modrinth]
+mod-id = 'bgDhVmqz'
+version = '6oD2aKnX'

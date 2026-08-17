@@ -1,0 +1,99 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:andesite_alloy"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "id": "create_sa:heat_engine",
+      "chance": 120.0
+    },
+    {
+      "id": "create:zinc_nugget",
+      "chance": 8.0
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_sa:incomplete_heat_engine"
+        },
+        {
+          "item": "kubejs:gear"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_sa:incomplete_heat_engine"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_sa:incomplete_heat_engine"
+        },
+        {
+          "item": "kubejs:paste"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_sa:incomplete_heat_engine"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_sa:incomplete_heat_engine"
+        },
+        {
+          "item": "minecraft:blaze_powder"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_sa:incomplete_heat_engine"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_sa:incomplete_heat_engine"
+        },
+        {
+          "item": "create:large_cogwheel"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_sa:incomplete_heat_engine"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_sa:incomplete_heat_engine"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_sa:incomplete_heat_engine"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create_sa:incomplete_heat_engine"
+  }
+}

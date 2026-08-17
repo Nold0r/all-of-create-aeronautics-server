@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " I ",
+    "IAI",
+    " B "
+  ],
+  "key": {
+    "I": {
+      "tag": "c:plates/iron"
+    },
+    "A": {
+      "item": "create:andesite_casing"
+    },
+    "B": {
+      "item": "minecraft:netherrack"
+    }
+  },
+  "result": {
+    "id": "create:empty_blaze_burner"
+  }
+}

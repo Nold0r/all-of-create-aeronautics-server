@@ -1,0 +1,55 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "c:plates/iron"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "id": "kubejs:gear",
+      "chance": 0.8
+    },
+    {
+      "id": "create:cogwheel",
+      "chance": 0.08
+    },
+    {
+      "id": "minecraft:iron_nugget",
+      "chance": 0.12
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:gear"
+        },
+        {
+          "item": "create:cogwheel"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:gear"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:gear"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:gear"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "kubejs:gear"
+  }
+}

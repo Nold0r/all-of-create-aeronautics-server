@@ -1,0 +1,33 @@
+filename = 'sodium-extra-neoforge-0.9.3+mc1.21.1.jar'
+name = 'Sodium Extra'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'mc1.21.1-0.9.3+neoforge'
+
+[download]
+hash = '36a7c237519c35e35300deadbdcfd1a270c507d49b9de10eea2cad1075c67567935e95d49ca9db470bd946de8e2ef7634361f912866f84570f3c367bf96d2b79'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/PtjYWJkn/versions/iJsZtWpc/sodium-extra-neoforge-0.9.3%2Bmc1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'PtjYWJkn'
+version = 'iJsZtWpc'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Bh37bMuy'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'AANobbMI'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'YL57xq9U'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'EE4vxUHj'
+type = 'OPTIONAL'

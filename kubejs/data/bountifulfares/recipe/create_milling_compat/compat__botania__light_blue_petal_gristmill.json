@@ -1,0 +1,10 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "tag": "botania:petals/light_blue"
+  },
+  "result": {
+    "id": "minecraft:light_blue_dye"
+  },
+  "result_count": 1
+}

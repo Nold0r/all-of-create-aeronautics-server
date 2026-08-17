@@ -1,0 +1,10 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "item": "minecraft:pink_petals"
+  },
+  "result": {
+    "id": "minecraft:pink_dye"
+  },
+  "result_count": 2
+}

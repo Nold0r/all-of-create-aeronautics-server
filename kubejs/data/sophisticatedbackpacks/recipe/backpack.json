@@ -1,0 +1,27 @@
+{
+  "type": "sophisticatedbackpacks:basic_backpack",
+  "category": "misc",
+  "pattern": [
+    "RVR",
+    "LBL",
+    "RVR"
+  ],
+  "key": {
+    "R": {
+      "item": "kubejs:resine_sheet"
+    },
+    "V": {
+      "item": "create_sa:vault_component"
+    },
+    "L": {
+      "tag": "c:leathers"
+    },
+    "B": {
+      "item": "kubejs:brass_frame"
+    }
+  },
+  "result": {
+    "id": "sophisticatedbackpacks:backpack",
+    "count": 1
+  }
+}

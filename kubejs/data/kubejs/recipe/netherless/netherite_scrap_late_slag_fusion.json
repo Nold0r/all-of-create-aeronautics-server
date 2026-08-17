@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "LML",
+    "DCD",
+    "LML"
+  ],
+  "key": {
+    "L": {
+      "item": "createnuclear:lead_ingot"
+    },
+    "M": {
+      "item": "kubejs:metal_alloy"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "C": {
+      "item": "minecraft:coal_block"
+    }
+  },
+  "result": {
+    "id": "minecraft:netherite_scrap",
+    "count": 1
+  }
+}

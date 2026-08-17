@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": { "item": "minecraft:compass" },
+    "P": { "item": "minecraft:paper" },
+    "R": { "item": "minecraft:redstone" }
+  },
+  "pattern": [" P ", "RCR", " P "],
+  "result": { "id": "create_radar:radar_safe_zone_designator" },
+  "show_notification": true
+}

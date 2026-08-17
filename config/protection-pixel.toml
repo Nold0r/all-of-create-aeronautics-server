@@ -1,0 +1,29 @@
+[combustion_reactor]
+	#The time interval consumed each time: time>-11
+	time = 0.0
+	#Show time left of reactor in inventury
+	tipininventury = true
+
+[brassplates]
+	#change armor value
+	armor = 2.0
+	#change toughness value
+	toughness = 1.0
+	#change weight value
+	weight = 2.0
+
+[ironplates]
+	#change armor value
+	armor = 1.0
+	#change toughness value
+	toughness = 0.0
+	#change weight value
+	weight = 1.0
+
+[alloyplates]
+	#change armor value
+	armor = 2.0
+	#change toughness value
+	toughness = 1.0
+	#change weight value
+	weight = 1.5

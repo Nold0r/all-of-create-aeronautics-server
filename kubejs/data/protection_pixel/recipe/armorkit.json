@@ -1,0 +1,34 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "DACAD",
+    "BCECB",
+    "DFFFD"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "kubejs:armour_resine"
+    },
+    "C": {
+      "item": "minecraft:blaze_rod"
+    },
+    "D": {
+      "item": "kubejs:resine_sheet"
+    },
+    "E": {
+      "item": "kubejs:sealed_mechanism"
+    },
+    "F": {
+      "item": "create:sturdy_sheet"
+    }
+  },
+  "result": {
+    "id": "protection_pixel:armorplatekit",
+    "count": 1
+  }
+}

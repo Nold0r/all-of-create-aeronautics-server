@@ -1,0 +1,10 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "item": "minecraft:andesite"
+  },
+  "result": {
+    "id": "minecraft:cobblestone"
+  },
+  "result_count": 1
+}

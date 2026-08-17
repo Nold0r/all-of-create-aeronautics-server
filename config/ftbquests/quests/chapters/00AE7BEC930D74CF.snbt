@@ -1,0 +1,1020 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "00AE7BEC930D74CF"
+	group: "2F8B068425AF05D4"
+	icon: {
+		id: "cataclysm:blazing_grips"
+	}
+	id: "00AE7BEC930D74CF"
+	images: [
+		{
+			height: 10.0d
+			image: "create:textures/gui/clipboard.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			height: 10.0d
+			image: "create:textures/gui/clipboard.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -9.5d
+			y: 15.5d
+		}
+		{
+			alpha: 150
+			color: 0
+			height: 10.0d
+			image: "create:textures/gui/clipboard.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.0d
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			alpha: 150
+			color: 0
+			height: 10.0d
+			image: "create:textures/gui/clipboard.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.0d
+			x: -9.191300721424817d
+			y: 15.81455284215376d
+		}
+		{
+			height: 10.0d
+			image: "create:textures/gui/clipboard.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			alpha: 150
+			color: 0
+			height: 10.0d
+			image: "create:textures/gui/clipboard.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.6561641718879372d
+			y: 6.70380556104535d
+		}
+		{
+			height: 10.0d
+			image: "create:textures/gui/clipboard.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.5d
+			y: 15.5d
+		}
+		{
+			alpha: 150
+			color: 0
+			height: 10.0d
+			image: "create:textures/gui/clipboard.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.7102387715512819d
+			y: 15.679740311694076d
+		}
+		{
+			height: 10.0d
+			image: "create:textures/gui/clipboard.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -9.5d
+			y: 6.5d
+		}
+		{
+			alpha: 150
+			color: 0
+			height: 10.0d
+			image: "create:textures/gui/clipboard.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.0d
+			x: -9.142403762217178d
+			y: 6.813794496427285d
+		}
+		{
+			height: 10.0d
+			image: "cataclysm:textures/entity/flame_strike_sigil.png"
+			order: -2
+			rotation: 0.0d
+			width: 10.0d
+			x: -9.5d
+			y: 16.0d
+		}
+		{
+			height: 15.0d
+			image: "raidsenhanced:item/engineer_staff"
+			order: 2
+			rotation: -45.0d
+			width: 15.0d
+			x: -15.0d
+			y: 6.0d
+		}
+		{
+			alpha: 150
+			color: 0
+			height: 15.0d
+			image: "raidsenhanced:item/engineer_staff"
+			order: 1
+			rotation: -45.0d
+			width: 15.0d
+			x: -14.620996036756203d
+			y: 6.348552368256669d
+		}
+		{
+			height: 12.0d
+			image: "protection_pixel:item/power"
+			order: 2
+			rotation: -31.0d
+			width: 12.0d
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			alpha: 150
+			color: 0
+			height: 12.0d
+			image: "protection_pixel:item/power"
+			order: 1
+			rotation: -31.0d
+			width: 12.0d
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			height: 8.0d
+			image: "protection_pixel:item/pgenerate"
+			order: 2
+			rotation: 32.0d
+			width: 8.0d
+			x: -3.0d
+			y: 11.5d
+		}
+		{
+			alpha: 150
+			color: 0
+			height: 8.0d
+			image: "protection_pixel:item/pgenerate"
+			order: 1
+			rotation: 32.0d
+			width: 8.0d
+			x: -2.9061445248427376d
+			y: 11.660638073101417d
+		}
+		{
+			height: 10.0d
+			image: "protection_pixel:item/nether3"
+			order: 2
+			rotation: 15.0d
+			width: 10.0d
+			x: 4.5d
+			y: 20.0d
+		}
+		{
+			alpha: 150
+			color: 0
+			height: 10.0d
+			image: "protection_pixel:item/nether3"
+			order: 1
+			rotation: 15.0d
+			width: 10.0d
+			x: 4.665889618256969d
+			y: 20.168244880905853d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "019BBEAC6403DA63"
+			tasks: [{
+				id: "1A2D37CC99A55E57"
+				item: { count: 1, id: "protection_pixel:lancer_helmet" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			id: "0AB94A0CDFB33302"
+			tasks: [{
+				id: "718B5926C806C93F"
+				item: { count: 1, id: "protection_pixel:hammer_helmet" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			id: "154B06742DF74217"
+			tasks: [{
+				id: "238CB5578AD4EF02"
+				item: { count: 1, id: "protection_pixel:hunter_helmet" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			id: "01CA90C0152E9050"
+			tasks: [{
+				id: "730E54697A5A628E"
+				item: { count: 1, id: "protection_pixel:closed_helmet" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			id: "09ADDB8FECBE5C2E"
+			tasks: [{
+				id: "3F2F919452B9C335"
+				item: { count: 1, id: "protection_pixel:bloodprisoner_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			id: "61E1D5F0BF4B9B75"
+			tasks: [{
+				id: "4FE35555E3A01EA1"
+				item: { count: 1, id: "protection_pixel:nightdemon_helmet" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			id: "49936651CCB88936"
+			tasks: [{
+				id: "765C76A34767A364"
+				item: { count: 1, id: "protection_pixel:plague_helmet" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			id: "5A9C05FCC9E09F3E"
+			tasks: [{
+				id: "40F0B6AD7FEF7EA6"
+				item: { count: 1, id: "protection_pixel:breaker_chestplate" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			id: "7E18F2BC66D02865"
+			tasks: [{
+				id: "5DCB56B74B452C5F"
+				item: { count: 1, id: "protection_pixel:wingsofprism_chestplate" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "11414FCD643B2C59"
+			tasks: [{
+				id: "6668887222A63163"
+				item: { count: 1, id: "protection_pixel:workerhornet_chestplate" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			id: "0BD2B0563547DD58"
+			tasks: [{
+				id: "7C954963D9EF4503"
+				item: { count: 1, id: "protection_pixel:magneticstorm_chestplate" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			id: "2C4259C45DFAA478"
+			tasks: [{
+				id: "63213535049C3FC9"
+				item: { count: 1, id: "protection_pixel:pioneer_chestplate" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			id: "16990EA1C9386980"
+			tasks: [{
+				id: "27EAF7EB12F800CA"
+				item: { count: 1, id: "protection_pixel:hellsnake_chestplate" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "0756F4481DA6B5D9"
+			tasks: [{
+				id: "3D012B3D618FA2AD"
+				item: { count: 1, id: "protection_pixel:falconnest_chestplate" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			id: "292BF36D1C2F6C47"
+			tasks: [{
+				id: "7D7B4692BC662BE3"
+				item: { count: 1, id: "protection_pixel:typhoon_chestplate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "1DE0727552213352"
+			tasks: [{
+				id: "1712E85B6079D277"
+				item: { count: 1, id: "protection_pixel:slingshot_leggings" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			id: "644ABEEE1A228744"
+			tasks: [{
+				id: "2289CEDCF1F7D250"
+				item: { count: 1, id: "protection_pixel:anchorpoint_leggings" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			id: "72786D3C9C241E48"
+			tasks: [{
+				id: "7EDB22A13D77B97C"
+				item: { count: 1, id: "protection_pixel:buoyancy_leggings" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			id: "09CF36A5CA5E3529"
+			tasks: [{
+				id: "35A1489661AF44B7"
+				item: { count: 1, id: "protection_pixel:plagueas_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			id: "294C0DADBF46E27F"
+			tasks: [{
+				id: "73F8A5C99ACFEAB2"
+				item: { count: 1, id: "protection_pixel:lanceras_helmet" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			id: "2FEE63CEDCA50F6B"
+			tasks: [{
+				id: "2C822647B5D8A608"
+				item: { count: 1, id: "protection_pixel:hunteras_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			id: "7A7B0741A0E2EA1C"
+			tasks: [{
+				id: "51A91E2207A535A9"
+				item: { count: 1, id: "protection_pixel:hammeras_helmet" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			id: "54D994C5D54CC593"
+			tasks: [{
+				id: "3708A561F456B1BB"
+				item: { count: 1, id: "protection_pixel:closedas_helmet" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "0AAE7130B6B2A48F"
+			tasks: [{
+				id: "3E398B233B190ABB"
+				item: { count: 1, id: "protection_pixel:bloodprisoneras_helmet" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			id: "7C4B7F46E67C6CE9"
+			tasks: [{
+				id: "46B4AEBEDB7D503A"
+				item: { count: 1, id: "protection_pixel:nightdemonas_helmet" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			id: "1F8355F8DC760D88"
+			tasks: [{
+				id: "303C58E26706B59B"
+				item: { count: 1, id: "protection_pixel:breakeras_chestplate" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			id: "7310BD04D1FE037B"
+			tasks: [{
+				id: "399495CD1F2F8702"
+				item: { count: 1, id: "protection_pixel:wingsofprismas_chestplate" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			id: "1BA8EEF737EF8A5B"
+			tasks: [{
+				id: "020534AD195053A8"
+				item: { count: 1, id: "protection_pixel:workerhornetas_chestplate" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			id: "343178966B710B2C"
+			tasks: [{
+				id: "54930F9898AA2C7E"
+				item: { count: 1, id: "protection_pixel:magneticstormas_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			id: "04964C76B3BBA912"
+			tasks: [{
+				id: "6769412B4D7FA8FA"
+				item: { count: 1, id: "protection_pixel:pioneeras_chestplate" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			id: "2087DFCCBDA9803B"
+			tasks: [{
+				id: "24973FD79A487616"
+				item: { count: 1, id: "protection_pixel:hellsnakeas_chestplate" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			id: "69F952FBA16831CF"
+			tasks: [{
+				id: "18411D0E2000AA33"
+				item: { count: 1, id: "protection_pixel:falconnestas_chestplate" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			id: "17124E6A1CCC2C09"
+			tasks: [{
+				id: "1094CB27A8140F39"
+				item: { count: 1, id: "protection_pixel:typhoonas_chestplate" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			id: "12720076ED1FBE30"
+			tasks: [{
+				id: "2C137C5FEE71148C"
+				item: { count: 1, id: "protection_pixel:floatshield_chestplate" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			id: "47DDA51DE3F3EBD4"
+			tasks: [{
+				id: "390D2F784B0FA6B8"
+				item: { count: 1, id: "protection_pixel:slingshotas_leggings" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			id: "5148BD96662228A5"
+			tasks: [{
+				id: "6AD0F543CA479F3F"
+				item: { count: 1, id: "protection_pixel:anchorpointas_leggings" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			id: "513E94B8243288A5"
+			tasks: [{
+				id: "71061957AE239084"
+				item: { count: 1, id: "protection_pixel:buoyancyas_leggings" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.5d
+		}
+		{
+			id: "366FD7854CA71833"
+			tasks: [{
+				id: "7DE089958154449E"
+				item: { count: 1, id: "protection_pixel:linkplate_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 13.5d
+		}
+		{
+			id: "41DB2BD5527FFC0A"
+			tasks: [{
+				id: "344839430BF591E6"
+				item: { count: 1, id: "protection_pixel:linkplate_chestplate" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 14.5d
+		}
+		{
+			id: "5A4084F5347591D6"
+			tasks: [{
+				id: "01C71AED863B2CA9"
+				item: { count: 1, id: "protection_pixel:linkplate_leggings" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 15.5d
+		}
+		{
+			id: "1A201903F16E4204"
+			tasks: [{
+				id: "5A30DDB078FD62DC"
+				item: { count: 1, id: "protection_pixel:linkplate_boots" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 16.5d
+		}
+		{
+			id: "3146E2BAA0A1A9E8"
+			tasks: [{
+				id: "00BE9E1F3D54CFFD"
+				item: { count: 1, id: "protection_pixel:tosaki_helmet" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.5d
+		}
+		{
+			id: "001BD677370C1DD2"
+			tasks: [{
+				id: "0E4CA2D177B914B0"
+				item: { count: 1, id: "protection_pixel:tosaki_chestplate" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 14.5d
+		}
+		{
+			id: "33929582A68675F4"
+			tasks: [{
+				id: "0E13FF3F49076BA4"
+				item: { count: 1, id: "protection_pixel:tosaki_leggings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 15.5d
+		}
+		{
+			id: "6664A83FC4CC20C5"
+			tasks: [{
+				id: "1E95FABAB6ADD232"
+				item: { count: 1, id: "protection_pixel:socks_boots" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 16.5d
+		}
+		{
+			id: "20F0E9D42AB79E7C"
+			tasks: [{
+				id: "3D6780E5BBBEDE12"
+				item: { count: 1, id: "protection_pixel:maneuveringwing" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			id: "42958B26BA1F273E"
+			tasks: [{
+				id: "414AEED8E01542F0"
+				item: { count: 1, id: "protection_pixel:heatpulsethruster" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.5d
+		}
+		{
+			id: "624202DD0B0C49F6"
+			tasks: [{
+				id: "5209CACA401296FF"
+				item: { count: 1, id: "protection_pixel:tacticaloxygensupplydevice" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 13.5d
+		}
+		{
+			id: "1104D262AD7FB13D"
+			tasks: [{
+				id: "6C3C2E6E8EE353D3"
+				item: { count: 1, id: "protection_pixel:pneumaticgrenadelauncharm" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 15.5d
+		}
+		{
+			id: "1B37A496AA9F7458"
+			tasks: [{
+				id: "741D27984D053769"
+				item: { count: 1, id: "protection_pixel:steambooster" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 17.5d
+		}
+		{
+			id: "21BBC74C6FA8D556"
+			tasks: [{
+				id: "3FC486F26EE9723E"
+				item: { count: 1, id: "protection_pixel:hookcannon" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.5d
+		}
+		{
+			id: "7DBD1149673BA91E"
+			tasks: [{
+				id: "0EB72D7DAF72C1FB"
+				item: { count: 1, id: "protection_pixel:cannonarm" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			id: "7897C28A9C41271C"
+			tasks: [{
+				id: "6EF73B8C0A8471B0"
+				item: { count: 1, id: "protection_pixel:blooddialysisdevice" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 14.5d
+		}
+		{
+			id: "19EDEE7933BF1278"
+			tasks: [{
+				id: "442F1A8EF91C19C0"
+				item: { count: 1, id: "protection_pixel:suspjetpack" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 16.5d
+		}
+		{
+			id: "406944615DADD54B"
+			tasks: [{
+				id: "3A2C8F0BEF8AAE40"
+				item: { count: 1, id: "protection_pixel:evasionwing" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 17.5d
+		}
+		{
+			id: "4FB8AA708B679C2B"
+			tasks: [{
+				id: "68D21162372CA86E"
+				item: { count: 1, id: "raidsenhanced:zapper_staff" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 9.0d
+		}
+		{
+			id: "445BBEBBA736062D"
+			tasks: [{
+				id: "0AAA1A433085A6E1"
+				item: { count: 1, id: "cataclysm:coral_spear" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 4.5d
+		}
+		{
+			id: "30FB8DED9D386949"
+			tasks: [{
+				id: "7797F67D6FCEACFE"
+				item: { count: 1, id: "cataclysm:coral_bardiche" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			id: "3034D715B72E7C61"
+			tasks: [{
+				id: "2D973768132A1AC6"
+				item: { count: 1, id: "cataclysm:black_steel_sword" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 6.0d
+		}
+		{
+			id: "55499D2A5F09DC05"
+			tasks: [{
+				id: "758D0B3E81905A94"
+				item: { count: 1, id: "cataclysm:athame" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			id: "3AA1C81FCB3A1993"
+			tasks: [{
+				id: "131A186F0551DCDB"
+				item: { count: 1, id: "cataclysm:khopesh" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 7.5d
+		}
+		{
+			id: "638A449EC5BE4958"
+			tasks: [{
+				id: "6C4DBC525C0FC2EE"
+				item: { count: 1, id: "cataclysm:bulwark_of_the_flame" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 13.5d
+		}
+		{
+			id: "448978093FA5BB72"
+			tasks: [{
+				id: "0D37F629FD4B544E"
+				item: { count: 1, id: "cataclysm:gauntlet_of_guard" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 14.5d
+		}
+		{
+			id: "6E1033BFDB4FCB62"
+			tasks: [{
+				id: "121D85DC8383FCB5"
+				item: { count: 1, id: "cataclysm:gauntlet_of_bulwark" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 15.5d
+		}
+		{
+			id: "5F121D17678CCFD6"
+			tasks: [{
+				id: "38A5BA71068B9EDF"
+				item: { count: 1, id: "cataclysm:gauntlet_of_maelstrom" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 16.5d
+		}
+		{
+			id: "67835425D6EAB29E"
+			tasks: [{
+				id: "24D52C4774E9C81B"
+				item: { count: 1, id: "cataclysm:the_incinerator" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 13.5d
+		}
+		{
+			id: "021F5AD7FD940595"
+			tasks: [{
+				id: "18DFA0E7BC5CEF6C"
+				item: { count: 1, id: "cataclysm:cursed_bow" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 13.5d
+		}
+		{
+			id: "65A7D0D2189141F5"
+			tasks: [{
+				id: "36EAF85007BD4BA0"
+				item: { count: 1, id: "cataclysm:wrath_of_the_desert" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 14.5d
+		}
+		{
+			id: "6C018187903C8A11"
+			tasks: [{
+				id: "15C8716BC5593145"
+				item: { count: 1, id: "cataclysm:soul_render" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 14.5d
+		}
+		{
+			id: "0C8F4C20BB137A54"
+			tasks: [{
+				id: "76253F73DE83754F"
+				item: { count: 1, id: "cataclysm:the_annihilator" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 15.5d
+		}
+		{
+			id: "101E911FA1450D72"
+			tasks: [{
+				id: "071A85B8CB3AEA13"
+				item: { count: 1, id: "cataclysm:the_immolator" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 16.5d
+		}
+		{
+			id: "7F1394AE2E65A8A3"
+			tasks: [{
+				id: "62CD653A884F1D16"
+				item: { count: 1, id: "cataclysm:meat_shredder" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 17.5d
+		}
+		{
+			id: "20DA2FC9D38215A5"
+			tasks: [{
+				id: "20AE9D500FE0B3EA"
+				item: { components: { "cataclysm:laser_gatling": 0b }, count: 1, id: "cataclysm:laser_gatling" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 15.5d
+		}
+		{
+			id: "079C209FF7F6CC21"
+			tasks: [{
+				id: "473792AC118BEFFB"
+				item: { count: 1, id: "cataclysm:wither_assault_shoulder_weapon" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 16.5d
+		}
+		{
+			id: "1D4E15AA1726F14C"
+			tasks: [{
+				id: "5DFE1F72A96EDE3F"
+				item: { count: 1, id: "cataclysm:void_assault_shoulder_weapon" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 17.5d
+		}
+		{
+			id: "692C9B4AFFC51E7E"
+			tasks: [{
+				id: "3EED445C67099098"
+				item: { count: 1, id: "cataclysm:void_forge" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 16.5d
+		}
+		{
+			id: "70A7EAE85A07631B"
+			tasks: [{
+				id: "4372196ED660B945"
+				item: { count: 1, id: "cataclysm:tidal_claws" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 17.5d
+		}
+		{
+			id: "58A2EA98DDED5520"
+			tasks: [{
+				id: "6F80871016EA099A"
+				item: { count: 1, id: "cataclysm:infernal_forge" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 15.5d
+		}
+		{
+			id: "66EB4093CE39C8CC"
+			tasks: [{
+				id: "49C3F4C574ACB80D"
+				item: { count: 1, id: "cataclysm:ancient_spear" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 7.5d
+		}
+		{
+			id: "71A6B28FC31F5F7F"
+			tasks: [{
+				id: "51EEF0F0672FAF1A"
+				item: { count: 1, id: "cataclysm:astrape" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 17.5d
+		}
+		{
+			id: "3ECA5E39432D23D6"
+			tasks: [{
+				id: "61DFDB55256905F0"
+				item: { count: 1, id: "cataclysm:ceraunus" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 13.5d
+		}
+		{
+			id: "1205AC58B0508160"
+			tasks: [{
+				id: "6F476A8C950A850F"
+				item: { count: 1, id: "cataclysm:brontes" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 14.5d
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "TCT",
+    "FPF",
+    "TCT"
+  ],
+  "key": {
+    "T": {
+      "item": "farmersdelight:tomato"
+    },
+    "C": {
+      "item": "bountifulfares:citrus_essence"
+    },
+    "F": {
+      "tag": "c:flours"
+    },
+    "P": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "result": {
+    "id": "endrem:witch_eye"
+  }
+}

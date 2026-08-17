@@ -1,0 +1,21 @@
+filename = 'create_blueprinted-2.2.1.jar'
+name = 'Create: Blueprinted'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Create: Blueprinted 2.2.1 (MC 1.21.1 NeoForge)'
+
+[download]
+hash = '1e322ea5594cb6a3579e4a3a59092eba9485c9ef'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8645146
+project-id = 1487864
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

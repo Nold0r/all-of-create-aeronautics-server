@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BHB",
+    " S ",
+    " C "
+  ],
+  "key": {
+    "B": {
+      "item": "create:copper_casing"
+    },
+    "H": {
+      "item": "create_sa:hydraulic_engine"
+    },
+    "S": {
+      "item": "kubejs:sealed_mechanism"
+    },
+    "C": {
+      "tag": "c:plates/copper"
+    }
+  },
+  "result": {
+    "id": "create:hose_pulley"
+  }
+}

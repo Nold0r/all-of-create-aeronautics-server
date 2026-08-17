@@ -1,0 +1,39 @@
+[physics]
+	#Drive force multiplier applied per RPM for tiny cogwheels.
+	# Default: 2.0
+	# Range: 0.0 ~ 1000.0
+	tinyRpmDriveMultiplier = 2.0
+	#Drive force multiplier applied per RPM for small cogwheels.
+	# Default: 2.32
+	# Range: 0.0 ~ 1000.0
+	smallRpmDriveMultiplier = 2.32
+	#Drive force multiplier applied per RPM for medium cogwheels.
+	# Default: 3.1
+	# Range: 0.0 ~ 1000.0
+	mediumRpmDriveMultiplier = 3.1
+	#Drive force multiplier applied per RPM for large cogwheels.
+	# Default: 7.0
+	# Range: 0.0 ~ 1000.0
+	largeRpmDriveMultiplier = 7.0
+	#Scale cogwheel drive impulse by vehicle mass so heavy contraptions do not lose drive strength.
+	ignoreVehicleWeightForDrive = true
+	#Play cogwheel landing impact sounds.
+	landingSoundsEnabled = true
+
+[stress]
+	#Base stress impact at 1 RPM for tiny cogwheels. Create multiplies this by rotation speed.
+	# Default: 2.0
+	# Range: 0.0 ~ 4096.0
+	tinyStressImpact = 2.0
+	#Base stress impact at 1 RPM for small cogwheels. Create multiplies this by rotation speed.
+	# Default: 4.0
+	# Range: 0.0 ~ 4096.0
+	smallStressImpact = 4.0
+	#Base stress impact at 1 RPM for medium cogwheels. Create multiplies this by rotation speed.
+	# Default: 6.0
+	# Range: 0.0 ~ 4096.0
+	mediumStressImpact = 6.0
+	#Base stress impact at 1 RPM for large cogwheels. Create multiplies this by rotation speed.
+	# Default: 8.0
+	# Range: 0.0 ~ 4096.0
+	largeStressImpact = 8.0

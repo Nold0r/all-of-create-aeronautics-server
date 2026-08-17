@@ -1,0 +1,15 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "type": "neoforge:compound",
+    "ingredients": [
+      {
+        "item": "biomeswevegone:winter_scilla"
+      }
+    ]
+  },
+  "result": {
+    "id": "minecraft:light_blue_dye"
+  },
+  "result_count": 2
+}

@@ -1,0 +1,15 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "type": "neoforge:compound",
+    "ingredients": [
+      {
+        "item": "regions_unexplored:white_snowbelle"
+      }
+    ]
+  },
+  "result": {
+    "id": "minecraft:white_dye"
+  },
+  "result_count": 2
+}

@@ -1,0 +1,15 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "type": "neoforge:compound",
+    "ingredients": [
+      {
+        "item": "biomeswevegone:windswept_sandstone"
+      }
+    ]
+  },
+  "result": {
+    "id": "biomeswevegone:windswept_sand"
+  },
+  "result_count": 1
+}

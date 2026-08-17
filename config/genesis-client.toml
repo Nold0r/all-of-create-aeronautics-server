@@ -1,0 +1,27 @@
+#Genesis Biome Preview Settings
+[preview]
+	#Enable the biome map preview in the Genesis screen.
+	preview_enabled = true
+	#Threads for biome preview sampling. 0 = auto-detect (2–4 based on CPU cores).
+	# Default: 0
+	# Range: 0 ~ 16
+	preview_threads = 0
+	#Radius in chunks covered by the initial three-pass coarse spiral.
+	# Default: 64
+	# Range: 16 ~ 512
+	preview_initial_radius = 64
+	#Chunks added to the sampling radius on each expansion step.
+	# Default: 16
+	# Range: 4 ~ 128
+	preview_expand_radius = 16
+
+#Genesis World Pre-Generation Settings
+[pregen]
+	#Default pre-generation radius in chunks shown in the Genesis screen overlay.
+	# Default: 128
+	# Range: 1 ~ 2048
+	pregen_default_radius = 128
+	#Default concurrency window (chunk futures in flight) for pre-generation.
+	# Default: 4
+	# Range: 1 ~ 16
+	pregen_default_threads = 4

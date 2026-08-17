@@ -1,0 +1,15 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "type": "neoforge:compound",
+    "ingredients": [
+      {
+        "item": "biomeswevegone:fairy_slipper"
+      }
+    ]
+  },
+  "result": {
+    "id": "minecraft:magenta_dye"
+  },
+  "result_count": 2
+}

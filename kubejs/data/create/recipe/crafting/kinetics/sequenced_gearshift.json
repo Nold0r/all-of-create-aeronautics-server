@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "create:brass_casing"
+    },
+    {
+      "item": "create:cogwheel"
+    },
+    {
+      "item": "kubejs:sync_mechanism"
+    }
+  ],
+  "result": {
+    "id": "create:sequenced_gearshift"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "category": "misc",
+  "pattern": [
+    "CVC",
+    "VBV",
+    "CVC"
+  ],
+  "key": {
+    "B": {
+      "item": "sophisticatedbackpacks:backpack"
+    },
+    "C": {
+      "item": "create:copper_casing"
+    },
+    "V": {
+      "item": "create_sa:vault_component"
+    }
+  },
+  "result": {
+    "id": "sophisticatedbackpacks:copper_backpack",
+    "count": 1
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createbigcannons:empty_machine_gun_round"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "createbigcannons:machine_gun_round"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createbigcannons:partially_assembled_machine_gun_round"
+        },
+        {
+          "item": "minecraft:gunpowder"
+        }
+      ],
+      "results": [
+        {
+          "id": "createbigcannons:partially_assembled_machine_gun_round"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createbigcannons:partially_assembled_machine_gun_round"
+        },
+        {
+          "item": "kubejs:metal_alloy"
+        }
+      ],
+      "results": [
+        {
+          "id": "createbigcannons:partially_assembled_machine_gun_round"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createbigcannons:partially_assembled_machine_gun_round"
+  }
+}

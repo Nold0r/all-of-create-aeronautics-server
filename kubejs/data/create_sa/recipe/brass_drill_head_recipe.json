@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "010",
+    "121",
+    "030"
+  ],
+  "key": {
+    "0": {
+      "item": "kubejs:alloy_zink_brass"
+    },
+    "1": {
+      "item": "create:andesite_alloy"
+    },
+    "2": {
+      "item": "create_sa:brass_pickaxe"
+    },
+    "3": {
+      "item": "kubejs:paste"
+    }
+  },
+  "result": {
+    "id": "create_sa:brass_drill_head",
+    "count": 1
+  }
+}

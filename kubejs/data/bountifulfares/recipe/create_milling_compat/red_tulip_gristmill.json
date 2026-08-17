@@ -1,0 +1,10 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "item": "minecraft:red_tulip"
+  },
+  "result": {
+    "id": "minecraft:red_dye"
+  },
+  "result_count": 2
+}

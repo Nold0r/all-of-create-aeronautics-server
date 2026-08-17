@@ -1,0 +1,18 @@
+filename = 'fdlib-1.0.9-1.21.1.jar'
+name = 'FDLib'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.9'
+
+[download]
+hash = 'ab4c1d46190ce96468930d7db8340a42bf8f1848df116ef5ac08454a95f09d624d22e169fd074291cac0b791d0cec1520a497a7791db62550bf399dc8324aa9b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/LcmGQfK2/versions/eGbrbFqp/fdlib-1.0.9-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'LcmGQfK2'
+version = 'eGbrbFqp'

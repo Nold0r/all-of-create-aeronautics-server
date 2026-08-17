@@ -1,0 +1,8 @@
+type = user_variables
+
+variable {
+  name = first_launch_seen
+  value = true
+  reset_on_launch = false
+}
+

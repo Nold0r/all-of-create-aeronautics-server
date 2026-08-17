@@ -1,0 +1,87 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "kubejs:steel_mechanism"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "id": "kubejs:induction_mechanism",
+      "chance": 0.84
+    },
+    {
+      "id": "kubejs:steel_mechanism",
+      "chance": 0.06
+    },
+    {
+      "id": "kubejs:graphite_sheet",
+      "chance": 0.1
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:induction_mechanism"
+        },
+        {
+          "item": "kubejs:copper_spool"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:induction_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:induction_mechanism"
+        },
+        {
+          "item": "kubejs:graphite_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:induction_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:induction_mechanism"
+        },
+        {
+          "item": "createnuclear:uranium_rod"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:induction_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:induction_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:induction_mechanism"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "kubejs:induction_mechanism"
+  }
+}

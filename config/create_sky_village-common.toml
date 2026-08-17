@@ -1,0 +1,41 @@
+#Common configuration for future hand-written Create Sky Village features.
+[general]
+	#Write the current config values to the log when the config loads or reloads.
+	logConfigOnLoad = true
+	#Enable extra debug output while expanding the mod.
+	debugLogging = false
+	#Log a short summary of the packaged sky village structure data.
+	logBundledWorldgenSummary = true
+
+#Sky Village world generation controls. These settings are mitigation and user control, not a full fix for worldgen bugs.
+[skyVillage]
+	#If false, neither of the bundled Sky Village structures will generate.
+	enableSkyVillage = true
+	#If false, the create_sky_village:skyvillage structure will not generate.
+	enableSkyVillageStructure = true
+	#If false, the create_sky_village:highwind_village structure will not generate.
+	enableHighwindVillageStructure = true
+	#Prefer a compact/safer island variant when one is available. If no compact template exists yet, the generator falls back cleanly.
+	useCompactSkyVillage = true
+	#Extra per-structure spawn gate applied after the normal structure-set placement picks a candidate chunk.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	skyVillageSpawnChance = 1.0
+	#Requested spacing for Sky Village structures. Current structure-set placement is still data-driven, so this is only applied when the generator can do so safely.
+	# Default: 80
+	# Range: 1 ~ 4096
+	skyVillageSpacing = 80
+	#Requested separation for Sky Village structures. Current structure-set placement is still data-driven, so this is only applied when the generator can do so safely.
+	# Default: 40
+	# Range: 0 ~ 4095
+	skyVillageSeparation = 40
+	#Extra Y offset applied to both bundled Sky Village structures during world generation. Positive values generate higher, negative values lower. Changes affect only newly generated chunks.
+	# Default: 0
+	# Range: -256 ~ 256
+	skyVillageHeightOffset = 0
+	#Upper bound used by the generator when selecting safer/compact handling paths for Sky Village pieces.
+	# Default: 16
+	# Range: 1 ~ 64
+	maxIslandSize = 16
+	#Print detailed Sky Village structure selection and placement logs.
+	debugSkyVillageGeneration = false

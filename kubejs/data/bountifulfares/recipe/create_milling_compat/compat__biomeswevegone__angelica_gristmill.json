@@ -1,0 +1,15 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "type": "neoforge:compound",
+    "ingredients": [
+      {
+        "item": "biomeswevegone:angelica"
+      }
+    ]
+  },
+  "result": {
+    "id": "minecraft:white_dye"
+  },
+  "result_count": 2
+}

@@ -1,0 +1,44 @@
+{
+	id: "2A00000000000002"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{
+			count: 6
+			id: "7177BD9D0287B99A"
+			item: {
+				count: 1
+				id: "create:copper_sheet"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 6
+			id: "4F29F99AA685C86C"
+			item: {
+				count: 1
+				id: "create:iron_sheet"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 4
+			id: "061A137A3D313C55"
+			item: {
+				count: 1
+				id: "create:andesite_casing"
+			}
+			weight: 5.0f
+		}
+		{ id: "35FE9AD94ACE6BF7", item: { count: 1, id: "create:brass_hand" } }
+		{
+			count: 8
+			id: "371B0A2A56D78B76"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+			weight: 4.0f
+		}
+	]
+}

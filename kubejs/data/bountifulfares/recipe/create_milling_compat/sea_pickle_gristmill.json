@@ -1,0 +1,10 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "item": "minecraft:sea_pickle"
+  },
+  "result": {
+    "id": "minecraft:lime_dye"
+  },
+  "result_count": 2
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "  A"
+  ],
+  "result": {
+    "count": 1,
+    "id": "create:hand_crank"
+  }
+}

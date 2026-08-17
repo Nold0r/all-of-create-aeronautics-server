@@ -1,0 +1,15 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "type": "neoforge:compound",
+    "ingredients": [
+      {
+        "item": "biomeswevegone:pink_sandstone"
+      }
+    ]
+  },
+  "result": {
+    "id": "biomeswevegone:pink_sand"
+  },
+  "result_count": 1
+}

@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "kubejs:resine_sheet"
+    },
+    "D": {
+      "item": "protection_pixel:reinforcedfiber"
+    }
+  },
+  "result": {
+    "id": "protection_pixel:ironarmorplate",
+    "count": 1
+  }
+}

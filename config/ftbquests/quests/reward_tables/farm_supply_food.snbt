@@ -1,0 +1,61 @@
+{
+	id: "2A00000000000004"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{
+			count: 8
+			id: "19B572DD31322AE4"
+			item: {
+				count: 1
+				id: "minecraft:bread"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 4
+			id: "582AEA24569CE1EB"
+			item: {
+				count: 1
+				id: "farmersdelight:cooked_rice"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 4
+			id: "6EFFCA381F936081"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bountifulfares:maize_bread"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 2
+			id: "232092F65D988CB3"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bountifulfares:apple_cider_jar"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 2
+			id: "35BCAB86866EEF0B"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bountifulfares:black_tea_bottle"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 3.0f
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ABA",
+    "CPC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "create_compressed:copper_sheet_block"
+    },
+    "B": {
+      "item": "create_compressed:belt_block"
+    },
+    "C": {
+      "item": "create:super_glue"
+    },
+    "P": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "result": {
+    "id": "endrem:rogue_eye"
+  }
+}

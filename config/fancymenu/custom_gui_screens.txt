@@ -1,0 +1,16 @@
+type = custom_gui_screens
+
+overridden_screens {
+}
+
+custom_gui {
+  identifier = first_launch_notice
+  title = 
+  allow_esc = false
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = true
+  popup_mode = true
+  popup_mode_background_overlay = true
+}
+

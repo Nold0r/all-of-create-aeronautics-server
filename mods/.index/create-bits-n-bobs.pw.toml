@@ -1,0 +1,29 @@
+filename = 'bits_n_bobs-2.1.15-beta.jar'
+name = "Create: Bits 'n' Bobs"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '2.1.15-beta'
+
+[download]
+hash = '65f803bae922c17f83e4227c1f811508044adf826fb1bfb09c78abb40c036424546356c502ea80083de527bb0ead4aeae7069d8b938d84ec518647fb0c69b313'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/T8bvmqVZ/versions/qJ2wZ6WX/bits_n_bobs-2.1.15-beta.jar'
+
+[update.modrinth]
+mod-id = 'T8bvmqVZ'
+version = 'qJ2wZ6WX'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'RpH8tmT1'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'sHO3MhQx'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'

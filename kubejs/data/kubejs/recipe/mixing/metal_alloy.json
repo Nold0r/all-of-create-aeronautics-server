@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "createnuclear:steel_ingot"
+    },
+    {
+      "item": "kubejs:graphite_sheet"
+    },
+    {
+      "tag": "c:plates/copper"
+    },
+    {
+      "tag": "c:plates/iron"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:metal_alloy",
+      "count": 2
+    }
+  ],
+  "heat_requirement": "heated"
+}

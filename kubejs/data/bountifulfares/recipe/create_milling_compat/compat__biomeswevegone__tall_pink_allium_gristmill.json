@@ -1,0 +1,15 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "type": "neoforge:compound",
+    "ingredients": [
+      {
+        "item": "biomeswevegone:tall_pink_allium"
+      }
+    ]
+  },
+  "result": {
+    "id": "minecraft:pink_dye"
+  },
+  "result_count": 3
+}

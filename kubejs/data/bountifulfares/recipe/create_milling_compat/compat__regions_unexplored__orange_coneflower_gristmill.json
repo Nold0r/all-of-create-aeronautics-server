@@ -1,0 +1,15 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "type": "neoforge:compound",
+    "ingredients": [
+      {
+        "item": "regions_unexplored:orange_coneflower"
+      }
+    ]
+  },
+  "result": {
+    "id": "minecraft:orange_dye"
+  },
+  "result_count": 2
+}

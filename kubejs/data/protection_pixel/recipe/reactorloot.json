@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "create_sa:steam_engine"
+    },
+    "b": {
+      "item": "create:fluid_pipe"
+    },
+    "c": {
+      "item": "kubejs:graphite_sheet"
+    },
+    "d": {
+      "item": "create:empty_blaze_burner"
+    }
+  },
+  "result": {
+    "id": "protection_pixel:powerengine",
+    "count": 1
+  }
+}

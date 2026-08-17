@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " N ",
+    "SSS",
+    " R "
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:lightning_rod"
+    },
+    "S": {
+      "item": "kubejs:copper_spool"
+    },
+    "R": {
+      "tag": "c:dusts/redstone"
+    }
+  },
+  "result": {
+    "id": "create:transmitter"
+  }
+}

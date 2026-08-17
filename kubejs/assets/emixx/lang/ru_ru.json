@@ -1,0 +1,15 @@
+{
+  "stackgroup.emixx.tooltip": " предм.",
+  "gui.emixx.possible_enchantments": "Доступные зачарования: ",
+  "gui.emixx.possible_enchantments_for_enchanted_book": "Все зачарования, кроме сокровищ",
+  "gui.emixx.random_color": "Случайный цвет",
+  "gui.emixx.stack_group_config": "Настройка групп предметов",
+  "emixx.configuration.title": "Настройки EMI++",
+  "emixx.configuration.creativeModeTabs": "Вкладки творческого режима",
+  "emixx.configuration.enableCreativeModeTabs": "Включить вкладки творческого режима",
+  "emixx.configuration.syncSelectedCreativeModeTab": "Синхронизация выбора вкладки",
+  "emixx.configuration.stackGroups": "Группы предметов",
+  "emixx.configuration.enableStackGroups": "---------------------",
+  "emixx.configuration.disabledStackGroups": "Список неактивных групп",
+  "emi.category.emixx.villager_trades": "Сделки жителей"
+}

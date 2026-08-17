@@ -1,0 +1,28 @@
+["Revive Settings"]
+	#Time to revive a player in ticks
+	# Default: 600
+	# Range: > 1
+	reviveTime = 600
+	#How much health player has after revive
+	# Default: 6.0
+	# Range: 0.0 ~ 3.4028234663852886E38
+	healthAfterRevive = 6.0
+	#Items that revive player
+	reviveItems = ["minecraft:heart_of_the_sea", "minecraft:honey_bottle"]
+	#Damage that will always kill
+	excludedDamage = ["minecraft:fall", "minecraft:generic_kill"]
+	#Items that extends revive time in ticks
+	#Example: 'minecraft:golden_apple:1600'. Will increase revive time by 1600 ticks
+	extendItems = ["minecraft:paper:100"]
+	#Odes player invulnerable while  in crit state
+	isInvulnerableInCritState = true
+	#Sound that revived player hears upon reviving. Set to DISABLE if you dont want it
+	reviveSound = "minecraft:block.conduit.deactivate"
+	#Time in ticks that takes for player to give up
+	# Default: 100
+	# Range: > 1
+	giveUpTimer = 100
+	#Can player give up?
+	canPlayerGiveUp = true
+	#Can player be in crit state while in the singleplayer world?
+	canBeRevivedInSp = false

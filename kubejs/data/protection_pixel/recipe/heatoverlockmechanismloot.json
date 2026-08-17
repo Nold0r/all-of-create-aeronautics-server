@@ -1,0 +1,103 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:sturdy_sheet"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "protection_pixel:heatoverlockingmechanism"
+    },
+    {
+      "chance": 10.0,
+      "id": "kubejs:quartz_mechanism"
+    },
+    {
+      "chance": 10.0,
+      "id": "create:sturdy_sheet"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompleteheatoverlockmechanism"
+        },
+        {
+          "item": "kubejs:quartz_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompleteheatoverlockmechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompleteheatoverlockmechanism"
+        },
+        {
+          "item": "kubejs:copper_spool"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompleteheatoverlockmechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompleteheatoverlockmechanism"
+        },
+        {
+          "item": "kubejs:paste"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompleteheatoverlockmechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompleteheatoverlockmechanism"
+        },
+        {
+          "item": "kubejs:graphite_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompleteheatoverlockmechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompleteheatoverlockmechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompleteheatoverlockmechanism"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "protection_pixel:incompleteheatoverlockmechanism"
+  }
+}

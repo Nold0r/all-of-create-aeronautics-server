@@ -1,0 +1,10 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "item": "minecraft:ink_sac"
+  },
+  "result": {
+    "id": "minecraft:black_dye"
+  },
+  "result_count": 2
+}

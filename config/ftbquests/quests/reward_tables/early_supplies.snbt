@@ -1,0 +1,69 @@
+{
+	id: "67FCE4ED365DF7D3"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 16
+			id: "0D8B534B44FECA3A"
+			item: {
+				count: 1
+				id: "minecraft:torch"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 6
+			id: "28B8D5556E2DCC65"
+			item: {
+				count: 1
+				id: "minecraft:bread"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 12
+			id: "371E51736B9E5E8E"
+			item: {
+				count: 1
+				id: "minecraft:bone_meal"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 8
+			id: "0E8E65088D3DE3AF"
+			item: {
+				count: 1
+				id: "minecraft:glass"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 8
+			id: "774363021CAAF3BA"
+			item: {
+				count: 1
+				id: "minecraft:coal"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 16
+			id: "7EC1FAA7B9700575"
+			item: {
+				count: 1
+				id: "minecraft:oak_log"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 4
+			id: "52D0174EC39E576C"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+		}
+	]
+}

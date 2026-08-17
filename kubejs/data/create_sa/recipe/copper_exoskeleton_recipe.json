@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "RCR",
+    "EAE",
+    "B B"
+  ],
+  "key": {
+    "R": {
+      "item": "kubejs:resine_sheet"
+    },
+    "C": {
+      "item": "create:copper_casing"
+    },
+    "E": {
+      "item": "create_sa:hydraulic_engine"
+    },
+    "A": {
+      "item": "kubejs:resine_sheet"
+    },
+    "B": {
+      "tag": "c:storage_blocks/copper"
+    }
+  },
+  "result": {
+    "id": "create_sa:copper_exoskeleton_chestplate",
+    "count": 1
+  }
+}

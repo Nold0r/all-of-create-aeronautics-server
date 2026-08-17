@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "CCCCC",
+    "CQIQC",
+    "CSXSC",
+    "CQCQC",
+    "CCCCC"
+  ],
+  "key": {
+    "C": {
+      "item": "createnuclear:reactor_casing"
+    },
+    "Q": {
+      "item": "kubejs:quartz_mechanism"
+    },
+    "I": {
+      "item": "kubejs:induction_mechanism"
+    },
+    "S": {
+      "item": "kubejs:sync_mechanism"
+    },
+    "X": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "id": "createnuclear:reactor_controller",
+    "count": 1
+  }
+}

@@ -1,0 +1,50 @@
+#Master toggle for Sky Archipelago structure debug output (verbose placement logs + debug broadcasts).
+structureDebugEnabled = false
+#Broadcast accepted POI coordinates in server chat for debugging.
+structureDebugBroadcastEnabled = false
+#Emit detailed accepted/rejected structure placement logs.
+structureVerboseLogsEnabled = false
+#Suppress per-structure verbose logs for SMALL LAND placements; aggregate summary still records them.
+suppressSmallLandVerboseLogs = false
+#When enabled, only emit verbose logs related to UNDERGROUND structure placement.
+undergroundVerboseOnly = false
+#Emit periodic worldgen cache metrics (hit/miss/eviction age) for tuning cache unload behavior.
+cacheMetricsLogsEnabled = false
+#Enable adaptive TTL tuning for the worldgen column cache.
+adaptiveColumnCacheEnabled = true
+#Minimum adaptive TTL for column cache entries, in seconds.
+# Default: 15
+# Range: 1 ~ 3600
+adaptiveColumnCacheMinTtlSeconds = 15
+#Maximum adaptive TTL for column cache entries, in seconds.
+# Default: 180
+# Range: 1 ~ 3600
+adaptiveColumnCacheMaxTtlSeconds = 180
+#Adaptive TTL retune interval for column cache, in seconds.
+# Default: 15
+# Range: 1 ~ 300
+adaptiveColumnCacheRetuneIntervalSeconds = 15
+#Percent step used when increasing or decreasing adaptive column cache TTL.
+# Default: 15
+# Range: 1 ~ 100
+adaptiveColumnCacheAdjustmentPercent = 15
+#Misses/second threshold that indicates high pressure for adaptive column cache TTL tuning.
+# Default: 4000.0
+# Range: 1.0 ~ 1000000.0
+adaptiveColumnCacheHighPressureMissRateThreshold = 4000.0
+#Target hit rate for adaptive column cache TTL tuning.
+# Default: 0.85
+# Range: 0.0 ~ 1.0
+adaptiveColumnCacheTargetHitRate = 0.85
+#Guard per-structure feature placement failures so one bad structure cannot crash chunk generation.
+structurePlacementCrashShieldEnabled = true
+#Strict mode for structure placement crash shield. When true, guarded placement failures are rethrown.
+structurePlacementCrashShieldStrict = false
+#Rate limit window in seconds for repeating crash-shield warning logs per structure id.
+# Default: 30
+# Range: 1 ~ 3600
+structurePlacementCrashShieldRateLimitSeconds = 30
+#Place category-colored wool pillars and log coordinates for structure generation attempts.
+structureAttemptPillarsEnabled = false
+#Serialize final structure placement mutations for compatibility with parallel worldgen mods such as C2ME. Disable only for benchmarking or debugging.
+serializeStructurePlacementForParallelWorldgen = true

@@ -1,0 +1,5 @@
+{
+  "fzzy_config.text.or_2": "%1$s или %2$s",
+  "fzzy_config.text.or_3": "%1$s, %2$s",
+  "fzzy_config.text.and_2": "%1$s и %2$s"
+}

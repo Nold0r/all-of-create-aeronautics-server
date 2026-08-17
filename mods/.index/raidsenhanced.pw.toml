@@ -1,0 +1,22 @@
+filename = 'raidsenhanced-1.0.2-1.21.1.jar'
+name = 'Raids:Enhanced'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.2'
+
+[download]
+hash = 'b80abf667c5ced3980eca5405e40e34274015dd68a16617a1b2c80ad437cd0f9957d11065edafe94dc6a7acdd6ae84e6c56841ecc27c4bcdcc537557e962dcf8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/jxtyw6LI/versions/nWec2xcv/raidsenhanced-1.0.2-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'jxtyw6LI'
+version = 'nWec2xcv'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LcmGQfK2'
+type = 'REQUIRED'
+version = 'bZKs2lFt'

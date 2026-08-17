@@ -1,0 +1,52 @@
+{
+	id: "2A00000000000007"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{
+			count: 12
+			id: "01B78B48024C9C69"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 8
+			id: "2C23D80146CE26EC"
+			item: {
+				count: 1
+				id: "createnuclear:lead_ingot"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 4
+			id: "2A5EE92EEF185458"
+			item: {
+				count: 1
+				id: "createnuclear:graphite_rod"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 16
+			id: "23867D6E7E921C4C"
+			item: {
+				count: 1
+				id: "minecraft:glass"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 8
+			id: "25BEE6F7655617B7"
+			item: {
+				count: 1
+				id: "create:fluid_pipe"
+			}
+			weight: 3.0f
+		}
+	]
+}

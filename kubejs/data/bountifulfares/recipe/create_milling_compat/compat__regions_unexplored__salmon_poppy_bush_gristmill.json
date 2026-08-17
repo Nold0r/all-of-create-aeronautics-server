@@ -1,0 +1,15 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "type": "neoforge:compound",
+    "ingredients": [
+      {
+        "item": "regions_unexplored:salmon_poppy_bush"
+      }
+    ]
+  },
+  "result": {
+    "id": "minecraft:pink_dye"
+  },
+  "result_count": 2
+}

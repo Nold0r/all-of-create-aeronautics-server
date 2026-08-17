@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "HTH",
+    "RBR",
+    " C "
+  ],
+  "key": {
+    "H": {
+      "item": "create_sa:heat_engine"
+    },
+    "T": {
+      "item": "create:fluid_tank"
+    },
+    "R": {
+      "item": "kubejs:armour_resine"
+    },
+    "B": {
+      "item": "create:blaze_burner"
+    },
+    "C": {
+      "item": "kubejs:copper_spool"
+    }
+  },
+  "result": {
+    "id": "create_sa:flamethrower",
+    "count": 1
+  }
+}

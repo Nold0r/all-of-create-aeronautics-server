@@ -1,0 +1,15 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "type": "neoforge:compound",
+    "ingredients": [
+      {
+        "item": "regions_unexplored:pink_snowbelle"
+      }
+    ]
+  },
+  "result": {
+    "id": "minecraft:pink_dye"
+  },
+  "result_count": 2
+}

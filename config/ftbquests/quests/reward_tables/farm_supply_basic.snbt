@@ -1,0 +1,51 @@
+{
+	id: "2A00000000000003"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{
+			count: 16
+			id: "229853305A1E729D"
+			item: {
+				count: 1
+				id: "minecraft:bone_meal"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 8
+			id: "1537AF075D61EA58"
+			item: {
+				count: 1
+				id: "minecraft:wheat_seeds"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "2EFFA3D8CC3EDFFA"
+			item: {
+				count: 1
+				id: "minecraft:composter"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 8
+			id: "63A559C6C344211D"
+			item: {
+				count: 1
+				id: "farmersdelight:straw"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 2
+			id: "57F469A3FD241FCA"
+			item: {
+				count: 1
+				id: "minecraft:golden_carrot"
+			}
+			weight: 2.0f
+		}
+	]
+}

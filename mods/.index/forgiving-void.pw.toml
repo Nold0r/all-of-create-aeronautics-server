@@ -1,0 +1,21 @@
+filename = 'forgivingvoid-neoforge-1.21.1-21.1.7.jar'
+name = 'Forgiving Void'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '21.1.7+neoforge-1.21.1'
+
+[download]
+hash = '2f6f77d90ee117efbd14737a7ef58afce1c80074b0cec7045b2a6b5faf657577ebc3fb835d2e15b76936c8e83e7454fa1c6a2d96b7e0e042f51bcf82edce602c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/1vkzEZjE/versions/dtmmErtS/forgivingvoid-neoforge-1.21.1-21.1.7.jar'
+
+[update.modrinth]
+mod-id = '1vkzEZjE'
+version = 'dtmmErtS'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'MBAkmtvl'
+type = 'REQUIRED'

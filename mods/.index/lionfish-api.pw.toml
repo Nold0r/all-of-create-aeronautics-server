@@ -1,0 +1,18 @@
+filename = 'lionfishapi-2.7-fix-fix.jar'
+name = 'Lionfish-API'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.7'
+
+[download]
+hash = '3c5b6a6d355e71352eaae2e327a097158a77b93d834480455ac0fcb9238909353cdcabf86eff17711ece4da2a6fac87f5b639b9da29889286e9f58f6ffa7e2a8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/FoVacERa/versions/FaK9Vh36/lionfishapi-2.7-fix-fix.jar'
+
+[update.modrinth]
+mod-id = 'FoVacERa'
+version = 'FaK9Vh36'

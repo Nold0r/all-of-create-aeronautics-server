@@ -1,0 +1,21 @@
+filename = 'waterwheelbearing-2.0.5.jar'
+name = 'Create: Water Wheel Bearing'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.0.5'
+
+[download]
+hash = '48d4587e89eac5b3b63ea79f6c72bf05a67188506c3090e79eaada27b1896fed9ecd5ea698d8aa5e5aff8e4bc247c5cc41cf46a70f676fe9fd25c73c4e85be7e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/t3NoiI5a/versions/Qr4DY1BH/waterwheelbearing-2.0.5.jar'
+
+[update.modrinth]
+mod-id = 't3NoiI5a'
+version = 'Qr4DY1BH'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'

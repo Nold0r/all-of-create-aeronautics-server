@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BHB",
+    "PEP",
+    "BHB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:blaze_powder"
+    },
+    "H": {
+      "item": "create_sa:heat_engine"
+    },
+    "P": {
+      "item": "kubejs:paste"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "id": "endrem:nether_eye"
+  }
+}

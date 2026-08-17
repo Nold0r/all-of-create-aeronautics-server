@@ -1,0 +1,52 @@
+{
+	id: "3E00DC18F5A20B61"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{
+			count: 8
+			id: "4A69862B923DAF30"
+			item: {
+				count: 1
+				id: "minecraft:golden_carrot"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 4
+			id: "485FFED3D898B294"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 8
+			id: "575744088E1635CC"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 8
+			id: "33D48E661FE32309"
+			item: {
+				count: 1
+				id: "minecraft:obsidian"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 12
+			id: "114927B2C7D9930F"
+			item: {
+				count: 1
+				id: "minecraft:golden_carrot"
+			}
+			weight: 3.0f
+		}
+	]
+}

@@ -1,0 +1,37 @@
+filename = 'sliceanddice-forge-4.2.4.jar'
+name = 'Create Slice & Dice'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Neoforge 4.2.4'
+
+[download]
+hash = '13d8835813b3851d4818c59ec8f7124e4a826c14'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7738176
+project-id = 659674
+
+[[x-prismlauncher-dependencies]]
+addonId = '591666'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '398521'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '351264'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '688768'
+type = 'OPTIONAL'

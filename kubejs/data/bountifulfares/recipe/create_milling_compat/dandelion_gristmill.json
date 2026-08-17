@@ -1,0 +1,10 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "item": "minecraft:dandelion"
+  },
+  "result": {
+    "id": "minecraft:yellow_dye"
+  },
+  "result_count": 2
+}

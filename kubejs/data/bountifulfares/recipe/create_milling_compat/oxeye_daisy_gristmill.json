@@ -1,0 +1,10 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "item": "minecraft:oxeye_daisy"
+  },
+  "result": {
+    "id": "minecraft:light_gray_dye"
+  },
+  "result_count": 2
+}

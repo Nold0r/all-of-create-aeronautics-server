@@ -1,0 +1,11 @@
+[food_hud_position_preset]
+	#Position of the food slots on the HUD (accepted values: default, bottom_right, bottom_left, custom)
+	hud_preset = "default"
+
+[food_hud_position_custom]
+	#Horizontal (X-axis) position of the food slots on the HUD (default = 47)
+	hud_x_position = 47.0
+	#Vertical (Y-axis) position of the food slots on the HUD (default = -39)
+	hud_y_position = -39.0
+	#Scale of food slots on the HUD (default = 0.9)
+	hud_scale = 0.9

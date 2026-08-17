@@ -1,0 +1,18 @@
+filename = 'creategeoresonance-neoforge-1.21.1-1.1.0.jar'
+name = 'Create: Geo-Resonance'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-1.1.0'
+
+[download]
+hash = '154af51ff4328c221fa3aaa700ee1e0d128d598d87da7881323dfd7a3f037952541010275a47b0ed545799a5c45bd972ca3f9517d18b91cad73a4e99f9a98d0e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ALBz95b3/versions/I96jDvlS/creategeoresonance-neoforge-1.21.1-1.1.0.jar'
+
+[update.modrinth]
+mod-id = 'ALBz95b3'
+version = 'I96jDvlS'

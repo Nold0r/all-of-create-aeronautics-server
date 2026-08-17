@@ -1,0 +1,18 @@
+filename = 'Corgilib-NeoForge-1.21.1-5.0.0.9.jar'
+name = 'CorgiLib'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'CorgiLib-NeoForge-1.21.1-5.0.0.9'
+
+[download]
+hash = '6699f876f9e10f936910055f7fe1a283d8bb9e0f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7773534
+project-id = 693313

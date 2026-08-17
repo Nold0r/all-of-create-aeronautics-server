@@ -1,0 +1,10 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "item": "minecraft:azure_bluet"
+  },
+  "result": {
+    "id": "minecraft:light_gray_dye"
+  },
+  "result_count": 2
+}

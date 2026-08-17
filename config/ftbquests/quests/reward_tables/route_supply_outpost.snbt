@@ -1,0 +1,51 @@
+{
+	id: "2A00000000000006"
+	loot_size: 1
+	order_index: 21
+	rewards: [
+		{
+			count: 16
+			id: "7828BD1672912D4F"
+			item: {
+				count: 1
+				id: "create:track"
+			}
+			weight: 7.0f
+		}
+		{
+			count: 2
+			id: "7F2B8A01B9E4EFE8"
+			item: {
+				count: 1
+				id: "minecraft:chest"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 4
+			id: "65EC6E5B4EFB9487"
+			item: {
+				count: 1
+				id: "minecraft:barrel"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 4
+			id: "743594AE3A93E3F8"
+			item: {
+				count: 1
+				id: "minecraft:golden_carrot"
+			}
+			weight: 3.0f
+		}
+		{
+			id: "07384C0E465EF157"
+			item: {
+				count: 1
+				id: "minecraft:compass"
+			}
+			weight: 2.0f
+		}
+	]
+}

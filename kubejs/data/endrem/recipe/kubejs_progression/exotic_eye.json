@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PFP",
+    "MHM",
+    "PFP"
+  ],
+  "key": {
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "F": {
+      "item": "kubejs:brass_frame"
+    },
+    "M": {
+      "item": "kubejs:alloy_zink_brass"
+    },
+    "H": {
+      "item": "cataclysm:monstrous_horn"
+    }
+  },
+  "result": {
+    "id": "endrem:exotic_eye"
+  }
+}

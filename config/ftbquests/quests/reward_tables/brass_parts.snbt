@@ -1,0 +1,60 @@
+{
+	id: "2220C661323FBF3C"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			count: 4
+			id: "53FB99422CC1594B"
+			item: {
+				count: 1
+				id: "create:brass_sheet"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 2
+			id: "1167D3DA8FADA445"
+			item: {
+				count: 1
+				id: "create:brass_casing"
+			}
+			weight: 4.0f
+		}
+		{
+			id: "6249E5B9AFB8251A"
+			item: {
+				count: 1
+				id: "create:precision_mechanism"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 2
+			id: "34E2D6617032660D"
+			item: {
+				count: 1
+				id: "create:filter"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 8
+			id: "3BCF2F7898F4D07B"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 8
+			id: "466D25922C3F3851"
+			item: {
+				count: 1
+				id: "create:belt_connector"
+			}
+			weight: 3.0f
+		}
+	]
+}

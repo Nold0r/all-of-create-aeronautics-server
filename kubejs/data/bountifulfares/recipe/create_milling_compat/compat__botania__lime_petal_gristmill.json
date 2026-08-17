@@ -1,0 +1,10 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "tag": "botania:petals/lime"
+  },
+  "result": {
+    "id": "minecraft:lime_dye"
+  },
+  "result_count": 1
+}

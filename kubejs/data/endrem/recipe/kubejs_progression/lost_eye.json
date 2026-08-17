@@ -1,0 +1,31 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "TSST",
+    "FPEF",
+    "FEPF",
+    "TSST"
+  ],
+  "key": {
+    "T": {
+      "item": "create:track"
+    },
+    "S": {
+      "item": "create:track_station"
+    },
+    "F": {
+      "item": "create:brass_funnel"
+    },
+    "P": {
+      "item": "create:portable_storage_interface"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "id": "endrem:lost_eye"
+  }
+}

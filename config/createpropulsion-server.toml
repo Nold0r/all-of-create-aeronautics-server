@@ -1,0 +1,257 @@
+[thruster]
+	#Base thrust at redstone 15 and full obstruction efficiency for the standard thruster.
+	#Effective thrust uses: baseThrust * fuel_thrust_percent / 100.
+	# Default: 600.0
+	# Range: 1.0 ~ 1.0E7
+	baseThrust = 600.0
+	#How many blocks behind the nozzle are checked for obstruction.
+	# Default: 10
+	# Range: 1 ~ 64
+	obstructionScanLength = 10
+	#If true, standard thrusters require configured fluid fuel to produce force.
+	requireFuel = true
+	#Internal fuel tank capacity in millibuckets.
+	# Default: 250
+	# Range: 250 ~ 64000
+	fuelTankCapacityMb = 250
+	#Standard thruster speed limit in blocks per second.
+	# Default: 600
+	# Range: 1 ~ 10000000
+	thrusterMaxSpeed = 600
+	#Creative thruster speed limit in blocks per second.
+	# Default: 10000
+	# Range: 1 ~ 100000
+	creativeThrusterMaxSpeed = 10000
+	#Ion thruster speed limit in blocks per second.
+	# Default: 1000
+	# Range: 1 ~ 10000000
+	ionThrusterMaxSpeed = 1000
+	#Creative thruster max thrust in pN.
+	# Default: 10000.0
+	# Range: 10.0 ~ 1000000.0
+	creativeThrusterMaxThrust = 10000.0
+	#Fuel consumption in millibuckets per tick at full redstone throttle.
+	# Default: 1.0
+	# Range: 1.0E-4 ~ 1000.0
+	fuelMbPerTickAtFullThrottle = 1.0
+	#Ion thruster internal FE capacity.
+	# Default: 1000
+	# Range: 1 ~ 100000000
+	ionThrusterEnergyCapacityFe = 1000
+	#Ion thruster energy consumption in FE per tick at full redstone throttle.
+	# Default: 80.0
+	# Range: 1.0E-4 ~ 1000000.0
+	ionThrusterFePerTickAtFullThrottle = 80.0
+	#Ion thruster base thrust at redstone 15 and full obstruction efficiency.
+	# Default: 1000.0
+	# Range: 1.0 ~ 1.0E7
+	ionThrusterBaseThrust = 1000.0
+	#If true, entities inside active thruster plume are damaged.
+	damageEntities = true
+	#How often plume damage checks run, in ticks.
+	# Default: 5
+	# Range: 1 ~ 40
+	damageTickInterval = 5
+	#Offset from the block center where force is applied.
+	# Default: 0.45
+	# Range: 0.0 ~ 1.5
+	nozzleOffsetFromCenter = 0.45
+	#If true, atmospheric pressure affects thruster output at altitude.
+	useAtmosphericPressure = false
+	#Strength of atmospheric pressure influence. 1.0 = full effect, 0.0 = no effect.
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	atmosphericPressureAmount = 1.0
+	#Max client particles per tick while active.
+	# Default: 4
+	# Range: 0 ~ 64
+	clientParticlesPerTick = 4
+	#Ground friction coefficient applied while a thruster detects support under it.
+	# Default: 0.08
+	# Range: 0.0 ~ 5.0
+	groundFrictionCoefficient = 0.08
+	#Grounded linear drag coefficient in pN per m/s.
+	# Default: 180.0
+	# Range: 0.0 ~ 10000.0
+	groundLinearDrag = 180.0
+	#Additional grounded rolling resistance in pN.
+	# Default: 80.0
+	# Range: 0.0 ~ 10000.0
+	groundRollingResistance = 80.0
+	#Horizontal speed below this value is treated as stopped for grounded drag.
+	# Default: 0.03
+	# Range: 0.0 ~ 5.0
+	groundedSpeedDeadzone = 0.03
+	#How far downward a thruster probes to detect grounded support.
+	# Default: 1.5
+	# Range: 0.05 ~ 5.0
+	groundProbeDistance = 1.5
+	#Thrust is multiplied by that.
+	"Thrust multiplier" = 1.0
+	#Fuel consumption is multiplied by that.
+	"Fuel consumption" = 1.0
+	#Thruster tick rate. Lower values make fluid consumption a little more precise.
+	# Default: 10
+	# Range: 1 ~ 100
+	"Thruster tick rate" = 10
+	#If true - thrusters will damage entities.
+	"Thrusters damage entities" = true
+
+	[thruster.fuelTable]
+		#Fuel table entries as '<namespace:fluid>=<thrust_percent>,<burn_rate_percent>'.
+		#Example: createpropulsion:turpentine=80,120
+		fuelProperties = ["createpropulsion:turpentine=80,120", "minecraft:lava=75,100", "createdieselgenerators:plant_oil=55,170", "immersiveengineering:plantoil=55,170", "createdieselgenerators:ethanol=70,140", "immersiveengineering:ethanol=70,140", "mekanismgenerators:bioethanol=75,135", "northstar:biofuel=80,125", "createdieselgenerators:biodiesel=90,110", "immersiveengineering:biodiesel=90,110", "immersiveengineering:high_power_biodiesel=105,95", "createdieselgenerators:diesel=100,100", "tfmg:diesel=100,100", "stellaris:diesel=100,100", "tfmg:naphtha=95,105", "tfmg:kerosene=115,90", "createdieselgenerators:gasoline=125,80", "tfmg:gasoline=125,80", "tfmg:lpg=120,85", "northstar:hydrocarbon=130,75", "stellaris:fuel=115,100", "mekanism:hydrogen=120,80", "createaddition:bioethanol=75,135", "createaddition:seed_oil=55,170", "northstar:methane=105,95", "northstar:liquid_hydrogen=125,80", "immersivepetroleum:diesel_sulfur=100,100"]
+
+	[thruster.tiltAdapter]
+		#Maximum angle the tilt adapter can rotate to, in degrees.
+		# Default: 90.0
+		# Range: 0.0 ~ 180.0
+		tiltAdapterMaxAngle = 90.0
+
+["Creative Thruster"]
+	#Thrust is multiplied by that.
+	"Creative thrust multiplier" = 1.0
+
+["Optical sensors"]
+	#How many ticks between casting a ray.
+	# Default: 2
+	# Range: 1 ~ 100
+	"Optical sensor tick rate" = 2
+	#Length of the raycast ray.
+	# Default: 16
+	# Range: 4 ~ 32
+	"Inline optical sensor max raycast distance" = 16
+	#Length of the raycast ray. Very high values may degrade performance.
+	# Default: 32
+	# Range: 8 ~ 64
+	"Optical sensor max raycast distance" = 32
+
+[Wing]
+	#Wing's lift force is multiplied by this number.
+	"Base lift" = 150.0
+	#Wing's drag force is multiplied by this number.
+	"Base drag" = 150.0
+
+["Stirling Engine"]
+	#Change this value to modify the amount of stress units produced by stirling engine. Value of 16 corresponds to 4096 SU.
+	# Default: 16.0
+	# Range: 1.0 ~ 64.0
+	"Generated stress units" = 16.0
+
+["Tilt Adapter"]
+	#Maximum absolute output angle in degrees, reached at full redstone differential.
+	# Default: 90.0
+	# Range: 0.0 ~ 180.0
+	"Maximum angle range" = 90.0
+
+[Burners]
+	#If true - both solid and liquid burners can provide heat to heated mixers allowing for pre-nether brass.
+	"Burners power heated mixers" = true
+
+["Fuel Efficiency"]
+	#Default fluid efficiency multiplier. 1.0 = 100%.
+	# Default: 1.0
+	# Range: 0.01 ~ 10.0
+	"Default efficiency" = 1.0
+
+	["Fuel Efficiency"."Fluid Overrides"]
+		#minecraft:lava
+		# Default: 0.75
+		# Range: 0.01 ~ 10.0
+		Lava = 0.75
+		#createpropulsion:turpentine
+		# Default: 1.0
+		# Range: 0.01 ~ 10.0
+		Turpentine = 1.0
+		#createdieselgenerators:diesel
+		# Default: 1.0
+		# Range: 0.01 ~ 10.0
+		"CDG Diesel" = 1.0
+		#createdieselgenerators:gasoline
+		# Default: 1.1
+		# Range: 0.01 ~ 10.0
+		"CDG Gasoline" = 1.1
+		#createdieselgenerators:ethanol
+		# Default: 1.0
+		# Range: 0.01 ~ 10.0
+		"CDG Ethanol" = 1.0
+		#createdieselgenerators:biodiesel
+		# Default: 1.0
+		# Range: 0.01 ~ 10.0
+		"CDG Biodiesel" = 1.0
+		#createdieselgenerators:plant_oil
+		# Default: 0.9
+		# Range: 0.01 ~ 10.0
+		"CDG Plant Oil" = 0.9
+		#tfmg:diesel
+		# Default: 1.0
+		# Range: 0.01 ~ 10.0
+		"TFMG Diesel" = 1.0
+		#tfmg:gasoline
+		# Default: 1.1
+		# Range: 0.01 ~ 10.0
+		"TFMG Gasoline" = 1.1
+		#tfmg:kerosene
+		# Default: 1.05
+		# Range: 0.01 ~ 10.0
+		"TFMG Kerosene" = 1.05
+		#tfmg:naphtha
+		# Default: 0.95
+		# Range: 0.01 ~ 10.0
+		"TFMG Naphtha" = 0.95
+		#immersiveengineering:biodiesel
+		# Default: 1.0
+		# Range: 0.01 ~ 10.0
+		"IE Biodiesel" = 1.0
+		#immersiveengineering:ethanol
+		# Default: 1.0
+		# Range: 0.01 ~ 10.0
+		"IE Ethanol" = 1.0
+		#immersiveengineering:plant_oil
+		# Default: 0.9
+		# Range: 0.01 ~ 10.0
+		"IE Plant Oil" = 0.9
+		#immersivepetroleum:diesel
+		# Default: 1.0
+		# Range: 0.01 ~ 10.0
+		"IP Diesel" = 1.0
+		#immersivepetroleum:diesel_sulfur
+		# Default: 1.0
+		# Range: 0.01 ~ 10.0
+		"IP Sulfur Diesel" = 1.0
+		#immersivepetroleum:gasoline
+		# Default: 1.1
+		# Range: 0.01 ~ 10.0
+		"IP Gasoline" = 1.1
+		#mekanism:hydrogen
+		# Default: 1.2
+		# Range: 0.01 ~ 10.0
+		"Mekanism Hydrogen" = 1.2
+		#mekanismgenerators:bioethanol
+		# Default: 1.35
+		# Range: 0.01 ~ 10.0
+		"Mekanism Generators Bioethanol" = 1.35
+		#northstar:biofuel
+		# Default: 1.0
+		# Range: 0.01 ~ 10.0
+		"Northstar Biofuel" = 1.0
+		#northstar:hydrocarbon
+		# Default: 1.1
+		# Range: 0.01 ~ 10.0
+		"Northstar Hydrocarbon" = 1.1
+		#northstar:methane
+		# Default: 1.05
+		# Range: 0.01 ~ 10.0
+		"Northstar Methane" = 1.05
+		#northstar:liquid_hydrogen
+		# Default: 1.25
+		# Range: 0.01 ~ 10.0
+		"Northstar Liquid Hydrogen" = 1.25
+		#stellaris:fuel
+		# Default: 1.2
+		# Range: 0.01 ~ 10.0
+		"Stellaris Fuel" = 1.2
+		#stellaris:diesel
+		# Default: 1.0
+		# Range: 0.01 ~ 10.0
+		"Stellaris Diesel" = 1.0

@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "CIEC",
+    "ISSI",
+    "ISSI",
+    "CEIC"
+  ],
+  "key": {
+    "C": {
+      "item": "cataclysm:cursium_ingot"
+    },
+    "I": {
+      "item": "kubejs:induction_mechanism"
+    },
+    "S": {
+      "item": "kubejs:sealed_mechanism"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "id": "endrem:cursed_eye"
+  }
+}

@@ -1,0 +1,79 @@
+{
+	id: "6C22A2E2AC4C15A4"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			count: 16
+			id: "4360F949B7445E62"
+			item: {
+				count: 1
+				id: "minecraft:bone_meal"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 8
+			id: "004287BF5575BF74"
+			item: {
+				count: 1
+				id: "minecraft:wheat_seeds"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 8
+			id: "290F58FD7E0D2308"
+			item: {
+				count: 1
+				id: "minecraft:bread"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 4
+			id: "199050614F183BF3"
+			item: {
+				count: 1
+				id: "farmersdelight:rope"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 4
+			id: "6E321B7E0A9411C8"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bountifulfares:maize_seeds"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 4
+			id: "742BE68317A2CFCB"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bountifulfares:leek_seeds"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 4
+			id: "4AFD92A17C98C64B"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bountifulfares:tea_berries"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 2.0f
+		}
+	]
+}

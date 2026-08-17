@@ -1,0 +1,21 @@
+#.
+#Enable image sharing to a remote server if another mod provides this functionality.
+enableImageSharing = true
+#.
+#If a schematic preview is available use its rotation when rendering an image.
+usePreviewRotation = true
+#.
+#Default width used whenever a player saves or shares a schematic image using a button.
+# Default: 1024
+# Range: 64 ~ 8192
+defaultWidth = 1024
+#.
+#Width used whenever a player holds SHIFT before saving or sharing a schematic image using a button.
+# Default: 2048
+# Range: 64 ~ 8192
+alternateWidth = 2048
+#.
+#Default antialiasing factor for a schematic Image.
+# Default: 2
+# Range: 1 ~ 4
+defaultAntialiasing = 2

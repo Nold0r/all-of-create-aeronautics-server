@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "bountifulfares:flour",
+    "create:wheat_flour"
+  ]
+}

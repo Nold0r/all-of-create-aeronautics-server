@@ -1,0 +1,45 @@
+{
+  "pools": [
+    {
+      "name": "mini",
+      "elements": [
+        "mini_aeroship_1",
+        "mini_aeroship_2",
+        "mini_aeroship_3",
+        "mini_aeroship_4"
+      ],
+      "height": 170,
+      "spacing": 750
+    },
+    {
+      "name": "medium",
+      "elements": [
+        "medium_aeroship_1",
+        "medium_aeroship_2",
+        "medium_aeroship_3",
+        "medium_aeroship_4",
+        "medium_aeroship_5",
+        "medium_aeroship_6"
+    
+      "height": 190,
+      "spacing": 1300
+    },
+    {
+      "name": "big_aeroship",
+      "elements": [
+        "big_aeroship_1",
+        "big_aeroship_2",
+        "big_aeroship_3",
+        "big_aeroship_4",
+        "big_aeroship_5",
+        "big_aeroship_6"
+      ],
+      "height": 200,
+      "spacing": 3500
+    }
+  ],
+  "messages": {
+    "enterChat": "Похоже этот корабль захватили разбойники! Зачисти его чтобы получить доступ",
+    "clearChat": "Корабль освобожден!"
+  }
+}

@@ -1,0 +1,60 @@
+{
+	id: "64EC99A9A5CE7DE7"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{
+			count: 8
+			id: "4095A829C2969707"
+			item: {
+				count: 1
+				id: "aeronautics:white_envelope"
+			}
+			weight: 7.0f
+		}
+		{
+			id: "0471D92545357248"
+			item: {
+				count: 1
+				id: "create:super_glue"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 12
+			id: "6D029D5490929644"
+			item: {
+				count: 1
+				id: "create:shaft"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 8
+			id: "2BC58E3940F04B08"
+			item: {
+				count: 1
+				id: "create:belt_connector"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 12
+			id: "0E20B51CFF24B861"
+			item: {
+				count: 1
+				id: "minecraft:string"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 8
+			id: "6197634C67C650A1"
+			item: {
+				count: 1
+				id: "minecraft:bread"
+			}
+			weight: 3.0f
+		}
+	]
+}

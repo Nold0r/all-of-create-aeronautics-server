@@ -1,0 +1,27 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "category": "misc",
+  "pattern": [
+    "DMD",
+    "VBV",
+    "DMD"
+  ],
+  "key": {
+    "B": {
+      "item": "sophisticatedbackpacks:gold_backpack"
+    },
+    "D": {
+      "tag": "c:gems/diamond"
+    },
+    "M": {
+      "item": "kubejs:sync_mechanism"
+    },
+    "V": {
+      "item": "create_sa:vault_component"
+    }
+  },
+  "result": {
+    "id": "sophisticatedbackpacks:diamond_backpack",
+    "count": 1
+  }
+}

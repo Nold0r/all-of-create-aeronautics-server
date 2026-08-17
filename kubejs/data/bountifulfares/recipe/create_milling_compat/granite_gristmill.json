@@ -1,0 +1,10 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "item": "minecraft:granite"
+  },
+  "result": {
+    "id": "minecraft:red_sand"
+  },
+  "result_count": 1
+}

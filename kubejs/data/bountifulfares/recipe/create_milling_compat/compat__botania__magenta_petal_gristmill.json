@@ -1,0 +1,10 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "tag": "botania:petals/magenta"
+  },
+  "result": {
+    "id": "minecraft:magenta_dye"
+  },
+  "result_count": 1
+}

@@ -1,0 +1,352 @@
+#Chance that a cluster cell becomes an island anchor. Lower values create larger sky gaps.
+# Default: 0.4
+# Range: 0.01 ~ 1.0
+islandDensity = 0.4
+#Minimum horizontal island radius in blocks.
+# Default: 30
+# Range: 8 ~ 128
+minIslandRadius = 30
+#Maximum horizontal island radius in blocks.
+# Default: 75
+# Range: 8 ~ 500
+maxIslandRadius = 75
+#How island radius sizes are selected. RANDOM preserves global min/max behavior, SPECIFIC uses small/medium/large bands.
+#Allowed Values: RANDOM, SPECIFIC
+islandSizeMode = "SPECIFIC"
+#Specific mode: minimum radius for small islands.
+# Default: 30
+# Range: 8 ~ 500
+smallIslandMinRadius = 24
+#Specific mode: maximum radius for small islands.
+# Default: 42
+# Range: 8 ~ 500
+smallIslandMaxRadius = 40
+#Specific mode: spawn weight for small islands.
+# Default: 0.28
+# Range: 0.0 ~ 1.0
+smallIslandWeight = 0.7
+#Specific mode: minimum radius for medium islands.
+# Default: 43
+# Range: 8 ~ 500
+mediumIslandMinRadius = 46
+#Specific mode: maximum radius for medium islands.
+# Default: 58
+# Range: 8 ~ 500
+mediumIslandMaxRadius = 60
+#Specific mode: spawn weight for medium islands.
+# Default: 0.3
+# Range: 0.0 ~ 1.0
+mediumIslandWeight = 0.2
+#Specific mode: minimum radius for large islands.
+# Default: 50
+# Range: 8 ~ 500
+largeIslandMinRadius = 61
+#Specific mode: maximum radius for large islands.
+# Default: 75
+# Range: 8 ~ 500
+largeIslandMaxRadius = 75
+#Specific mode: spawn weight for large islands.
+# Default: 0.42
+# Range: 0.0 ~ 1.0
+largeIslandWeight = 0.1
+#Minimum Y for island centers. Values above 320 require world-height expansion mods/settings.
+# Default: 20
+# Range: -32 ~ 2000
+minIslandY = 50
+#Maximum Y for island centers. Values above 320 require world-height expansion mods/settings.
+# Default: 170
+# Range: -16 ~ 2000
+maxIslandY = 200
+#Maximum vertical island thickness in blocks. Prevents giant islands from becoming too tall/deep.
+# Default: 140
+# Range: 24 ~ 1024
+maxIslandThicknessBlocks = 24
+#Relative weight of the uncommon low-island height band.
+# Default: 0.15
+# Range: 0.0 ~ 10.0
+lowBandWeight = 0.15
+#Relative weight of the dominant mid/high island height band.
+# Default: 0.75
+# Range: 0.0 ~ 10.0
+midHighBandWeight = 0.75
+#Relative weight of the rare very-high island height band.
+# Default: 0.1
+# Range: 0.0 ~ 10.0
+veryHighBandWeight = 0.4
+#Center offset applied to the low-island band within the configured vertical envelope.
+# Default: -18
+# Range: -96 ~ 96
+lowBandCenterOffset = -18
+#Center offset applied to the very-high island band within the configured vertical envelope.
+# Default: 12
+# Range: -96 ~ 96
+veryHighBandCenterOffset = 12
+#Cluster spacing mode. CONSISTENT uses fixed spacing. DYNAMIC picks deterministic per-world spacing from min/max.
+#Allowed Values: CONSISTENT, DYNAMIC
+clusterSpacingMode = "CONSISTENT"
+#Average spacing between island clusters in blocks.
+# Default: 96
+# Range: 32 ~ 2000
+clusterSpacing = 123
+#Dynamic spacing mode: minimum cluster spacing in blocks.
+# Default: 96
+# Range: 32 ~ 2000
+minClusterSpacing = 96
+#Dynamic spacing mode: maximum cluster spacing in blocks.
+# Default: 96
+# Range: 32 ~ 2000
+maxClusterSpacing = 96
+#Multiplier for island top-surface height variation. Higher values create rougher, less flat tops.
+# Default: 1.0
+# Range: 0.0 ~ 40.0
+terrainReliefScale = 1
+#Whether the classic island archetype is allowed to spawn.
+classicArchetypeEnabled = true
+#Relative spawn weight for the classic island archetype.
+# Default: 1.0
+# Range: 0.0 ~ 10.0
+classicArchetypeWeight = 0.5
+#Whether the bowl/crater island archetype is allowed to spawn.
+bowlCraterArchetypeEnabled = false
+#Relative spawn weight for the bowl/crater island archetype.
+# Default: 1.0
+# Range: 0.0 ~ 10.0
+bowlCraterArchetypeWeight = 1
+#Whether the crescent island archetype is allowed to spawn.
+crescentArchetypeEnabled = true
+#Relative spawn weight for the crescent island archetype.
+# Default: 1.0
+# Range: 0.0 ~ 10.0
+crescentArchetypeWeight = 0.2
+#Whether the terrace island archetype is allowed to spawn.
+terraceArchetypeEnabled = true
+#Relative spawn weight for the terrace island archetype.
+# Default: 1.0
+# Range: 0.0 ~ 10.0
+terraceArchetypeWeight = 0.3
+#Whether to fill an optional ocean layer below the sky islands.
+oceanEnabled = true
+#Maximum Y level filled by the optional ocean layer when ocean generation is enabled. Values above 320 require world-height expansion mods/settings.
+# Default: 0
+# Range: -64 ~ 2000
+oceanLevelY = 0
+#Whether to shape an ocean floor beneath the ocean surface using deterministic noise.
+oceanFloorNoiseEnabled = true
+#Base depth below ocean level for the ocean floor shape.
+# Default: 18
+# Range: 0 ~ 2000
+oceanFloorBaseOffset = 18
+#Vertical amplitude of ocean floor noise in blocks.
+# Default: 10
+# Range: 0 ~ 2000
+oceanFloorNoiseAmplitude = 10
+#Horizontal scale of ocean floor noise. Lower values make broader features.
+# Default: 0.05
+# Range: 0.001 ~ 1.0
+oceanFloorNoiseScale = 0.05
+#Minimum depth below ocean level for ocean floor clamping.
+# Default: 8
+# Range: 1 ~ 2000
+oceanFloorMinDepth = 8
+#Maximum depth below ocean level for ocean floor clamping.
+# Default: 40
+# Range: 1 ~ 2000
+oceanFloorMaxDepth = 40
+#Fluid block used by the optional ocean layer. Accepted values: water, lava.
+oceanBlockType = "water"
+#How far below a structure footprint to scan for support.
+# Default: 48
+# Range: 1 ~ 256
+supportCheckDepth = 48
+#Grid size used to sample support across the structure footprint.
+# Default: 5
+# Range: 1 ~ 15
+supportSampleGridSize = 5
+#Required fraction of supported samples for a structure to be accepted.
+# Default: 0.6
+# Range: 0.0 ~ 1.0
+supportThreshold = 0.6
+#Required fraction of supported samples for surface-sky structures.
+# Default: 0.42
+# Range: 0.0 ~ 1.0
+surfaceSkySupportThreshold = 0.42
+#Required fraction of supported samples for small sky structures.
+# Default: 0.32
+# Range: 0.0 ~ 1.0
+smallSkySupportThreshold = 0.32
+#Inset ratio used to shrink support footprints for larger sky-surface structures.
+# Default: 0.18
+# Range: 0.0 ~ 0.49
+surfaceSkyFootprintInsetRatio = 0.18
+#Inset ratio used to shrink support footprints for smaller sky structures.
+# Default: 0.28
+# Range: 0.0 ~ 0.49
+smallSkyFootprintInsetRatio = 0.28
+#How many chunks outward to search for an island-top candidate for larger sky-surface structures.
+# Default: 3
+# Range: 0 ~ 12
+surfaceSkySearchRadiusChunks = 3
+#How many chunks outward to search for an island-top candidate for smaller sky structures.
+# Default: 6
+# Range: 0 ~ 12
+smallSkySearchRadiusChunks = 6
+#Minimum number of stable top-surface samples required for a larger sky-surface structure candidate.
+# Default: 12
+# Range: 1 ~ 64
+surfaceSkyMinStableTopCells = 12
+#Minimum number of stable top-surface samples required for a smaller sky structure candidate.
+# Default: 5
+# Range: 1 ~ 64
+smallSkyMinStableTopCells = 5
+#Vertical offset applied when aligning larger sky-surface structures to an island top.
+# Default: 1
+# Range: -16 ~ 32
+surfaceSkyTopOffset = 1
+#Vertical offset applied when aligning smaller sky structures to an island top.
+# Default: 1
+# Range: -16 ~ 32
+smallSkyTopOffset = 1
+#Block step size used when sweeping local placement sites for larger sky-surface structures.
+# Default: 8
+# Range: 1 ~ 32
+surfaceSkyLocalSearchStepBlocks = 8
+#Block step size used when sweeping local placement sites for smaller sky structures.
+# Default: 8
+# Range: 1 ~ 32
+smallSkyLocalSearchStepBlocks = 8
+#Maximum local offset radius in blocks tested across an island top for larger sky-surface structures.
+# Default: 16
+# Range: 0 ~ 96
+surfaceSkyLocalSearchRadiusBlocks = 16
+#Maximum local offset radius in blocks tested across an island top for smaller sky structures.
+# Default: 10
+# Range: 0 ~ 96
+smallSkyLocalSearchRadiusBlocks = 10
+#Required grounded-base sample ratio for larger sky-surface structures at their native X/Z placement.
+# Default: 0.7
+# Range: 0.0 ~ 1.0
+surfaceSkyGroundedSampleThreshold = 0.7
+#Required grounded-base sample ratio for smaller sky structures at their native X/Z placement.
+# Default: 0.75
+# Range: 0.0 ~ 1.0
+smallSkyGroundedSampleThreshold = 0.75
+#Maximum gap in blocks allowed between the native structure base and solid terrain for larger sky-surface structures.
+# Default: 1
+# Range: 0 ~ 8
+surfaceSkyMaxGroundGapBlocks = 1
+#Maximum gap in blocks allowed between the native structure base and solid terrain for smaller sky structures.
+# Default: 1
+# Range: 0 ~ 8
+smallSkyMaxGroundGapBlocks = 1
+#Minimum island preview radius required before a larger sky-surface structure can consider an island as a grounded host.
+# Default: 26
+# Range: 0 ~ 128
+surfaceSkyMinHostIslandRadius = 26
+#Minimum island preview radius required before a smaller sky structure can consider an island as a grounded host.
+# Default: 22
+# Range: 0 ~ 128
+smallSkyMinHostIslandRadius = 22
+#Minimum stable top-cell count required before a larger sky-surface structure considers an island a qualified grounded host.
+# Default: 10
+# Range: 1 ~ 64
+surfaceSkyMinHostStableTopCells = 10
+#Minimum stable top-cell count required before a smaller sky structure considers an island a qualified grounded host.
+# Default: 7
+# Range: 1 ~ 64
+smallSkyMinHostStableTopCells = 7
+#Block step size used when sweeping local placement sites for DEFAULT surface structures.
+# Default: 8
+# Range: 1 ~ 32
+defaultSurfaceLocalSearchStepBlocks = 8
+#Maximum local offset radius in blocks tested across an island top for DEFAULT surface structures.
+# Default: 24
+# Range: 0 ~ 96
+defaultSurfaceLocalSearchRadiusBlocks = 24
+#Expanded local offset radius in blocks for large or promising DEFAULT surface structures.
+# Default: 48
+# Range: 0 ~ 128
+defaultSurfaceLargeStructureLocalSearchRadiusBlocks = 48
+#Maximum staged site offsets evaluated for DEFAULT surface structures before stopping.
+# Default: 40
+# Range: 1 ~ 256
+defaultSurfaceMaxSiteOffsets = 26
+#DEFAULT throttling: minimum generation attempts before a zero-accept high-cost structure is throttled.
+# Default: 8
+# Range: 1 ~ 128
+defaultSurfaceThrottleAttemptThreshold = 8
+#DEFAULT throttling: per-attempt duration in milliseconds that qualifies as high cost.
+# Default: 25.0
+# Range: 0.0 ~ 60000.0
+defaultSurfaceThrottleDurationMsThreshold = 25
+#DEFAULT throttling: site-offset count that qualifies as high cost.
+# Default: 48
+# Range: 1 ~ 4096
+defaultSurfaceThrottleSiteOffsetsThreshold = 48
+#DEFAULT throttling: reduced max site offsets applied after the first regional zero-accept high-cost offense.
+# Default: 16
+# Range: 1 ~ 256
+defaultSurfaceThrottleReducedMaxSiteOffsets = 10
+#DEFAULT throttling: chunk width/height used to bucket regional throttle state.
+# Default: 32
+# Range: 1 ~ 256
+defaultSurfaceThrottleRegionSizeChunks = 32
+#Whether Sky Archipelago custom structure placement/support rules are enabled.
+customStructureRulesEnabled = true
+#Whether satellite/spire companion islands generate around anchor islands.
+clusterCompanionIslandsEnabled = true
+#Whether anchor islands use extra fragmentation features that create small outcroppings/debris.
+anchorFragmentationEnabled = true
+#Whether island clusters should be skipped when sampled biome is ocean.
+disableIslandsOverOceanBiomes = false
+#Whether vanilla shipwrecks may bypass their native biome restrictions and spawn anywhere.
+shipwrecksAllowedInAnyBiome = false
+#Island interior below or at this Y uses deepslate substrate. Values above 320 require world-height expansion mods/settings.
+# Default: 16
+# Range: -64 ~ 2000
+deepslateStartY = 64
+#Whether river/beach terrain profiles blend into neighboring non-river/beach profiles.
+biomeProfileBlendingEnabled = true
+#Neighborhood sample radius in blocks used by biome profile blending.
+# Default: 4
+# Range: 1 ~ 16
+biomeProfileBlendingRadiusBlocks = 4
+#Blend quantization steps. Higher values are smoother but slightly more variant.
+# Default: 8
+# Range: 2 ~ 64
+biomeProfileBlendingQuantizationSteps = 8
+#If true, extra blending samples run only near river/beach boundaries.
+biomeProfileBlendingBoundaryOnly = true
+#Whether smaller sky structures may use their compatibility fallback placement path.
+smallSkyPlacementFallbackEnabled = false
+#Whether larger sky-surface structures may use their compatibility fallback placement path.
+surfaceSkyPlacementFallbackEnabled = false
+#Whether legacy hamlet-category structures may use their compatibility fallback placement path.
+hamletSkyPlacementFallbackEnabled = false
+#How overlapping island terrain columns are resolved.
+#Allowed Values: VOID, OVERLAP, CRATER, RANDOM
+terrainOverlapMode = "VOID"
+#Structures that bypass normal support/grounding validation and are committed with minimal checks.
+#Whitelisted structures still require nearby-island presence via the whitelist void guard.
+#Examples: modid:sky_temple, modid:airship_wreck, modid:floating_platform
+skyStructureWhitelist = ["shellbound_for_airship:airship_ship1", "shellbound_for_airship:airship_ship2", "shellbound_for_airship:airship_ship3", "shellbound_for_airship:airship_ship4", "shellbound_for_airship:airship_ship5", "shellbound_for_airship:airship_ship6", "shellbound_for_airship:airship_ship7", "shellbound_for_airship:airship_ship8", "shellbound_for_airship:airship_ship9", "shellbound_for_airship:airship_ship10", "sky_whale_ship:whale", "sky_whale_ship:whaleship", "sky_whale_ship:whalelight", "sky_whale_ship:whalearena", "mostructures:the_castle_in_the_sky", "create_structures_arise:pillagersteampunkairship"]
+#Structures to skip entirely before placement validation.
+#Leave empty by default so future special handling can still be added later.
+skyStructureDenylist = []
+#Optional per-structure placement categories in the form modid:structure=CATEGORY.
+#Preferred categories: DEFAULT, SKY, SMALL_GROUND, MEDIUM_GROUND, LARGE_GROUND, GROUND_VILLAGE, STRONGHOLD, UNDERGROUND, WATER.
+#Legacy aliases still supported: SMALL_SKY, SURFACE_SKY, HAMLET_SKY.
+skyStructureCategoryOverrides = ["minecraft:pillager_outpost=MEDIUM_GROUND", "minecraft:mansion=LARGE_GROUND", "minecraft:ruined_portal_desert=SMALL_GROUND", "valhelsia_structures:desert_house=SMALL_GROUND", "repurposed_structures:outpost_oak=MEDIUM_GROUND", "valhelsia_structures:player_house=SMALL_GROUND", "valhelsia_structures:forge=SMALL_GROUND", "valhelsia_structures:tower_ruin=SMALL_GROUND", "valhelsia_structures:big_tree=SMALL_GROUND", "mostructures:villager_tower=MEDIUM_GROUND", "mostructures:villager_market=MEDIUM_GROUND", "mvs:large_warped_tower=LARGE_GROUND", "cataclysm:ancient_factory=SKY", "cataclysm:burning_arena=SKY", "cataclysm:cursed_pyramid=SKY", "cataclysm:frosted_prison=SKY", "cataclysm:soul_black_smith=SKY", "cataclysm:sunken_city=SKY"]
+#Category inference order when no explicit override is present: SKY, GROUND_VILLAGE, STRONGHOLD, UNDERGROUND, WATER, then MEDIUM_GROUND.
+#Keep broad MEDIUM_GROUND tokens empty unless you need them; normal uncategorized structures still use fallback/default placement.
+#Case-insensitive path tokens used to infer WATER category when no explicit override is present.
+waterStructureCategoryTokens = ["ocean", "water"]
+#Case-insensitive path tokens used to infer SKY category for floating structures when no explicit override is present.
+skyStructureCategoryTokens = ["sky", "airship", "floating", "cloud", "aerial"]
+#Case-insensitive path tokens used to infer MEDIUM_GROUND category when no explicit override is present.
+groundStructureCategoryTokens = []
+#Case-insensitive path tokens used to infer UNDERGROUND category when no explicit override is present.
+undergroundStructureCategoryTokens = ["mineshaft", "trial_chambers", "ancient_city", "underground", "cave"]
+#Case-insensitive path tokens used to infer GROUND_VILLAGE category when no explicit override is present.
+villageStructureCategoryTokens = ["village"]
+#Case-insensitive path tokens used to infer STRONGHOLD category when no explicit override is present.
+strongholdStructureCategoryTokens = ["stronghold"]

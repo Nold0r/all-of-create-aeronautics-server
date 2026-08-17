@@ -1,0 +1,51 @@
+{
+	id: "2A00000000000005"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{
+			count: 12
+			id: "4CBE6A9AF25B82C0"
+			item: {
+				count: 1
+				id: "create:fluid_pipe"
+			}
+			weight: 7.0f
+		}
+		{
+			count: 6
+			id: "61FA7BE58B2F4FD1"
+			item: {
+				count: 1
+				id: "create:copper_sheet"
+			}
+			weight: 6.0f
+		}
+		{
+			id: "2149228927DB1C54"
+			item: {
+				count: 1
+				id: "create:fluid_tank"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 2
+			id: "326992FA718B6D63"
+			item: {
+				count: 1
+				id: "minecraft:bucket"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 16
+			id: "5616FD7ABE202797"
+			item: {
+				count: 1
+				id: "minecraft:glass"
+			}
+			weight: 4.0f
+		}
+	]
+}

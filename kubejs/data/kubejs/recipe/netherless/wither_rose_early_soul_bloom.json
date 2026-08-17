@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " B ",
+    "RPS",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:black_dye"
+    },
+    "R": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "P": {
+      "item": "minecraft:poppy"
+    },
+    "S": {
+      "item": "minecraft:soul_sand"
+    }
+  },
+  "result": {
+    "id": "minecraft:wither_rose",
+    "count": 1
+  }
+}

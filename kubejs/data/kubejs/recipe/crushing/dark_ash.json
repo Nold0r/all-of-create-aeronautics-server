@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "create:scorchia"
+    }
+  ],
+  "processing_time": 250,
+  "results": [
+    {
+      "chance": 0.25,
+      "id": "createnuclear:raw_uranium"
+    },
+    {
+      "chance": 0.25,
+      "id": "createnuclear:uranium_powder"
+    }
+  ]
+}

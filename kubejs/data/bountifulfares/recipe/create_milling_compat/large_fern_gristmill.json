@@ -1,0 +1,10 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "item": "minecraft:large_fern"
+  },
+  "result": {
+    "id": "minecraft:green_dye"
+  },
+  "result_count": 2
+}

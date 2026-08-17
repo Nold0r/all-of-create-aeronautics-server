@@ -1,0 +1,37 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    " ABA ",
+    "CDEDC",
+    "CFGFC"
+  ],
+  "key": {
+    "A": {
+      "item": "kubejs:armour_resine"
+    },
+    "B": {
+      "item": "create:precision_mechanism"
+    },
+    "C": {
+      "item": "create:chute"
+    },
+    "D": {
+      "item": "create:mechanical_pump"
+    },
+    "E": {
+      "item": "create:fluid_tank"
+    },
+    "F": {
+      "item": "create:andesite_alloy"
+    },
+    "G": {
+      "item": "kubejs:sealed_mechanism"
+    }
+  },
+  "result": {
+    "id": "protection_pixel:heatpulsethruster",
+    "count": 1
+  }
+}

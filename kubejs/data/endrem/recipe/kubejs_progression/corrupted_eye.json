@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "LSGL",
+    "SUUS",
+    "SUUS",
+    "LGSL"
+  ],
+  "key": {
+    "L": {
+      "item": "createnuclear:lead_ingot"
+    },
+    "S": {
+      "item": "kubejs:sealed_mechanism"
+    },
+    "G": {
+      "item": "createnuclear:reinforced_glass"
+    },
+    "U": {
+      "item": "createnuclear:uranium_bucket"
+    }
+  },
+  "result": {
+    "id": "endrem:corrupted_eye"
+  }
+}

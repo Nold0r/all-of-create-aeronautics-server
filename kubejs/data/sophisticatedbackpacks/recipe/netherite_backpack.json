@@ -1,0 +1,16 @@
+{
+  "type": "sophisticatedbackpacks:smithing_backpack_upgrade",
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "sophisticatedbackpacks:diamond_backpack"
+  },
+  "addition": {
+    "item": "kubejs:induction_mechanism"
+  },
+  "result": {
+    "id": "sophisticatedbackpacks:netherite_backpack",
+    "count": 1
+  }
+}

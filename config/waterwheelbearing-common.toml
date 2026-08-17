@@ -1,0 +1,7 @@
+#Base stress capacity multiplier for waterwheel bearing
+#Formula: value × radius² × depth (all at constant 4 RPM)
+#Default: 256 SU
+#For reference: Create's Large Water Wheel generates 512 SU at 4 RPM
+# Default: 256
+# Range: 1 ~ 1000000
+baseStressCapacity = 256

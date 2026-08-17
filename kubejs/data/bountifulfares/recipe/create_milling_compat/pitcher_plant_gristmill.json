@@ -1,0 +1,10 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "item": "minecraft:pitcher_plant"
+  },
+  "result": {
+    "id": "minecraft:cyan_dye"
+  },
+  "result_count": 4
+}

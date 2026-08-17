@@ -1,0 +1,52 @@
+{
+	id: "2A00000000000009"
+	loot_size: 1
+	order_index: 22
+	rewards: [
+		{
+			count: 16
+			id: "4299B34CEC75505F"
+			item: {
+				count: 1
+				id: "minecraft:gunpowder"
+			}
+			weight: 7.0f
+		}
+		{
+			count: 8
+			id: "643BAA842D2FD1C5"
+			item: {
+				count: 1
+				id: "minecraft:gunpowder"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 8
+			id: "7025280505FEFC52"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 6
+			id: "35C956E71578FEF2"
+			item: {
+				count: 1
+				id: "minecraft:blaze_powder"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 2
+			id: "47DB0AFC1E6184AD"
+			item: {
+				count: 1
+				id: "minecraft:blaze_powder"
+			}
+			weight: 2.0f
+		}
+	]
+}

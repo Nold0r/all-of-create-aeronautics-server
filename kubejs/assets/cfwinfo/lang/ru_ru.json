@@ -1,0 +1,12 @@
+{
+  "cfwinfo.configuration.overlay": "Индикатор",
+  "cfwinfo.config.info_enabled": "Включить индикатор информации",
+  "cfwinfo.config.simplified_enabled": "Упрощённый режим",
+  "cfwinfo.config.fade_speed": "Скорость анимации исчезновения",
+  "cfwinfo.config.overlay_opacity": "Прозрачность индикатора",
+  "cfwinfo.config.sprite_scale_factor": "Масштаб бака",
+  "cfwinfo.config.messages_enabled": "Показывать отладочные сообщения",
+  "key.categories.cfwinfo": "Create: Информация о топливе и воде",
+  "key.cfwinfo.toggle_overlay": "Переключить индикатор",
+  "key.cfwinfo.toggle_simplified": "Переключить упрощённый режим"
+}

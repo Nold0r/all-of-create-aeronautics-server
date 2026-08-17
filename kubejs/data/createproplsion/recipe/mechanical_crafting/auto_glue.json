@@ -1,0 +1,31 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "pattern": [
+    " AAA ",
+    "ABCBA",
+    "ACDCA",
+    "ABCBA",
+    " AAA "
+  ],
+  "key": {
+    "A": {
+      "item": "create:brass_sheet"
+    },
+    "B": {
+      "item": "minecraft:honey_block"
+    },
+    "C": {
+      "item": "simulated:honey_glue"
+    },
+    "D": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "createpropulsion:auto_glue"
+  },
+  "show_notification": false
+}

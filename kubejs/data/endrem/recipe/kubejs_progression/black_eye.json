@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "GLUG",
+    "UMMU",
+    "UMMU",
+    "GULG"
+  ],
+  "key": {
+    "G": {
+      "item": "kubejs:graphite_sheet"
+    },
+    "L": {
+      "item": "createnuclear:lead_ingot"
+    },
+    "U": {
+      "item": "createnuclear:uranium_rod"
+    },
+    "M": {
+      "item": "kubejs:metal_alloy"
+    }
+  },
+  "result": {
+    "id": "endrem:black_eye"
+  }
+}

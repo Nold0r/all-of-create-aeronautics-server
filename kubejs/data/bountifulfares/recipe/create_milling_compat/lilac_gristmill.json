@@ -1,0 +1,10 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "item": "minecraft:lilac"
+  },
+  "result": {
+    "id": "minecraft:magenta_dye"
+  },
+  "result_count": 3
+}

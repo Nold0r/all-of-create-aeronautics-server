@@ -1,0 +1,87 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "kubejs:steel_mechanism"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "id": "kubejs:sealed_mechanism",
+      "chance": 0.8
+    },
+    {
+      "id": "kubejs:steel_mechanism",
+      "chance": 0.08
+    },
+    {
+      "id": "kubejs:paste",
+      "chance": 0.12
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:sealed_mechanism"
+        },
+        {
+          "item": "kubejs:armour_resine"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:sealed_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:sealed_mechanism"
+        },
+        {
+          "item": "kubejs:paste"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:sealed_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:sealed_mechanism"
+        },
+        {
+          "item": "createnuclear:lead_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:sealed_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:sealed_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:sealed_mechanism"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "kubejs:sealed_mechanism"
+  }
+}

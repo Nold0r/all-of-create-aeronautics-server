@@ -1,0 +1,10 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "item": "minecraft:clay"
+  },
+  "result": {
+    "id": "minecraft:clay_ball"
+  },
+  "result_count": 4
+}

@@ -1,0 +1,52 @@
+{
+  "creativetab.game_discs_tab": "Game Discs",
+
+
+  "gamediscs.flappy_bird": "Flappy Bee",
+  "gamediscs.slime": "Слизень",
+  "gamediscs.blocktris": "Блоктрис",
+  "gamediscs.tnt_sweeper": "Сапёр TNT",
+  "gamediscs.pong": "Понг",
+  "gamediscs.froggie": "Лягушонок",
+  "gamediscs.rabbit": "Кролик",
+
+
+  "item.gamediscs.gaming_console": "Игровая консоль",
+  "item.gamediscs.redstone_circuit": "Редстоуновая схема",
+  "item.gamediscs.processor": "Процессор",
+  "item.gamediscs.battery": "Батарея",
+  "item.gamediscs.display": "Экран",
+  "item.gamediscs.control_pad": "Крестовина",
+  "item.gamediscs.game_disc_flappy_bird": "Игровой диск",
+  "item.gamediscs.game_disc_slime": "Игровой диск",
+  "item.gamediscs.game_disc_blocktris": "Игровой диск",
+  "item.gamediscs.game_disc_tnt_sweeper": "Игровой диск",
+  "item.gamediscs.game_disc_pong": "Игровой диск",
+  "item.gamediscs.game_disc_froggie": "Игровой диск",
+  "item.gamediscs.game_disc_rabbit": "Игровой диск",
+
+
+  "gui.gamingconsole.title": "Игровая консоль",
+  "gui.gamingconsole.press_any_key": "Нажмите любую клавишу",
+  "gui.gamingconsole.select_game": "Выберите игру",
+  "gui.gamingconsole.score": "Счёт",
+  "gui.gamingconsole.best_score": "Рекорд",
+  "gui.gamingconsole.new_best_score": "Новый рекорд",
+  "gui.gamingconsole.won": "Вы победили!",
+  "gui.gamingconsole.died": "Вы проиграли!",
+  "gui.gamingconsole.hold": "Удержание",
+  "gui.gamingconsole.next": "Далее",
+
+
+  "sounds.gamediscs.jump": "Игровая консоль — прыжок",
+  "sounds.gamediscs.click": "Игровая консоль — нажатие кнопки",
+  "sounds.gamediscs.point": "Игровая консоль — очко",
+  "sounds.gamediscs.new_best": "Игровая консоль — новый рекорд",
+  "sounds.gamediscs.game_over": "Игровая консоль — конец игры",
+  "sounds.gamediscs.select": "Игровая консоль — выбор",
+  "sounds.gamediscs.confirm": "Игровая консоль — подтверждение",
+  "sounds.gamediscs.explosion": "Игровая консоль — взрыв",
+  "sounds.gamediscs.shoot": "Игровая консоль — выстрел",
+  "sounds.gamediscs.swing": "Игровая консоль — взмах",
+  "sounds.gamediscs.switch": "Игровая консоль — переключение"
+}

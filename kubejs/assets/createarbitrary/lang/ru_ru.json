@@ -1,0 +1,14 @@
+{
+  "itemGroup.createarbitrary": "Create Arbitrary",
+
+  "item.createarbitrary.chorium_powder": "Порошок творческого кварца",
+  "item.createarbitrary.chorium_quartz": "Творческий кварц",
+  "item.createarbitrary.polished_chorium_quartz": "Полированный творческий кварц",
+  "item.createarbitrary.polished_chorium_sheet": "Полированный творческий лист",
+  "item.createarbitrary.creative_mechanism": "Творческий механизм",
+
+  "item.createarbitrary.incomplete_creative_mechanism": "Незавершённый творческий механизм",
+  "item.createarbitrary.incomplete_creative_casing": "Незавершённый творческий корпус",
+
+  "block.createarbitrary.creative_casing": "Творческий корпус"
+}

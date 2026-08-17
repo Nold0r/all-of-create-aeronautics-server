@@ -1,0 +1,14 @@
+[placementAnimation]
+	#Build confirmed routes progressively instead of placing every piece immediately.
+	animateRouteConstruction = true
+	#Closed construction speed preset.
+	#Very slow: 1 piece/s, Slow: 5 pieces/s, Normal: 10 pieces/s,
+	#Fast: 15 pieces/s, Very fast: 20 pieces/s.
+	#Allowed Values: VERY_SLOW, SLOW, NORMAL, FAST, VERY_FAST
+	constructionSpeed = "VERY_FAST"
+	#Keep the complete unbuilt route visible without outlines during construction.
+	#Only used while animated route construction is enabled.
+	showFullRoutePreview = true
+	#Highlight the next piece immediately before it is placed.
+	#Only used while animated route construction is enabled.
+	showNextPiecePreview = true

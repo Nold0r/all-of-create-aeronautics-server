@@ -1,0 +1,5 @@
+{
+  "createenderstorage.ponder.mounted_ender_chest.header": "Совместимость с Ender Storage",
+  "createenderstorage.ponder.mounted_ender_chest.text_1": "Эндер-сундуки с одинаковым цветовым кодом имеют общий инвентарь.",
+  "createenderstorage.ponder.mounted_ender_chest.text_2": "Это правило работает и на механизмах. Инструменты механизмов могут обращаться к ним для автоматизации."
+}

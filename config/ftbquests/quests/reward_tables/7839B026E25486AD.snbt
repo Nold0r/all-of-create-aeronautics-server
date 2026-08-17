@@ -1,0 +1,11 @@
+{
+	id: "7839B026E25486AD"
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{ id: "445220A924DB72C6", item: { count: 1, id: "create_compressed:cogwheel_block" } }
+		{ id: "76DBD6DCEFE260C3", item: { count: 1, id: "create_compressed:large_cogwheel_block" } }
+		{ id: "56BBE3418A029F3C", item: { count: 1, id: "create_compressed:belt_block" } }
+		{ id: "6E188010AF20782E", item: { count: 1, id: "create_compressed:shaft_bundle" } }
+	]
+}

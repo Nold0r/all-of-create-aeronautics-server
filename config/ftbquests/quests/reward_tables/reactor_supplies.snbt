@@ -1,0 +1,52 @@
+{
+	id: "7A615B81E25FC878"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{
+			count: 8
+			id: "7B7030768A23AA43"
+			item: {
+				count: 1
+				id: "createnuclear:lead_ingot"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 3
+			id: "7259A19652D65E89"
+			item: {
+				count: 1
+				id: "createnuclear:graphite_rod"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 10
+			id: "640393F01ED554C0"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 12
+			id: "2F6680EFC8DDB362"
+			item: {
+				count: 1
+				id: "create:fluid_pipe"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 6
+			id: "2710E36EE8C9143D"
+			item: {
+				count: 1
+				id: "create:copper_sheet"
+			}
+			weight: 3.0f
+		}
+	]
+}

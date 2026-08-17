@@ -1,0 +1,17 @@
+{
+  "item.kubejs.couchuk": "Каучуковая масса",
+  "item.kubejs.resine_sheet": "Резиновая пластина",
+  "item.kubejs.armour_resine": "Армированная резина",
+  "item.kubejs.copper_spool": "Медная обмотка",
+  "item.kubejs.brass_frame": "Латунная рамка",
+  "item.kubejs.gear": "Зубчатая заготовка",
+  "item.kubejs.paste": "Смазочная паста",
+  "item.kubejs.graphite_sheet": "Графитовая пластина",
+  "item.kubejs.metal_alloy": "Жаростойкий сплав",
+  "item.kubejs.alloy_zink_brass": "Латунно-цинковый сплав",
+  "item.kubejs.steel_mechanism": "Стальной механизм",
+  "item.kubejs.sealed_mechanism": "Герметичный механизм",
+  "item.kubejs.sync_mechanism": "Механизм синхронизации",
+  "item.kubejs.quartz_mechanism": "Кварцевый механизм точности",
+  "item.kubejs.induction_mechanism": "Индукционный механизм"
+}

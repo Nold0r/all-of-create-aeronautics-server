@@ -1,0 +1,18 @@
+filename = 'sky_archipelago-1.3.5.jar'
+name = 'Sky Archipelago'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Sky Archipelago v1.3.5'
+
+[download]
+hash = '11cf9a383c9b1587cbcbe059ca9462bd4683c3c4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8383558
+project-id = 1528077

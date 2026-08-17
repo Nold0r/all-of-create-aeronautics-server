@@ -1,0 +1,69 @@
+{
+	id: "573AD5319AECB08F"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			count: 8
+			id: "03E403E814FC14AE"
+			item: {
+				count: 1
+				id: "create:andesite_alloy"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 16
+			id: "7CA0D1C93C5ACEB5"
+			item: {
+				count: 1
+				id: "create:shaft"
+			}
+			weight: 7.0f
+		}
+		{
+			count: 8
+			id: "0AD5D61AE3D6B895"
+			item: {
+				count: 1
+				id: "create:cogwheel"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 4
+			id: "11D8813846314DA8"
+			item: {
+				count: 1
+				id: "create:large_cogwheel"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 8
+			id: "1414600E3826020E"
+			item: {
+				count: 1
+				id: "create:belt_connector"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "19AEC7B4CFFF3C6E"
+			item: {
+				count: 1
+				id: "create:super_glue"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 6
+			id: "35988BF25ACA4F56"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+			weight: 2.0f
+		}
+	]
+}

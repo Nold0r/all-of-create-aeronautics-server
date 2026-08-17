@@ -1,0 +1,34 @@
+bosses_enrage = true
+bosses_announce_spawn_and_death = true
+# Default: 1
+# Range: > 0
+ender_dragon_crystal_threshold_peaceful = 1
+# Default: 2
+# Range: > 0
+ender_dragon_crystal_threshold_easy = 2
+# Default: 3
+# Range: > 0
+ender_dragon_crystal_threshold_normal = 3
+# Default: 4
+# Range: > 0
+ender_dragon_crystal_threshold_hard = 4
+ender_dragon_healing_rework = true
+ender_dragon_rework = true
+elder_guardians_are_bosses = true
+# Default: 8
+# Range: > 0
+elder_guardians_boss_armor = 8
+# Default: 150
+# Range: > 1
+elder_guardians_boss_health = 150
+wither_death_animation = true
+wither_rework = true
+# Default: 12
+# Range: > 0
+wither_boss_armor = 12
+# Default: 120
+# Range: > 0
+wither_boss_follow_range = 120
+# Default: 300
+# Range: > 1
+wither_boss_health = 300

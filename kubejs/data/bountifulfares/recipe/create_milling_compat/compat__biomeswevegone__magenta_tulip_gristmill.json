@@ -1,0 +1,15 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "type": "neoforge:compound",
+    "ingredients": [
+      {
+        "item": "biomeswevegone:magenta_tulip"
+      }
+    ]
+  },
+  "result": {
+    "id": "minecraft:magenta_dye"
+  },
+  "result_count": 2
+}

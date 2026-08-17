@@ -1,0 +1,61 @@
+{
+	id: "274101BAEC9B9FA4"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			count: 12
+			id: "79207A280B2EF948"
+			item: {
+				count: 1
+				id: "minecraft:quartz"
+			}
+			weight: 7.0f
+		}
+		{
+			count: 8
+			id: "46E802CED2E7B5BF"
+			item: {
+				count: 1
+				id: "minecraft:glowstone_dust"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 3
+			id: "6F7FCEE5BC7395C5"
+			item: {
+				count: 1
+				id: "minecraft:magma_cream"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 4
+			id: "1B84C2CB4F5A5B4A"
+			item: {
+				count: 1
+				id: "minecraft:blaze_powder"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 8
+			id: "3B53197EA114FFEA"
+			item: {
+				count: 1
+				id: "minecraft:bread"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 8
+			id: "5180193F2EF7F7B1"
+			item: {
+				count: 1
+				id: "create:fluid_pipe"
+			}
+			weight: 2.0f
+		}
+	]
+}

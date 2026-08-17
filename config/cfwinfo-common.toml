@@ -1,0 +1,18 @@
+[overlay]
+	#Enable or disable the fuel and water information overlay
+	info_enabled = true
+	#Show a simplified version of the overlay without requiring goggles
+	simplified_enabled = false
+	#Opacity of the overlay (0-100)
+	# Default: 80
+	# Range: 0 ~ 100
+	overlay_opacity = 80
+	#Position of the overlay on screen
+	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+	overlay_position = "TOP_LEFT"
+	#Scale factor for tank overlay size (1.0 = normal size, 2.0 = double size)
+	# Default: 2.0
+	# Range: 0.5 ~ 5.0
+	sprite_scale_factor = 2.0
+	#Show notification messages when changing settings
+	messages_enabled = false

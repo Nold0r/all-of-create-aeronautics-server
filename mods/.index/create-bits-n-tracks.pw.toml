@@ -1,0 +1,18 @@
+filename = 'bits_n_tracks-1.0.3.1-release.jar'
+name = "Create: Bits 'n' Tracks"
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.3.1'
+
+[download]
+hash = '76dada3f403dbcfd4994154afd68f8ab679615e3a21a68d6ee513470c6fc4ba6ae5e4d22563fe21c7f0cc7690365ab4aeea5fb9e5901abf59efdc11371a32fe5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/wYkiNwv2/versions/CbqV5KMv/bits_n_tracks-1.0.3.1-release.jar'
+
+[update.modrinth]
+mod-id = 'wYkiNwv2'
+version = 'CbqV5KMv'

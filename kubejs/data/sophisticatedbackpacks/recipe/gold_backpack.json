@@ -1,0 +1,24 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "category": "misc",
+  "pattern": [
+    "GVG",
+    "VBV",
+    "GVG"
+  ],
+  "key": {
+    "B": {
+      "item": "sophisticatedbackpacks:iron_backpack"
+    },
+    "G": {
+      "tag": "c:plates/gold"
+    },
+    "V": {
+      "item": "create_sa:vault_component"
+    }
+  },
+  "result": {
+    "id": "sophisticatedbackpacks:gold_backpack",
+    "count": 1
+  }
+}

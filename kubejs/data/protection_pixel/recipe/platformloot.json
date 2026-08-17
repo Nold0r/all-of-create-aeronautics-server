@@ -1,0 +1,31 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "AB BA",
+    "AC CA",
+    " DFD "
+  ],
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "B": {
+      "item": "kubejs:gear"
+    },
+    "C": {
+      "item": "kubejs:resine_sheet"
+    },
+    "D": {
+      "item": "kubejs:brass_frame"
+    },
+    "F": {
+      "item": "kubejs:sync_mechanism"
+    }
+  },
+  "result": {
+    "id": "protection_pixel:armorloadplatform",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "item": "minecraft:wither_rose"
+  },
+  "result": {
+    "id": "minecraft:black_dye"
+  },
+  "result_count": 2
+}

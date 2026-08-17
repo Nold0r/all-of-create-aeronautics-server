@@ -1,0 +1,52 @@
+{
+	id: "24A17C1739A9F9C8"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			count: 6
+			id: "5E683E7AC60D5D9E"
+			item: {
+				count: 1
+				id: "createnuclear:lead_ingot"
+			}
+			weight: 7.0f
+		}
+		{
+			count: 8
+			id: "3F8C3EEA7F028132"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 2
+			id: "2E84A96D03285404"
+			item: {
+				count: 1
+				id: "createnuclear:graphite_rod"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 8
+			id: "50B69F38E472D282"
+			item: {
+				count: 1
+				id: "minecraft:bread"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 3
+			id: "531523FA9057C3AA"
+			item: {
+				count: 1
+				id: "create:brass_sheet"
+			}
+			weight: 3.0f
+		}
+	]
+}

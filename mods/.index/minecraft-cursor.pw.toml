@@ -1,0 +1,18 @@
+filename = 'minecraft-cursor-neoforge-3.11.3+1.21.1.jar'
+name = 'Cursors Extended'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Minecraft Cursor for NeoForge v3.11.3+1.21.1'
+
+[download]
+hash = '4bfe5b677b18bc610ff1e381f3abb4f5953b7eba'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7963827
+project-id = 1184736

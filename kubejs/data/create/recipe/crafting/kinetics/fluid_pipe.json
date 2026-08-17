@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SRS"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:plates/copper"
+    },
+    "R": {
+      "item": "kubejs:resine_sheet"
+    }
+  },
+  "result": {
+    "id": "create:fluid_pipe",
+    "count": 6
+  }
+}

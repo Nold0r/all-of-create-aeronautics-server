@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "create_connected:feature_enabled",
+      "tag": "create_connected:fluid_vessel"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CRC",
+    "RBR",
+    "CRC"
+  ],
+  "key": {
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "R": {
+      "item": "kubejs:resine_sheet"
+    },
+    "B": {
+      "tag": "c:barrels/wooden"
+    }
+  },
+  "result": {
+    "id": "create_connected:fluid_vessel",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "item.kubejs.couchuk": "Rubber Mass",
+  "item.kubejs.resine_sheet": "Rubber Sheet",
+  "item.kubejs.armour_resine": "Reinforced Rubber",
+  "item.kubejs.copper_spool": "Copper Coil",
+  "item.kubejs.brass_frame": "Brass Frame",
+  "item.kubejs.gear": "Gear Blank",
+  "item.kubejs.paste": "Lubricating Paste",
+  "item.kubejs.graphite_sheet": "Graphite Plate",
+  "item.kubejs.metal_alloy": "Nickel Alloy",
+  "item.kubejs.alloy_zink_brass": "Brass-Zinc Alloy",
+  "item.kubejs.steel_mechanism": "Steel Mechanism",
+  "item.kubejs.sealed_mechanism": "Sealed Mechanism",
+  "item.kubejs.sync_mechanism": "Synchronization Mechanism",
+  "item.kubejs.quartz_mechanism": "Quartz Precision Mechanism",
+  "item.kubejs.induction_mechanism": "Induction Mechanism"
+}

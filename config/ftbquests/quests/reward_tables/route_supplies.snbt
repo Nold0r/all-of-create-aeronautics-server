@@ -1,0 +1,61 @@
+{
+	id: "2DACEDFDF797542C"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{
+			count: 16
+			id: "6DF200831F04367A"
+			item: {
+				count: 1
+				id: "create:track"
+			}
+			weight: 7.0f
+		}
+		{
+			count: 10
+			id: "4E299A6BAE2C1AB1"
+			item: {
+				count: 1
+				id: "create:andesite_alloy"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 10
+			id: "58D87A68D92C951D"
+			item: {
+				count: 1
+				id: "minecraft:bread"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 2
+			id: "21B36C07D39EDFC1"
+			item: {
+				count: 1
+				id: "create:filter"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 8
+			id: "1574D11080B87555"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 4
+			id: "786ACC1DF00CC58E"
+			item: {
+				count: 1
+				id: "minecraft:chest"
+			}
+			weight: 3.0f
+		}
+	]
+}

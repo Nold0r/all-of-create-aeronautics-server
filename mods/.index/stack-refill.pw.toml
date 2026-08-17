@@ -1,0 +1,21 @@
+filename = 'stackrefill-1.21.1-4.9.jar'
+name = 'Stack Refill'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-4.9-fabric+forge+neo'
+
+[download]
+hash = '42f5bf809f533d472ff64d2b7b55f557b2ce921674469291dc34db4717cd88fc1114703ad420e1d758edf077907f4ff60a404610e24524f2cd2bce49fe2a7b74'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/mQWkB9ON/versions/5RkgQCwL/stackrefill-1.21.1-4.9.jar'
+
+[update.modrinth]
+mod-id = 'mQWkB9ON'
+version = '5RkgQCwL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'e0M1UDsY'
+type = 'REQUIRED'

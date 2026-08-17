@@ -1,0 +1,18 @@
+{
+	"version": 2,
+	"forceAllowFlight": true,
+	"maxStrafeSpeedInAir": 0.7,
+	"strafeAcceleration": 0.014999999664723873,
+	"overrideMovementInAir": true,
+	"hookAffectsEntities": true,
+	"ropeSnapBuffer": 5.0,
+	"ropeJumpPower": 100.0,
+	"ropeJumpAtAngle": false,
+	"ropeJumpCooldown": 0,
+	"climbSpeed": 0.3,
+	"enableHookCutting": true,
+	"hookCutsRequired": 3,
+	"hookCutCooldownTicks": 10,
+	"enderStaffStrength": 100.0,
+	"enderStaffCooldown": 100
+}

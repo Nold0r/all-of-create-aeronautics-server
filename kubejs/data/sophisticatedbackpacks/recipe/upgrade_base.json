@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RVR",
+    "LCL",
+    "RVR"
+  ],
+  "key": {
+    "R": {
+      "item": "kubejs:resine_sheet"
+    },
+    "V": {
+      "item": "create_sa:vault_component"
+    },
+    "L": {
+      "tag": "c:leathers"
+    },
+    "C": {
+      "item": "create:brass_casing"
+    }
+  },
+  "result": {
+    "id": "sophisticatedbackpacks:upgrade_base",
+    "count": 1
+  }
+}

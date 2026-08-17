@@ -1,0 +1,34 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "ABCBA",
+    "BDEDB",
+    " F F "
+  ],
+  "key": {
+    "A": {
+      "item": "kubejs:gear"
+    },
+    "B": {
+      "item": "kubejs:armour_resine"
+    },
+    "C": {
+      "item": "create:precision_mechanism"
+    },
+    "D": {
+      "item": "create:propeller"
+    },
+    "E": {
+      "item": "kubejs:sealed_mechanism"
+    },
+    "F": {
+      "item": "create:chute"
+    }
+  },
+  "result": {
+    "id": "protection_pixel:steambooster",
+    "count": 1
+  }
+}

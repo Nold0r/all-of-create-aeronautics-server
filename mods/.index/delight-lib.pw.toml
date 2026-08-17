@@ -1,0 +1,21 @@
+filename = 'delightlib-26.05.18-1.21-neoforge.jar'
+name = 'Delight Lib'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '26.05.18-1.21-neoforge'
+
+[download]
+hash = '9a383ecf80a0b221d33ce4eb13cec2f8527c9d2e8680cb2147a8d9255a6384c4cb0a8b2987accd2213cd6f1528b9292909d0b0224b9c0d3aaa067fb3320c1a84'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/rmDY6fYt/versions/wCR4QGbG/delightlib-26.05.18-1.21-neoforge.jar'
+
+[update.modrinth]
+mod-id = 'rmDY6fYt'
+version = 'wCR4QGbG'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'R2OftAxM'
+type = 'REQUIRED'

@@ -1,0 +1,15 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "type": "neoforge:compound",
+    "ingredients": [
+      {
+        "item": "regions_unexplored:daisy"
+      }
+    ]
+  },
+  "result": {
+    "id": "minecraft:light_gray_dye"
+  },
+  "result_count": 2
+}

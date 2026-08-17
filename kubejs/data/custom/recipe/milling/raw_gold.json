@@ -1,0 +1,18 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:raw_gold"
+    }
+  ],
+  "processing_time": 250,
+  "results": [
+    {
+      "id": "create:crushed_raw_gold"
+    },
+    {
+      "chance": 0.2,
+      "id": "create:crushed_raw_gold"
+    }
+  ]
+}

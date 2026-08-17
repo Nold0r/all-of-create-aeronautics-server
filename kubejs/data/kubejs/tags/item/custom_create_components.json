@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "kubejs:couchuk",
+    "kubejs:resine_sheet",
+    "kubejs:armour_resine",
+    "kubejs:copper_spool",
+    "kubejs:brass_frame",
+    "kubejs:gear",
+    "kubejs:paste",
+    "kubejs:graphite_sheet",
+    "kubejs:metal_alloy",
+    "kubejs:alloy_zink_brass",
+    "kubejs:steel_mechanism",
+    "kubejs:sealed_mechanism",
+    "kubejs:sync_mechanism",
+    "kubejs:quartz_mechanism",
+    "kubejs:induction_mechanism"
+  ]
+}

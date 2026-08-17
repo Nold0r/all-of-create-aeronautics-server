@@ -1,0 +1,15 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "type": "neoforge:compound",
+    "ingredients": [
+      {
+        "item": "biomeswevegone:orange_daisy"
+      }
+    ]
+  },
+  "result": {
+    "id": "minecraft:orange_dye"
+  },
+  "result_count": 2
+}

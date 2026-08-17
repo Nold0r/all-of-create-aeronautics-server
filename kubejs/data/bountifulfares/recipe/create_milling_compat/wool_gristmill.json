@@ -1,0 +1,10 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "tag": "minecraft:wool"
+  },
+  "result": {
+    "id": "minecraft:string"
+  },
+  "result_count": 1
+}

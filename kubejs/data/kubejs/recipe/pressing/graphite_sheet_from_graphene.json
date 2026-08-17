@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "createnuclear:graphene"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:graphite_sheet"
+    }
+  ]
+}

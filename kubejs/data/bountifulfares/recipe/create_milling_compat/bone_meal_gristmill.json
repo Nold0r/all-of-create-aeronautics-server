@@ -1,0 +1,10 @@
+{
+  "type": "bountifulfares:milling",
+  "ingredient": {
+    "item": "minecraft:bone_meal"
+  },
+  "result": {
+    "id": "minecraft:white_dye"
+  },
+  "result_count": 2
+}

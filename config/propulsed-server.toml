@@ -1,0 +1,19 @@
+#.
+#Parameters related to the physics of Aeronautics blocks
+[physics]
+	#.
+	#.
+	#Thrust scaling for Basic Rocket Engine
+	# Default: 1.0
+	# Range: 0.0 ~ 3.4028234663852886E38
+	basicRocketEngineMaxThrust = 1.0
+	#.
+	#Thrust scaling for Creative Rocket Engine
+	# Default: 1.0
+	# Range: 0.0 ~ 3.4028234663852886E38
+	creativeRocketEngineMaxThrust = 1.0
+	#.
+	#Thrust scaling for Large Rocket Engine
+	# Default: 1.0
+	# Range: 0.0 ~ 3.4028234663852886E38
+	largeRocketEngineMaxThrust = 1.0

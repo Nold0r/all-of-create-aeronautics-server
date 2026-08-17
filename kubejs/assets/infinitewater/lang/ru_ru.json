@@ -1,0 +1,23 @@
+{
+  "itemGroup.infinitewater": "Create: Infinite Water",
+  "block.infinitewater.infinite_water_block": "Бесконечный источник воды",
+  "infinitewater.infinite_water_block.tooltip1": "§6Нехватка напряжения§f, подача воды невозможна",
+  "infinitewater.infinite_water_block.tooltip2": "Нужное напряжение:",
+  "item.infinitewater.water_storage_core": "§6Ядро хранения воды",
+  "item.infinitewater.incomplete_water_storage_core": "Неполное ядро хранения воды",
+  "infinitewater.stress.level.low": "Низкое",
+  "infinitewater.stress.level.medium": "Среднее",
+  "infinitewater.stress.level.high": "Высокое",
+  "infinitewater.stress.level.extreme": "Критическое",
+  "infinitewater.ponder.infinite_water.header": "Бесконечный источник воды",
+  "infinitewater.ponder.infinite_water.text_1": "Бесконечный источник воды даёт неограниченный запас воды.",
+  "infinitewater.ponder.infinite_water.text_2": "Напряжение можно подать сверху или снизу.",
+  "infinitewater.ponder.infinite_water.text_3": "Подайте напряжение сюда.",
+  "infinitewater.ponder.infinite_water.text_4": "Для активации блока нужно достичь порога напряжения.",
+  "infinitewater.ponder.infinite_water.text_5": "При нехватке напряжения подача воды прекращается.",
+  "infinitewater.ponder.infinite_water.text_6": "После достижения порога блок начнёт давать бесконечную воду.",
+  "infinitewater.ponder.infinite_water.text_7": "Воду можно забрать с любой из четырёх сторон.",
+  "infinitewater.ponder.infinite_water.text_8": "Подключите трубы к любой стороне для забора воды.",
+  "infinitewater.ponder.infinite_water.text_9": "Используйте механическую помпу для выкачивания воды.",
+  "infinitewater.ponder.infinite_water.text_10": "Нужное напряжение:"
+}

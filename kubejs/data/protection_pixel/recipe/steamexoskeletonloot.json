@@ -1,0 +1,39 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "ABBBA",
+    "CDEDC",
+    " BFB ",
+    "AG GA",
+    "BB BB"
+  ],
+  "key": {
+    "A": {
+      "item": "create:cogwheel"
+    },
+    "B": {
+      "item": "create:copper_sheet"
+    },
+    "C": {
+      "item": "create:steam_engine"
+    },
+    "D": {
+      "item": "kubejs:sealed_mechanism"
+    },
+    "E": {
+      "item": "minecraft:redstone"
+    },
+    "F": {
+      "item": "kubejs:armour_resine"
+    },
+    "G": {
+      "item": "create:iron_sheet"
+    }
+  },
+  "result": {
+    "id": "protection_pixel:steamectoskeleton",
+    "count": 1
+  }
+}

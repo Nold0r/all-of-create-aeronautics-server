@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AQA",
+    "BEB",
+    "AQA"
+  ],
+  "key": {
+    "A": {
+      "item": "create:polished_rose_quartz"
+    },
+    "Q": {
+      "item": "kubejs:quartz_mechanism"
+    },
+    "B": {
+      "item": "create:precision_mechanism"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "id": "endrem:magical_eye"
+  }
+}

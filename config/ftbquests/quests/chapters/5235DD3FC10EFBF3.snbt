@@ -1,0 +1,179 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5235DD3FC10EFBF3"
+	group: "62A749137B71D06F"
+	icon: {
+		id: "vc_gliders:paraglider_wood"
+	}
+	id: "5235DD3FC10EFBF3"
+	images: [{
+		height: 10.0d
+		image: "aeronautics:block/envelope_block/envelope_white"
+		rotation: 0.0d
+		width: 10.0d
+		x: 1.5d
+		y: -2.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["079E98FBC820CFDA"]
+			id: "00E0962530CCFD19"
+			size: 0.72d
+			tasks: [{
+				id: "40E76724EEF0A790"
+				item: { count: 1, id: "vc_gliders:paraglider_netherite" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.36d
+		}
+		{
+			dependencies: ["4181548BDF573019"]
+			id: "079E98FBC820CFDA"
+			size: 0.72d
+			tasks: [{
+				id: "2EE8999693C89B88"
+				item: { count: 1, id: "vc_gliders:paraglider_diamond" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.44d
+		}
+		{
+			dependencies: ["56020C3B4FE82BB3"]
+			id: "4181548BDF573019"
+			size: 0.72d
+			tasks: [{
+				id: "52793656BCEA83ED"
+				item: { count: 1, id: "vc_gliders:paraglider_gold" }
+				type: "item"
+			}]
+			x: -1.08d
+			y: -2.52d
+		}
+		{
+			dependencies: ["4C042EC32C6A6B27"]
+			id: "56020C3B4FE82BB3"
+			size: 0.72d
+			tasks: [{
+				id: "4621DD7E6E0A9165"
+				item: { count: 1, id: "vc_gliders:paraglider_iron" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.6d
+		}
+		{
+			dependencies: ["57C8C12A10AEFFE8"]
+			hide_dependency_lines: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "4C042EC32C6A6B27"
+			size: 0.72d
+			tasks: [{
+				id: "37EE06EAB22273D5"
+				item: { count: 1, id: "vc_gliders:paraglider_wood" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.52d
+		}
+		{
+			dependencies: ["57C8C12A10AEFFE8"]
+			id: "681D21BF34704D7D"
+			size: 0.72d
+			tasks: [{
+				id: "387FDFFF55A1EA7C"
+				item: { count: 1, id: "grapplemod:grappling_hook" }
+				type: "item"
+			}]
+			x: 3.24d
+			y: -2.52d
+		}
+		{
+			dependencies: ["681D21BF34704D7D"]
+			id: "4F1C17486A8D4CC3"
+			size: 0.72d
+			tasks: [{
+				id: "3DC97D6D94C9D725"
+				item: { components: { "grapplemod:authored": { author: "{\"translate\":\"grapple_template.author.default\"}", display_name: "{\"translate\":\"hook_template.grapplemod.ender_hook\"}", template_id: "ender_hook" }, "grapplemod:customizable": { crc32: 2441478089L, properties: { "grapplemod:ender_staff": 1b, "grapplemod:hook_throw_speed": 3.5d, "grapplemod:max_rope_length": 60.0d } } }, count: 1, id: "grapplemod:grappling_hook" }
+				type: "item"
+			}]
+			x: 2.52d
+			y: -3.24d
+		}
+		{
+			dependencies: ["681D21BF34704D7D"]
+			id: "411D210FE21B2518"
+			size: 0.72d
+			tasks: [{
+				id: "1D8FEA1CAA634638"
+				item: { components: { "grapplemod:authored": { author: "{\"translate\":\"grapple_template.author.default\"}", display_name: "{\"translate\":\"hook_template.grapplemod.magnet_hook\"}", template_id: "magnet_hook" }, "grapplemod:customizable": { crc32: 3035744438L, properties: { "grapplemod:forcefield": 1b, "grapplemod:hook_throw_speed": 3.5d, "grapplemod:magnet": 1b, "grapplemod:max_rope_length": 60.0d } } }, count: 1, id: "grapplemod:grappling_hook" }
+				type: "item"
+			}]
+			x: 2.52d
+			y: -1.8d
+		}
+		{
+			dependencies: ["681D21BF34704D7D"]
+			id: "1140C0F08D09FC4A"
+			size: 0.72d
+			tasks: [{
+				id: "1AB3249C263BD3D5"
+				item: { components: { "grapplemod:authored": { author: "{\"translate\":\"grapple_template.author.default\"}", display_name: "{\"translate\":\"hook_template.grapplemod.motor_hook\"}", template_id: "motor_hook" }, "grapplemod:customizable": { crc32: 3625328972L, properties: { "grapplemod:holder_move_speed_multiplier": 2.0d, "grapplemod:hook_throw_speed": 3.5d, "grapplemod:max_rope_length": 60.0d, "grapplemod:motor": 1b } } }, count: 1, id: "grapplemod:grappling_hook" }
+				type: "item"
+			}]
+			x: 3.96d
+			y: -1.8d
+		}
+		{
+			dependencies: ["681D21BF34704D7D"]
+			id: "3C0E71E9156286E6"
+			size: 0.72d
+			tasks: [{
+				id: "33565F2541744D03"
+				item: { components: { "grapplemod:authored": { author: "{\"translate\":\"grapple_template.author.default\"}", display_name: "{\"translate\":\"hook_template.grapplemod.rocket_hook\"}", template_id: "rocket_hook" }, "grapplemod:customizable": { crc32: 3544416601L, properties: { "grapplemod:hook_throw_speed": 3.5d, "grapplemod:max_rope_length": 60.0d, "grapplemod:rocket": 1b } } }, count: 1, id: "grapplemod:grappling_hook" }
+				type: "item"
+			}]
+			x: 3.96d
+			y: -3.24d
+		}
+		{
+			dependencies: ["3C0E71E9156286E6"]
+			id: "48BE5FC8C3429462"
+			size: 0.72d
+			tasks: [{
+				id: "273EB5FCC964F6D1"
+				item: { components: { "grapplemod:authored": { author: "{\"translate\":\"grapple_template.author.default\"}", display_name: "{\"translate\":\"hook_template.grapplemod.double_rocket_motor_hook\"}", template_id: "double_rocket_motor_hook" }, "grapplemod:customizable": { crc32: 29791249L, properties: { "grapplemod:double_hook": 1b, "grapplemod:double_hook_angle": 30.0d, "grapplemod:double_hook_angle_on_sneak": 25.0d, "grapplemod:holder_move_speed_multiplier": 2.0d, "grapplemod:hook_gravity_multiplier": 50.0d, "grapplemod:hook_throw_angle": 25.0d, "grapplemod:hook_throw_speed": 20.0d, "grapplemod:max_motor_speed": 10.0d, "grapplemod:max_rope_length": 60.0d, "grapplemod:motor": 1b, "grapplemod:rocket": 1b, "grapplemod:rocket_angle": 30.0d, "grapplemod:sticky_rope": 1b } } }, count: 1, id: "grapplemod:grappling_hook" }
+				type: "item"
+			}]
+			x: 3.24d
+			y: -3.96d
+		}
+		{
+			dependencies: ["1140C0F08D09FC4A"]
+			id: "392D3D725353F3E0"
+			size: 0.72d
+			tasks: [{
+				id: "7D5C33BFDC5B9395"
+				item: { components: { "grapplemod:authored": { author: "{\"translate\":\"grapple_template.author.default\"}", display_name: "{\"translate\":\"hook_template.grapplemod.double_motor_hook\"}", template_id: "double_motor_hook" }, "grapplemod:customizable": { crc32: 3767260191L, properties: { "grapplemod:double_hook": 1b, "grapplemod:double_hook_angle": 30.0d, "grapplemod:double_hook_angle_on_sneak": 25.0d, "grapplemod:holder_move_speed_multiplier": 2.0d, "grapplemod:hook_gravity_multiplier": 50.0d, "grapplemod:hook_throw_angle": 25.0d, "grapplemod:hook_throw_speed": 20.0d, "grapplemod:max_motor_speed": 10.0d, "grapplemod:max_rope_length": 60.0d, "grapplemod:motor": 1b, "grapplemod:sticky_rope": 1b } } }, count: 1, id: "grapplemod:grappling_hook" }
+				type: "item"
+			}]
+			x: 3.24d
+			y: -1.08d
+		}
+		{
+			hide_dependency_lines: true
+			id: "57C8C12A10AEFFE8"
+			tasks: [{
+				id: "68075AC90FD92801"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+	]
+}

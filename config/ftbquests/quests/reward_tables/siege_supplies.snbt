@@ -1,0 +1,61 @@
+{
+	id: "1C3CED0E6F572776"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{
+			count: 12
+			id: "71F6EC55F5EA61D2"
+			item: {
+				count: 1
+				id: "minecraft:gunpowder"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 8
+			id: "6CDF82D28FE3DF46"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 6
+			id: "166B538D9D9A822F"
+			item: {
+				count: 1
+				id: "minecraft:gunpowder"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 10
+			id: "7FA8442B2CF0C1F6"
+			item: {
+				count: 1
+				id: "minecraft:bread"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 4
+			id: "69FA4DBAB58279C3"
+			item: {
+				count: 1
+				id: "minecraft:blaze_powder"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 4
+			id: "1C7C2FC189B77D56"
+			item: {
+				count: 1
+				id: "create:brass_sheet"
+			}
+			weight: 3.0f
+		}
+	]
+}

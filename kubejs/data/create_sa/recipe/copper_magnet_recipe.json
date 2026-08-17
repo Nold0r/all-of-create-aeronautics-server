@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ICI",
+    "CSC",
+    "ICI"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/iron"
+    },
+    "C": {
+      "item": "kubejs:copper_spool"
+    },
+    "S": {
+      "item": "kubejs:sync_mechanism"
+    }
+  },
+  "result": {
+    "id": "create_sa:copper_magnet",
+    "count": 1
+  }
+}

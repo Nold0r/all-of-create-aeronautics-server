@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "QNSQ",
+    "NQQN",
+    "NQQN",
+    "QSNQ"
+  ],
+  "key": {
+    "Q": {
+      "item": "kubejs:quartz_mechanism"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "S": {
+      "item": "kubejs:sync_mechanism"
+    }
+  },
+  "result": {
+    "id": "endrem:cryptic_eye"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "create:brass_sheet"
+    },
+    "B": {
+      "item": "create:golden_sheet"
+    },
+    "C": {
+      "item": "kubejs:armour_resine"
+    },
+    "D": {
+      "item": "kubejs:brass_frame"
+    }
+  },
+  "result": {
+    "id": "protection_pixel:brassarmorplate",
+    "count": 1
+  }
+}
