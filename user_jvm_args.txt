@@ -13,3 +13,7 @@
 -XX:+UnlockExperimentalVMOptions
 -XX:+UseShenandoahGC
 -XX:ShenandoahGCHeuristics=adaptive
+
+# Chunky: keep only one chunk-generation unit in flight. This intentionally
+# throttles pregeneration on the 12 GiB server to preserve TPS and headroom.
+-Dchunky.maxWorkingCount=1
