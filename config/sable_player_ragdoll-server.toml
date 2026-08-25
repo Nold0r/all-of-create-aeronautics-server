@@ -99,4 +99,4 @@ grabEnabled = true
 #Developer options.
 [debug]
 	#Log ragdoll trigger and seating details to the server console.
-	debugLogging = true
+	debugLogging = false

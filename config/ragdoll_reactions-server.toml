@@ -32,7 +32,7 @@ enabled = true
 	#Developer options.
 	[general.debug]
 		#Log trigger details to the server console.
-		logging = true
+		logging = false
 
 #Player states that suppress automatic reactions.
 [suppressions]

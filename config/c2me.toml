@@ -23,7 +23,7 @@ defaultGlobalExecutorParallelismExpression = "default"
 # 
 threadPoolPriority = "default"
 # (Default: 7) Configures the parallelism of global executor
-globalExecutorParallelism = "default"
+globalExecutorParallelism = 4
 
 [fixes]
 	# (Default: true) Enforces safe world random access.  
@@ -182,7 +182,7 @@ globalExecutorParallelism = "default"
 [noTickViewDistance]
 	# (Default: 21) No-tick view distance max concurrent chunk loads 
 	#  Lower this for a better latency and higher this for a faster loading
-	maxConcurrentChunkLoads = "default"
+	maxConcurrentChunkLoads = 8
 	# (Default: true) Enable server-side support for extended render distance protocol (c2me:ext_render_distance_v1)
 	# This allows requesting render distances higher than 127 chunks from the server
 	# 

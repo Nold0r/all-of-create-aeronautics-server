@@ -20,7 +20,7 @@
 	#Extra per-structure spawn gate applied after the normal structure-set placement picks a candidate chunk.
 	# Default: 1.0
 	# Range: 0.0 ~ 1.0
-	skyVillageSpawnChance = 1.0
+	skyVillageSpawnChance = 0.25
 	#Requested spacing for Sky Village structures. Current structure-set placement is still data-driven, so this is only applied when the generator can do so safely.
 	# Default: 80
 	# Range: 1 ~ 4096
