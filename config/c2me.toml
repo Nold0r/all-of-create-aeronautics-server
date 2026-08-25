@@ -23,7 +23,7 @@ defaultGlobalExecutorParallelismExpression = "default"
 # 
 threadPoolPriority = "default"
 # (Default: 7) Configures the parallelism of global executor
-globalExecutorParallelism = 4
+globalExecutorParallelism = 8
 
 [fixes]
 	# (Default: true) Enforces safe world random access.  
