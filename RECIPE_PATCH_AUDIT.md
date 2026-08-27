@@ -2,6 +2,13 @@
 
 Archive recipe audit against installed mod JARs and current kubejs/data.
 
+## Applied cleanup patch
+
+The cleanup patch removes 195 redundant KubeJS recipe overrides. This includes
+the 192 identical overrides found in the archive and three additional identical
+Create overrides already present in the repository. Once removed, the original
+recipes from the corresponding mod JARs load automatically.
+
 - Archive recipes: 576
 - Identical to original mod recipes: 192
 - Different from source mods: 384
@@ -205,4 +212,3 @@ Each recipe below is semantically identical to its original Create recipe.
 - create:crafting/schematics/schematic_table
 - create:crafting/schematics/schematicannon
 - create:crafting/tree_fertilizer
-
