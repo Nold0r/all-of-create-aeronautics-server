@@ -24,4 +24,4 @@ lod_chunks_per_tick = 4
 lod_generation_mode = "disk_only"
 #If true (default), the client requests extended LOD delivery on world join.
 #Set false to deliver LODs only via natural chunk-watch events (no on-join queue at all).
-lod_send_on_join = true
+lod_send_on_join = false
