@@ -5,14 +5,14 @@ islandDensity = 0.4
 #Minimum horizontal island radius in blocks.
 # Default: 30
 # Range: 8 ~ 128
-minIslandRadius = 24
+minIslandRadius = 30
 #Maximum horizontal island radius in blocks.
 # Default: 75
 # Range: 8 ~ 500
 maxIslandRadius = 75
 #How island radius sizes are selected. RANDOM preserves global min/max behavior, SPECIFIC uses small/medium/large bands.
 #Allowed Values: RANDOM, SPECIFIC
-islandSizeMode = "RANDOM"
+islandSizeMode = "SPECIFIC"
 #Specific mode: minimum radius for small islands.
 # Default: 30
 # Range: 8 ~ 500
@@ -20,27 +20,27 @@ smallIslandMinRadius = 24
 #Specific mode: maximum radius for small islands.
 # Default: 42
 # Range: 8 ~ 500
-smallIslandMaxRadius = 41
+smallIslandMaxRadius = 40
 #Specific mode: spawn weight for small islands.
 # Default: 0.28
 # Range: 0.0 ~ 1.0
-smallIslandWeight = 0.34
+smallIslandWeight = 0.7
 #Specific mode: minimum radius for medium islands.
 # Default: 43
 # Range: 8 ~ 500
-mediumIslandMinRadius = 42
+mediumIslandMinRadius = 46
 #Specific mode: maximum radius for medium islands.
 # Default: 58
 # Range: 8 ~ 500
-mediumIslandMaxRadius = 58
+mediumIslandMaxRadius = 60
 #Specific mode: spawn weight for medium islands.
 # Default: 0.3
 # Range: 0.0 ~ 1.0
-mediumIslandWeight = 0.33
+mediumIslandWeight = 0.2
 #Specific mode: minimum radius for large islands.
 # Default: 50
 # Range: 8 ~ 500
-largeIslandMinRadius = 59
+largeIslandMinRadius = 61
 #Specific mode: maximum radius for large islands.
 # Default: 75
 # Range: 8 ~ 500
@@ -48,19 +48,19 @@ largeIslandMaxRadius = 75
 #Specific mode: spawn weight for large islands.
 # Default: 0.42
 # Range: 0.0 ~ 1.0
-largeIslandWeight = 0.33
+largeIslandWeight = 0.1
 #Minimum Y for island centers. Values above 320 require world-height expansion mods/settings.
 # Default: 20
 # Range: -32 ~ 2000
-minIslandY = 20
+minIslandY = 50
 #Maximum Y for island centers. Values above 320 require world-height expansion mods/settings.
 # Default: 170
 # Range: -16 ~ 2000
-maxIslandY = 170
+maxIslandY = 200
 #Maximum vertical island thickness in blocks. Prevents giant islands from becoming too tall/deep.
 # Default: 140
 # Range: 24 ~ 1024
-maxIslandThicknessBlocks = 140
+maxIslandThicknessBlocks = 24
 #Relative weight of the uncommon low-island height band.
 # Default: 0.15
 # Range: 0.0 ~ 10.0
@@ -72,7 +72,7 @@ midHighBandWeight = 0.75
 #Relative weight of the rare very-high island height band.
 # Default: 0.1
 # Range: 0.0 ~ 10.0
-veryHighBandWeight = 0.1
+veryHighBandWeight = 0.4
 #Center offset applied to the low-island band within the configured vertical envelope.
 # Default: -18
 # Range: -96 ~ 96
@@ -84,7 +84,7 @@ veryHighBandCenterOffset = 12
 #Average spacing between island clusters in blocks.
 # Default: 96
 # Range: 32 ~ 2000
-clusterSpacing = 96
+clusterSpacing = 123
 #Cluster spacing mode. CONSISTENT uses fixed spacing. DYNAMIC picks deterministic per-world spacing from min/max.
 #Allowed Values: CONSISTENT, DYNAMIC
 clusterSpacingMode = "CONSISTENT"
@@ -105,9 +105,9 @@ classicArchetypeEnabled = true
 #Relative spawn weight for the classic island archetype.
 # Default: 1.0
 # Range: 0.0 ~ 10.0
-classicArchetypeWeight = 1.0
+classicArchetypeWeight = 0.5
 #Whether the bowl/crater island archetype is allowed to spawn.
-bowlCraterArchetypeEnabled = true
+bowlCraterArchetypeEnabled = false
 #Relative spawn weight for the bowl/crater island archetype.
 # Default: 1.0
 # Range: 0.0 ~ 10.0
@@ -117,15 +117,15 @@ crescentArchetypeEnabled = true
 #Relative spawn weight for the crescent island archetype.
 # Default: 1.0
 # Range: 0.0 ~ 10.0
-crescentArchetypeWeight = 1.0
+crescentArchetypeWeight = 0.2
 #Whether the terrace island archetype is allowed to spawn.
 terraceArchetypeEnabled = true
 #Relative spawn weight for the terrace island archetype.
 # Default: 1.0
 # Range: 0.0 ~ 10.0
-terraceArchetypeWeight = 1.0
+terraceArchetypeWeight = 0.3
 #Whether to fill an optional ocean layer below the sky islands.
-oceanEnabled = false
+oceanEnabled = true
 #Maximum Y level filled by the optional ocean layer when ocean generation is enabled. Values above 320 require world-height expansion mods/settings.
 # Default: 0
 # Range: -64 ~ 2000
@@ -265,7 +265,7 @@ disableIslandsOverOceanBiomes = false
 #Island interior below or at this Y uses deepslate substrate. Values above 320 require world-height expansion mods/settings.
 # Default: 16
 # Range: -64 ~ 2000
-deepslateStartY = 16
+deepslateStartY = 64
 #Whether river/beach terrain profiles blend into neighboring non-river/beach profiles.
 biomeProfileBlendingEnabled = true
 #Neighborhood sample radius in blocks used by biome profile blending.
@@ -288,7 +288,7 @@ skyStructureDenylist = []
 #Optional per-structure placement categories in the form modid:structure=CATEGORY.
 #Preferred categories: DEFAULT, SKY, SMALL_GROUND, MEDIUM_GROUND, LARGE_GROUND, GROUND_VILLAGE, STRONGHOLD, UNDERGROUND, WATER.
 #Legacy aliases still supported: SMALL_SKY, SURFACE_SKY, HAMLET_SKY.
-skyStructureCategoryOverrides = ["minecraft:pillager_outpost=MEDIUM_GROUND", "minecraft:ruined_portal_desert=SMALL_GROUND", "valhelsia_structures:desert_house=SMALL_GROUND", "repurposed_structures:outpost_oak=MEDIUM_GROUND", "valhelsia_structures:player_house=SMALL_GROUND", "valhelsia_structures:forge=SMALL_GROUND", "valhelsia_structures:tower_ruin=SMALL_GROUND", "valhelsia_structures:big_tree=SMALL_GROUND", "mostructures:villager_tower=MEDIUM_GROUND", "mostructures:villager_market=MEDIUM_GROUND"]
+skyStructureCategoryOverrides = ["minecraft:pillager_outpost=MEDIUM_GROUND", "minecraft:mansion=LARGE_GROUND", "minecraft:ruined_portal_desert=SMALL_GROUND", "valhelsia_structures:desert_house=SMALL_GROUND", "repurposed_structures:outpost_oak=MEDIUM_GROUND", "valhelsia_structures:player_house=SMALL_GROUND", "valhelsia_structures:forge=SMALL_GROUND", "valhelsia_structures:tower_ruin=SMALL_GROUND", "valhelsia_structures:big_tree=SMALL_GROUND", "mostructures:villager_tower=MEDIUM_GROUND", "mostructures:villager_market=MEDIUM_GROUND", "mvs:large_warped_tower=LARGE_GROUND", "cataclysm:ancient_factory=SKY", "cataclysm:burning_arena=SKY", "cataclysm:cursed_pyramid=SKY", "cataclysm:frosted_prison=SKY", "cataclysm:soul_black_smith=SKY", "cataclysm:sunken_city=SKY"]
 #Case-insensitive path tokens used to infer SKY category for floating structures when no explicit override is present.
 skyStructureCategoryTokens = ["sky", "airship", "floating", "cloud", "aerial"]
 #How overlapping island terrain columns are resolved.
