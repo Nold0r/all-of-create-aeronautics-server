@@ -12,13 +12,13 @@ grabEnabled = true
 	#When true, creative-mode players can also be ragdolled.
 	affectCreative = true
 	#Seat the player on the ragdoll automatically after launch.
-	autoSeatOnTrigger = true
+	autoSeatOnTrigger = false
 	#Allow players to trigger their own ragdoll with the client keybind.
 	allowManualTrigger = true
 	#Minimum ticks after ragdoll start before the player can manually exit. 60 = 3 seconds.
 	# Default: 60
 	# Range: 0 ~ 1200
-	minDismountTicks = 10
+	minDismountTicks = 40
 
 #Ragdoll physics limits.
 [physics]
