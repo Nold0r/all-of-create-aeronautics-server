@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "E ",
+    "FF",
+    "RR"
+  ],
+  "key": {
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "F": {
+      "item": "kubejs:brass_frame"
+    },
+    "R": {
+      "item": "kubejs:resine_sheet"
+    }
+  },
+  "result": {
+    "id": "create:brass_tunnel",
+    "count": 2
+  }
+}

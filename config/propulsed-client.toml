@@ -1,5 +1,0 @@
-#.
-#Thrust scaling for Basic Rocket Engine
-# Default: 0.5
-# Range: 0.0 ~ 1.0
-rocketEngineParticleDensity = 0.5

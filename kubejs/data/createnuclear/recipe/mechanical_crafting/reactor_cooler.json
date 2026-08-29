@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "pattern": [
+    "CCCCC",
+    "CRGRC",
+    "CIGIC",
+    "CRGRC",
+    "CCCCC"
+  ],
+  "key": {
+    "C": {
+      "item": "createnuclear:reactor_casing"
+    },
+    "R": {
+      "item": "kubejs:resine_sheet"
+    },
+    "G": {
+      "item": "createnuclear:reinforced_glass"
+    },
+    "I": {
+      "item": "minecraft:blue_ice"
+    }
+  },
+  "result": {
+    "id": "createnuclear:reactor_cooler",
+    "count": 1
+  }
+}

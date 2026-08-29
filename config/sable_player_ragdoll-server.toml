@@ -8,7 +8,7 @@ grabEnabled = true
 	#Ticks before the same player can be ragdolled again.
 	# Default: 60
 	# Range: 0 ~ 1200
-	cooldownTicks = 60
+	cooldownTicks = 100
 	#When true, creative-mode players can also be ragdolled.
 	affectCreative = true
 	#Seat the player on the ragdoll automatically after launch.
@@ -18,7 +18,7 @@ grabEnabled = true
 	#Minimum ticks after ragdoll start before the player can manually exit. 60 = 3 seconds.
 	# Default: 60
 	# Range: 0 ~ 1200
-	minDismountTicks = 40
+	minDismountTicks = 10
 
 #Ragdoll physics limits.
 [physics]
@@ -99,4 +99,4 @@ grabEnabled = true
 #Developer options.
 [debug]
 	#Log ragdoll trigger and seating details to the server console.
-	debugLogging = false
+	debugLogging = true

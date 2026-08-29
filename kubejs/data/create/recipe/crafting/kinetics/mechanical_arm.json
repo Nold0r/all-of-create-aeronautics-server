@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "LLA",
+    "L  ",
+    "IC "
+  ],
+  "key": {
+    "L": {
+      "tag": "c:plates/brass"
+    },
+    "A": {
+      "item": "kubejs:alloy_zink_brass"
+    },
+    "I": {
+      "item": "create:precision_mechanism"
+    },
+    "C": {
+      "item": "kubejs:brass_frame"
+    }
+  },
+  "result": {
+    "id": "create:mechanical_arm"
+  }
+}

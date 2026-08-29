@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "G",
+    "S",
+    "C"
+  ],
+  "key": {
+    "G": {
+      "tag": "c:plates/gold"
+    },
+    "S": {
+      "item": "create_sa:steam_engine"
+    },
+    "C": {
+      "tag": "c:storage_blocks/copper"
+    }
+  },
+  "result": {
+    "id": "create:steam_engine"
+  }
+}

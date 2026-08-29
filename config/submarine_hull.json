@@ -6221,6 +6221,10 @@
     "maxWaterDepth": 8,
     "implosionChance": 0.85
   },
+  "canvascontraptions:painted_block": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
   "cataclysm:abyssal_egg": {
     "maxWaterDepth": 151,
     "implosionChance": 0.1
@@ -7572,6 +7576,34 @@
   "cccredstonelink:redstone_link_bridge": {
     "maxWaterDepth": 61,
     "implosionChance": 0.6333333
+  },
+  "cgs:deepslate_lead_ore": {
+    "maxWaterDepth": 73,
+    "implosionChance": 0.56
+  },
+  "cgs:guano_block": {
+    "maxWaterDepth": 8,
+    "implosionChance": 0.85
+  },
+  "cgs:lead_block": {
+    "maxWaterDepth": 120,
+    "implosionChance": 0.28
+  },
+  "cgs:lead_ore": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "cgs:raw_lead_block": {
+    "maxWaterDepth": 98,
+    "implosionChance": 0.41333333
+  },
+  "cgs:steel_block": {
+    "maxWaterDepth": 120,
+    "implosionChance": 0.28
+  },
+  "cgs:sulfur_ore": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
   },
   "computercraft:cable": {
     "maxWaterDepth": 27,
@@ -18129,14 +18161,6 @@
     "maxWaterDepth": 67,
     "implosionChance": 0.6
   },
-  "crittersandcompanions:sea_bunny_slime_block": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "crittersandcompanions:silk_cocoon": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
   "delicate_dyes:blurple_jack_o_straw": {
     "maxWaterDepth": 8,
     "implosionChance": 0.85
@@ -21173,14 +21197,6 @@
     "maxWaterDepth": 1,
     "implosionChance": 0.85
   },
-  "linearbearing:bubble_gum_block": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "linearbearing:gyroscopic_gearbox": {
-    "maxWaterDepth": 61,
-    "implosionChance": 0.6333333
-  },
   "linearbearing:linear_bearing": {
     "maxWaterDepth": 61,
     "implosionChance": 0.6333333
@@ -21198,10 +21214,6 @@
     "implosionChance": 0.6333333
   },
   "linearbearing:redstone_converter": {
-    "maxWaterDepth": 61,
-    "implosionChance": 0.6333333
-  },
-  "linearbearing:slippery_copycat": {
     "maxWaterDepth": 61,
     "implosionChance": 0.6333333
   },
@@ -25765,54 +25777,6 @@
     "maxWaterDepth": 16,
     "implosionChance": 0.85
   },
-  "molten_vents:active_molten_asurine": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "molten_vents:active_molten_crimsite": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "molten_vents:active_molten_ochrum": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "molten_vents:active_molten_scorchia": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "molten_vents:active_molten_scoria": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "molten_vents:active_molten_veridium": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "molten_vents:dormant_molten_asurine": {
-    "maxWaterDepth": 50,
-    "implosionChance": 0.7
-  },
-  "molten_vents:dormant_molten_crimsite": {
-    "maxWaterDepth": 50,
-    "implosionChance": 0.7
-  },
-  "molten_vents:dormant_molten_ochrum": {
-    "maxWaterDepth": 50,
-    "implosionChance": 0.7
-  },
-  "molten_vents:dormant_molten_scorchia": {
-    "maxWaterDepth": 50,
-    "implosionChance": 0.7
-  },
-  "molten_vents:dormant_molten_scoria": {
-    "maxWaterDepth": 50,
-    "implosionChance": 0.7
-  },
-  "molten_vents:dormant_molten_veridium": {
-    "maxWaterDepth": 50,
-    "implosionChance": 0.7
-  },
   "moonlight:spawn_box": {
     "maxWaterDepth": 300,
     "implosionChance": 0.05
@@ -25976,6 +25940,10 @@
   "nomansland:willow_trellis": {
     "maxWaterDepth": 16,
     "implosionChance": 0.85
+  },
+  "ntgl:workbench": {
+    "maxWaterDepth": 45,
+    "implosionChance": 0.73
   },
   "offroad:borehead_bearing": {
     "maxWaterDepth": 67,
@@ -49876,109 +49844,5 @@
   "waterwheelbearing:wheel_bearing": {
     "maxWaterDepth": 46,
     "implosionChance": 0.7213333
-  },
-  "yungscavebiomes:ancient_sand": {
-    "maxWaterDepth": 8,
-    "implosionChance": 0.85
-  },
-  "yungscavebiomes:ancient_sandstone": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "yungscavebiomes:ancient_sandstone_slab": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "yungscavebiomes:ancient_sandstone_stairs": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "yungscavebiomes:ancient_sandstone_wall": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "yungscavebiomes:brittle_ancient_sandstone": {
-    "maxWaterDepth": 9,
-    "implosionChance": 0.85
-  },
-  "yungscavebiomes:brittle_red_sandstone": {
-    "maxWaterDepth": 9,
-    "implosionChance": 0.85
-  },
-  "yungscavebiomes:brittle_sandstone": {
-    "maxWaterDepth": 9,
-    "implosionChance": 0.85
-  },
-  "yungscavebiomes:chiseled_ancient_sandstone": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "yungscavebiomes:cut_ancient_sandstone": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "yungscavebiomes:cut_ancient_sandstone_slab": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "yungscavebiomes:frost_lily": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "yungscavebiomes:ice_sheet": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "yungscavebiomes:icicle": {
-    "maxWaterDepth": 2,
-    "implosionChance": 0.85
-  },
-  "yungscavebiomes:layered_ancient_sandstone": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "yungscavebiomes:layered_red_sandstone": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "yungscavebiomes:layered_sandstone": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "yungscavebiomes:potted_prickly_peach_cactus": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "yungscavebiomes:prickly_peach_cactus": {
-    "maxWaterDepth": 6,
-    "implosionChance": 0.85
-  },
-  "yungscavebiomes:prickly_vines": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "yungscavebiomes:prickly_vines_plant": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "yungscavebiomes:rare_ice": {
-    "maxWaterDepth": 15,
-    "implosionChance": 0.85
-  },
-  "yungscavebiomes:smooth_ancient_sandstone": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "yungscavebiomes:smooth_ancient_sandstone_slab": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "yungscavebiomes:smooth_ancient_sandstone_stairs": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "yungscavebiomes:suspicious_ancient_sand": {
-    "maxWaterDepth": 4,
-    "implosionChance": 0.85
   }
 }

@@ -7,7 +7,7 @@ sub_level_splitting_heatmap_steps = 200
 #The distance to network sub-levels to players at
 # Default: 320.0
 # Range: 1.0 ~ 1.7976931348623157E308
-sub_level_tracking_range = 128.0
+sub_level_tracking_range = 320.0
 #The minimum y coordinate sub-levels can exist at
 # Default: -10000.0
 # Range: -Infinity ~ Infinity
@@ -39,6 +39,6 @@ disable_udp_pipeline = false
 #Keeps sub-levels with intersecting players from unloading at all
 sub_levels_with_players_cannot_unload = true
 #If Sable should log when saving sub-levels for a dimension.
-sub_level_saving_log_message = false
+sub_level_saving_log_message = true
 #If Sable should use verbose logging for its serialization system and the holding chunk-map. Not recommended- for debugging purposes only.
 verbose_serialization_logging = false

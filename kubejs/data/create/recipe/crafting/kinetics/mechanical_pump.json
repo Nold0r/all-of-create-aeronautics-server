@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " C ",
+    "FPF",
+    " S "
+  ],
+  "key": {
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "F": {
+      "item": "create:fluid_pipe"
+    },
+    "P": {
+      "item": "kubejs:copper_spool"
+    },
+    "S": {
+      "item": "create:shaft"
+    }
+  },
+  "result": {
+    "id": "create:mechanical_pump"
+  }
+}

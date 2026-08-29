@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RQR",
+    "CEC",
+    "RQR"
+  ],
+  "key": {
+    "R": {
+      "tag": "c:dusts/redstone"
+    },
+    "Q": {
+      "item": "create:polished_rose_quartz"
+    },
+    "C": {
+      "item": "kubejs:copper_spool"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    }
+  },
+  "result": {
+    "id": "create_connected:control_chip"
+  }
+}

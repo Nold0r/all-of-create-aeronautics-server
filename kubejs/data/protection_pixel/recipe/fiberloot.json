@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:string"
+    },
+    "b": {
+      "item": "minecraft:quartz"
+    },
+    "c": {
+      "item": "minecraft:paper"
+    },
+    "d": {
+      "item": "kubejs:resine_sheet"
+    }
+  },
+  "result": {
+    "id": "protection_pixel:reinforcedfiber",
+    "count": 2
+  }
+}

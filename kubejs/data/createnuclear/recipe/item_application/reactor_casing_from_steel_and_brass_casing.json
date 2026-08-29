@@ -1,0 +1,17 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create:brass_casing"
+    },
+    {
+      "item": "kubejs:metal_alloy"
+    }
+  ],
+  "results": [
+    {
+      "id": "createnuclear:reactor_casing",
+      "count": 1
+    }
+  ]
+}

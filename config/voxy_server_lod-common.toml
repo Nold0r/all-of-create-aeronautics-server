@@ -1,0 +1,27 @@
+#Chunk radius the client requests for LOD delivery on world join.
+#The server will deliver at most min(lod_radius, lod_radius_max) chunks.
+#Change this value in the config screen; it applies automatically without relogging.
+# Default: 256
+# Range: 1 ~ 4096
+lod_radius = 256
+#Maximum radius the server will honour regardless of what the client requests.
+#Prevents overloading the server if a client requests an excessively large radius.
+# Default: 512
+# Range: 1 ~ 4096
+lod_radius_max = 512
+#Number of chunks processed per server tick during LOD delivery. Lower = less TPS impact.
+# Default: 4
+# Range: 1 ~ 64
+lod_chunks_per_tick = 4
+#How the delivery queue handles chunks in the requested radius:
+#  disk_only  (default) — delivers chunks that already exist on disk (e.g. Chunky pregen).
+#             Chunks not on disk are silently skipped; zero server-side chunk generation.
+#             Voxy handles LODs for undelivered chunks asynchronously on the client.
+#  generate   — delivers pregenned (disk) chunks first, then generates any remaining
+#             chunks in the radius that are not already pregenned. Only the chunks NOT
+#             found on disk will be generated. May cause TPS lag proportional to the
+#             unpregenned area — keep lod_radius <= your pregen radius to avoid this.
+lod_generation_mode = "disk_only"
+#If true (default), the client requests extended LOD delivery on world join.
+#Set false to deliver LODs only via natural chunk-watch events (no on-join queue at all).
+lod_send_on_join = true

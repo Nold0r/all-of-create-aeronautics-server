@@ -1,14 +1,6 @@
 {
-  "balm:jade": null,
-  "corpse:corpse": null,
-  "create_mob_spawners:spawner_progress": null,
   "create_mobile_packages:bee_port": null,
-  "easy_villagers:breeder": null,
-  "easy_villagers:converter": null,
-  "easy_villagers:villager": null,
   "ftbquests:barrier": null,
-  "ftbstuff:autohammer": null,
-  "ftbstuff:pump": null,
   "jade:block_face": null,
   "jade:block_properties": null,
   "jade:block_states": null,
@@ -73,15 +65,8 @@
   "sable_player_ragdoll:mob_ragdoll_part_data": null,
   "sable_player_ragdoll:ragdoll_part": null,
   "sable_player_ragdoll:ragdoll_part_data": null,
-  "spawn:octopus_chest_lock": null,
-  "spawn:stickbug_as_item": null,
   "supplementaries:hat_stand": null,
   "supplementaries:present": null,
   "supplementaries:safe": null,
-  "toms_storage:inventory_config": null,
-  "toms_storage:inventory_connector": null,
-  "toms_storage:inventory_hopper": null,
-  "treechop:plugin": null,
-  "waterwheelbearing:wheel_bearing": null,
-  "waystones:waystone": null
+  "waterwheelbearing:wheel_bearing": null
 }

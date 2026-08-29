@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:lime_wool"
+    },
+    {
+      "item": "kubejs:armour_resine"
+    }
+  ],
+  "results": [
+    {
+      "id": "aeronautics:lime_envelope",
+      "count": 1
+    }
+  ]
+}

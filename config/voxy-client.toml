@@ -11,8 +11,8 @@ ingestEnabled = true
 sectionRenderDistance = 16
 #Number of background threads for LOD processing
 #Default is based on CPU core count.
-# Default: 4
-# Range: 1 ~ 6
+# Default: 5
+# Range: 1 ~ 8
 serviceThreads = 4
 #Subdivision size for LOD rendering (28-256)
 #Lower = more detailed LODs but more GPU load
@@ -22,14 +22,14 @@ subDivisionSize = 64.0
 #Apply environmental fog to LOD terrain
 useEnvironmentalFog = true
 #Don't share threads with Sodium's chunk builder
-dontUseSodiumBuilderThreads = false
+dontUseSodiumBuilderThreads = true
 #LOD boundary overlap in blocks (like DH's overdraw prevention)
 #Controls how much LODs overlap with vanilla chunk edges.
 #Higher values = more overlap = smoother transitions but slight overdraw.
 #0 = exact match (may have gaps), 1 = minimal overlap, 2-4 = smoother for fast flight
 # Default: 1
 # Range: 0 ~ 4
-lodBoundaryBuffer = 1
+lodBoundaryBuffer = 4
 #World curvature effect - simulates standing on a spherical planet
 #0 = disabled (flat world)
 #1 = real Earth curvature (6371km radius)
@@ -41,4 +41,4 @@ lodBoundaryBuffer = 1
 earthCurveRatio = 0
 #Show render statistics in F3 debug screen
 #Displays LOD traversal counts, visible sections, and quad counts
-renderStatistics = false
+renderStatistics = true

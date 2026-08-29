@@ -1,0 +1,3 @@
+[general]
+	#Whether to consume dyes when placing images in survival mode.
+	consumeDyes = true

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "010",
+    "121",
+    "030"
+  ],
+  "key": {
+    "0": {
+      "tag": "c:ingots/zinc"
+    },
+    "1": {
+      "item": "kubejs:copper_spool"
+    },
+    "2": {
+      "item": "create:propeller"
+    },
+    "3": {
+      "item": "kubejs:gear"
+    }
+  },
+  "result": {
+    "id": "create_sa:fan_component",
+    "count": 1
+  }
+}

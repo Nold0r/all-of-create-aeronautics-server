@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ABA",
+    "CXC",
+    "ABA"
+  ],
+  "key": {
+    "X": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    },
+    "A": {
+      "item": "create_sa:vault_component"
+    },
+    "B": {
+      "item": "create_sa:hydraulic_engine"
+    },
+    "C": {
+      "item": "create:hose_pulley"
+    }
+  },
+  "result": {
+    "id": "sophisticatedbackpacks:pump_upgrade",
+    "count": 1
+  }
+}

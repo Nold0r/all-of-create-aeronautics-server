@@ -32,7 +32,7 @@ enabled = true
 	#Developer options.
 	[general.debug]
 		#Log trigger details to the server console.
-		logging = false
+		logging = true
 
 #Player states that suppress automatic reactions.
 [suppressions]
@@ -112,7 +112,7 @@ enabled = true
 		#Minimum horizontal player velocity change over the 5-tick window (m/s) required to trigger.
 		# Default: 20.0
 		# Range: 0.1 ~ 128.0
-		minVelocityDelta = 100.0
+		minVelocityDelta = 110.0
 		#Velocity changes above this (m/s) are ignored as teleports or anomalies rather than physical impacts.
 		# Default: 120.0
 		# Range: 1.0 ~ 1024.0
@@ -129,7 +129,7 @@ enabled = true
 		#Extra blocks added to the explosion entity radius when searching for nearby players.
 		# Default: 2.0
 		# Range: 0.0 ~ 64.0
-		radiusPadding = 2.0
+		radiusPadding = 1.0
 		#Launch speed multiplier applied to cannon explosion power before the global max launch speed clamp.
 		# Default: 20.0
 		# Range: 0.0 ~ 128.0
@@ -146,16 +146,16 @@ enabled = true
 		#Extra blocks added to the explosion knockback radius when searching for nearby players.
 		# Default: 2.0
 		# Range: 0.0 ~ 64.0
-		radiusPadding = 2.0
+		radiusPadding = 1.0
 		#Launch speed multiplier applied to explosion power before the global max launch speed clamp.
 		# Default: 6.0
 		# Range: 0.0 ~ 128.0
-		launchMultiplier = 6.0
+		launchMultiplier = 4.0
 
 	#Hard fall landing reactions.
 	[triggers.fall]
 		#When true, landing from a high fall ragdolls the player.
-		enabled = true
+		enabled = false
 		#Minimum fall damage actually taken (after feather falling, protection, resistance, etc.) required to trigger a ragdoll.
 		# Default: 4.0
 		# Range: 0.0 ~ 1024.0
@@ -185,7 +185,7 @@ enabled = true
 		#Minimum damage required to trigger a ragdoll.
 		# Default: 8.0
 		# Range: 0.0 ~ 1024.0
-		minDamage = 8.0
+		minDamage = 20.0
 		#Launch speed (m/s) per point of damage taken.
 		# Default: 1.5
 		# Range: 0.0 ~ 64.0

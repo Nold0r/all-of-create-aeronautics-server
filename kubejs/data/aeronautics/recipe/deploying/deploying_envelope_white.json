@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:white_wool"
+    },
+    {
+      "item": "kubejs:armour_resine"
+    }
+  ],
+  "results": [
+    {
+      "id": "aeronautics:white_envelope",
+      "count": 1
+    }
+  ]
+}

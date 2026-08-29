@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "create_connected:feature_enabled",
+      "tag": "create_connected:inventory_access_port"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "F",
+    "C",
+    "S"
+  ],
+  "key": {
+    "F": {
+      "item": "kubejs:brass_frame"
+    },
+    "C": {
+      "item": "create:chute"
+    },
+    "S": {
+      "item": "kubejs:sync_mechanism"
+    }
+  },
+  "result": {
+    "id": "create_connected:inventory_access_port",
+    "count": 2
+  }
+}

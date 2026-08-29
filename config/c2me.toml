@@ -23,7 +23,7 @@ defaultGlobalExecutorParallelismExpression = "default"
 # 
 threadPoolPriority = "default"
 # (Default: 7) Configures the parallelism of global executor
-globalExecutorParallelism = 8
+globalExecutorParallelism = "default"
 
 [fixes]
 	# (Default: true) Enforces safe world random access.  
@@ -182,7 +182,7 @@ globalExecutorParallelism = 8
 [noTickViewDistance]
 	# (Default: 21) No-tick view distance max concurrent chunk loads 
 	#  Lower this for a better latency and higher this for a faster loading
-	maxConcurrentChunkLoads = 8
+	maxConcurrentChunkLoads = "default"
 	# (Default: true) Enable server-side support for extended render distance protocol (c2me:ext_render_distance_v1)
 	# This allows requesting render distances higher than 127 chunks from the server
 	# 
@@ -200,7 +200,7 @@ globalExecutorParallelism = 8
 	[clientSideConfig.modifyMaxVDConfig]
 		# (Default: true) Whether to modify maximum view distance
 		enabled = "default"
-		# (Default: 66) Max render distance allowed in game options
+		# (Default: 75) Max render distance allowed in game options
 		maxViewDistance = "default"
 		# (Default: true) Enable client-side support for extended render distance protocol (c2me:ext_render_distance_v1)
 		# This allows requesting render distances higher than 127 chunks from the server

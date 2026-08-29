@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " L",
+    "gS"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:lever"
+    },
+    "g": {
+      "item": "kubejs:gear"
+    },
+    "S": {
+      "item": "kubejs:steel_mechanism"
+    }
+  },
+  "result": {
+    "id": "createbigcannons:quickfiring_mechanism",
+    "count": 1
+  }
+}
