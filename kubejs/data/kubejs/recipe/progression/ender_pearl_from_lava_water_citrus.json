@@ -7,10 +7,7 @@
     {
       "item": "minecraft:lapis_lazuli"
     },
-    {
-      "item": "bountifulfares:citrus_essence"
-    },
-    {
+	{
       "type": "neoforge:single",
       "fluid": "minecraft:water",
       "amount": 250
